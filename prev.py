@@ -350,7 +350,7 @@ for i in a:
         common.append(i)
 print(common)
 
-Take two numbers and print their sum
+# Take two numbers and print their sum
 a = int(input())
 b = int(input())
 print(a + b)
