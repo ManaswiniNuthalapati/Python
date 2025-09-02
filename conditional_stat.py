@@ -132,7 +132,7 @@ elif (year>=6) and (year<=10):
 elif year<6:
     print("5%",salary*0.5)
 else:
-    print("Invalid")'''
+    print("Invalid")
     
 #Electricity Bill Calculator. calculate total bill amount
 units=int(input())
@@ -141,5 +141,23 @@ if units<=100:
 elif units<=200:
     bill=(100*5)+((units-100)*7)
 else:
-    bill(100*5)+(100*7)+((units-200)*10)
-print(bill)
+    bill=(100*5)+(100*7)+((units-200)*10)
+print(bill)'''
+
+# Character Type Check
+ch=input('Enter a char: ')
+#if ('a'>=ch) and ('z'<=ch) and ('A'>=ch) and ('Z'>=ch):
+if ch in 'aeiouAEIOU':
+    print("Vowel")
+else:
+    print("Consonant")
+    
+# checking whether a number is 3 digit or not
+num=input('Enter a number:')
+n=len(num)
+if n==3:
+    print("True")
+else:
+    print("False")
+    
+    
