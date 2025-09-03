@@ -142,7 +142,7 @@ elif units<=200:
     bill=(100*5)+((units-100)*7)
 else:
     bill=(100*5)+(100*7)+((units-200)*10)
-print(bill)'''
+print(bill)
 
 # Character Type Check
 ch=input('Enter a char: ')
@@ -159,5 +159,14 @@ if n==3:
     print("True")
 else:
     print("False")
-    
+    '''
+
+km=int(input())
+if km<=5:
+    Fare=50
+elif km<=15:
+    Fare=50+(km-5)*10
+else:
+    Fare=50+(km-15)*15
+print(Fare)
     
