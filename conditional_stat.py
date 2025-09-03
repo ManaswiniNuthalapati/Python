@@ -159,14 +159,26 @@ if n==3:
     print("True")
 else:
     print("False")
-    '''
-
+    
+# Cab Fare Calculaor
 km=int(input())
+
 if km<=5:
     Fare=50
 elif km<=15:
     Fare=50+(km-5)*10
 else:
-    Fare=50+(km-15)*15
-print(Fare)
+    Fare=50+(10*10)+(km-15)*15
+print(Fare)'''
+
+# Insurance Premium Calculator
+age=int(input())
+v_age=int(input())
+if age<25 and v_age<5:
+    Premium="High"
+elif (age>25) and (age<60) and v_age<10:
+    Premium="Medium"
+else:
+    Premium="Low"
+print(Premium)
     
