@@ -208,7 +208,7 @@ elif 16>=delay<30:
 else:
     Fine=2000
     print("Blacklisted")
-print(Fine)'''
+print(Fine)
 
 # Parking Lot Charges
 hour=int(input())
@@ -221,11 +221,27 @@ elif veh_type=="truck":
     fees=50
 else:
     fees=0
-print(fees)
 if fees>0:
     total=fees*hour
 elif hour>12 :
     total=total-(fees*0.1)
+print(total)'''
+
+# Cinema Ticket Price
+day=input()
+age=int(input())
+if day=="Weekend":
+    price=300
+elif day=="Weekday":
+    price=200
+else:
+    print("invalid")
+    price=0
+if price>0:
+    if (age<12) or (age>=60):
+        total=price*0.5
+    else:
+        total=price
 print(total)
 
 
