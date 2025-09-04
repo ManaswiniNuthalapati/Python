@@ -169,7 +169,7 @@ elif km<=15:
     Fare=50+(km-5)*10
 else:
     Fare=50+(10*10)+(km-15)*15
-print(Fare)'''
+print(Fare)
 
 # Insurance Premium Calculator
 age=int(input())
@@ -181,4 +181,53 @@ elif (age>25) and (age<60) and v_age<10:
 else:
     Premium="Low"
 print(Premium)
+    
+    
+# Tax Calculator with Multiple Slabs
+tax=int(input())
+income=int(input())
+if income<=250000:
+    print("no tax")
+elif (income>250000) and (income<500000):
+    print(tax*0.5)
+elif (income>500000) and (income<1000000):
+    print(tax*0.20)
+else:
+
+    print(tax*0.30)
+    
+# 04-09-2025
+# Loan Repayment Penalty
+delay=int(input())
+if delay<=5:
+    Fine=100
+elif 6>=delay<15:
+    Fine=500
+elif 16>=delay<30:
+    Fine=1000
+else:
+    Fine=2000
+    print("Blacklisted")
+print(Fine)'''
+
+# Parking Lot Charges
+hour=int(input())
+veh_type=input()
+if veh_type=="car":
+    fees=20
+elif veh_type=="bike":
+    fees=10
+elif veh_type=="truck":
+    fees=50
+else:
+    fees=0
+print(fees)
+if fees>0:
+    total=fees*hour
+elif hour>12 :
+    total=total-(fees*0.1)
+print(total)
+
+
+
     
