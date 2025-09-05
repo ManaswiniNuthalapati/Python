@@ -160,9 +160,12 @@ if n==3:
 else:
     print("False")
     
-# Cab Fare Calculaor
-km=int(input())
+# Cab Fare Calculator 
+For the first 5 km, the fare is ₹50.
+For the next 10 km (i.e., from 6 km to 15 km), the fare is ₹10 per km.
+Beyond 15 km, the fare is ₹15 per km.
 
+km=int(input())
 if km<=5:
     Fare=50
 elif km<=15:
