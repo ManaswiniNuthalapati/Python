@@ -111,6 +111,37 @@ elif (years>=3) and (rating>=3):
   print("10% of salary is: ",salary*0.10)
 else:
   print("No bonus")
+  
+'''Electricity Bill Calculator 💡
+Problem:
+Write a program to calculate the total electricity bill based on the number of units consumed.
+Billing Rules:
+For the first 100 units → ₹5 per unit.
+For the next 100 units (101–200) → ₹7 per unit.
+For units above 200 → ₹10 per unit.'''
+
+units=int(input())
+if units<=100:
+  price=units*5
+elif units<=200:
+  price=(100*5)+((units-100)*7)
+else:
+  price=(100*5)+(100*7)+((units-200)*10)
+print(price)
+
+''' Cab Fare Calculator 
+For the first 5 km, the fare is ₹50 per km.
+For the next 10 km (i.e., from 6 km to 15 km), the fare is ₹10 per km.
+Beyond 15 km, the fare is ₹15 per km.'''
+
+km=int(input())
+if km<=5:
+  fare=km*50
+elif km<=15:
+  fare=50*5+(km-5)*10
+else:
+  fare=50*5+10*10+(km-15)*15
+
 
 
 
