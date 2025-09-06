@@ -75,3 +75,44 @@ if num==a**3+b**3+c**3:
   print("Amstrong nummber")
 else:
   print("Not a Amstrong Number")
+  
+
+# 06-09-2025  
+'''Water Consumption Bill 💧
+Input: liters of water used.
+
+Rules:
+≤ 1000 liters → ₹5 per 100 liters.
+1001–5000 liters → ₹8 per 100 liters.
+5000 liters → ₹12 per 100 liters.'''
+
+liters=int(input())
+if liters<=1000:
+  price=(liters/100)*5
+elif 1001>liters<5000:
+  price=(liters/100)*8
+elif liters>5000:
+  price=(liters/100)*12
+print(price)
+
+'''Employee Bonus System 🏢
+Input: years of experience, performance rating (1–5).
+Rules:
+If exp ≥ 5 and rating ≥ 4 → Bonus = 20% of salary.
+If exp ≥ 3 and rating ≥ 3 → Bonus = 10% of salary.
+Else → No bonus.'''
+
+years=int(input())
+rating=int(input())
+salary=int(input())
+if (years>=5) and (rating>=4):
+  print("20% of salary is: ",salary*0.20)
+elif (years>=3) and (rating>=3):
+  print("10% of salary is: ",salary*0.10)
+else:
+  print("No bonus")
+
+
+
+
+  
