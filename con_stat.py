@@ -141,6 +141,43 @@ elif km<=15:
   fare=50*5+(km-5)*10
 else:
   fare=50*5+10*10+(km-15)*15
+  
+'''ATM Withdrawal System
+Input: amount user wants to withdraw.
+Rules:
+Must be multiple of 100.
+ATM balance = ₹10,000.
+If amount > balance → show "Insufficient Balance".
+If amount ≤ balance and valid multiple → show "Transaction Successful", new balance.
+Else → "Invalid Amount".'''
+amount=int(input())
+balance=10000
+if amount>balance:
+  print("Insufficient Balance")
+elif (amount<=balance) and (amount%100==0):
+  print("Transaction Successful")
+  print("New Balance is : ",balance-amount)
+else:
+  print("Invalid amount")
+  
+'''E-Commerce Delivery Charges 📦
+Input: order amount, membership status (Prime/Normal).
+Rule:
+Prime users → Free delivery always.
+Normal users:
+Order ≥ ₹1000 → Free delivery.
+Else → Delivery charge ₹100.'''
+
+amount=int(input())
+status=input()
+if status=="Prime":
+  print("Free deilvery always")
+elif status=="Normal":
+  if amount>=1000:
+    print("Free delivery")
+  else:
+    print("Delivery charge is 100 extra: ",amount+100)
+  
 
 
 
