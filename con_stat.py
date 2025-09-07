@@ -177,6 +177,30 @@ elif status=="Normal":
     print("Free delivery")
   else:
     print("Delivery charge is 100 extra: ",amount+100)
+    
+# Insurance Premium Calculator
+age=int(input())
+v_age=int(input())
+if age<25 and v_age<5:
+    Premium="High"
+elif (age>25) and (age<60) and v_age<10:
+    Premium="Medium"
+else:
+    Premium="Low"
+print(Premium)
+    
+    
+# Tax Calculator with Multiple Slabs
+tax=int(input())
+income=int(input())
+if income<=250000:
+    print("no tax")
+elif (income>250000) and (income<500000):
+    print(tax*0.5)
+elif (income>500000) and (income<1000000):
+    print(tax*0.20)
+else:
+    print(tax*0.30)
   
 
 
