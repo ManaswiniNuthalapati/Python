@@ -10,15 +10,40 @@ operation=int(input())
 amount=int(input())
 balance=10000
 match operation:
-    case 1:
+    case "withdraw":
         if amount<=balance:
-            print(balance-amount)
+            print("withdraw",balance-amount)
         else:
             print("invalid balance")
-    case 2:
-        print(balance+amount)
+    case "deposit":
+        print("deposit",balance+amount)
+    case "check":
+        print("check",balance)
     case _:
-        print("Invalid operation")
+        print("Invalid balance")
+        
+'''
+3. Password Strength Checker
+Input: A password string.
+Use match to classify:
+Only numbers → "Weak".
+Only letters → "Medium".
+Letters + Numbers → "Strong".
+Letters + Numbers + Special chars → "Very Strong".
+'''
+password=input()
+match str:
+    case "numbers":
+        print("Weak",password.isdigit())
+    case "letters":
+        print("Medium",password.isalpha())
+    case "letters+numbers":
+        print("Strong",password.isalpha()+password.isdigit())
+    case _:
+        print("Very Strong")
+        
+        
+
         
         
         
