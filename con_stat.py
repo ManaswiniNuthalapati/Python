@@ -243,6 +243,33 @@ if age<12 or age>=60:
 elif day=="Wednesday":
     price=price*0.80
 print(price)
+
+
+'''. Flight Ticket Price System
+A passenger books a flight.
+Class: Economy → ₹5000, Business → ₹10,000, First → ₹20,000
+If Age < 12 → 50% discount
+If Age ≥ 60 → 30% discount
+If Day = “Friday” → 10% surcharge (extra charge)'''
+
+day=input()
+age=int(input())
+Class=input()
+if Class=="Economy":
+    price=5000
+elif Class=="Business":
+    price=10000
+else:
+    price=20000
+if age<12:
+    price=price*0.50
+elif age>=60:
+    price=price*0.30
+if day=="Friday":
+    price=price*1.10
+print(price)
+
+    
     
 
 
