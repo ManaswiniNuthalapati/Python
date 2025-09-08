@@ -269,6 +269,24 @@ if day=="Friday":
     price=price*1.10
 print(price)
 
+'''E-commerce Discount Engine
+An online store applies discounts:
+If cart value < ₹1000 → No discount
+If cart value 1000–5000 → 10% discount
+If cart value > 5000 → 20% discount
+If payment mode = “Credit Card” → extra 5% discount'''
+
+value = int(input())
+mode = input()
+if value<1000:
+    price=value
+elif 1000<=value<=5000:
+    price=value*0.90  
+else:
+    price=value*0.80   
+if mode=="Credit Card":
+    price=price*0.95
+print(price)
     
     
 
