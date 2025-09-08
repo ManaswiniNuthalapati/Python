@@ -202,6 +202,48 @@ elif (income>500000) and (income<1000000):
 else:
     print(tax*0.30)
   
+  
+'''
+Given an integer,n , perform the following conditional actions:
+If  is odd, print Weird
+If  is even and in the inclusive range of  to , print Not Weird
+If  is even and in the inclusive range of  to , print Weird
+If  is even and greater than , print Not Weird'''
+
+import math
+import os
+import random
+import re
+import sys
+
+if __name__ == '__main__':
+    n = int(input().strip())
+    if (n%2==0) and (n>=2) and (n<=5):
+        print("Not Weird")
+    elif (n%2==0) and (n>=6) and (n<=20):
+        print("Weird")
+    elif (n%2==0) and (n>20):
+        print("Not Weird")
+    else:
+        print("Weird")
+        
+'''Movie Ticket Discount
+Weekday = ₹200, Weekend = ₹300
+Age < 12 or Age ≥ 60 → 50% discount
+If Day = “Wednesday” → extra 20% discount'''
+
+age=int(input())
+day=input()
+if day=="Weekday":
+    price=200
+else:
+    price=300
+if age<12 or age>=60:
+    price=price*0.50
+elif day=="Wednesday":
+    price=price*0.80
+print(price)
+    
 
 
 
