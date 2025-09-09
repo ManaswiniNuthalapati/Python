@@ -319,6 +319,26 @@ elif password.isalnum():
     print("Strong")
 else:
     print("Very Strong")
+    
+'''
+ATM balance = ₹10,000
+Amount must be multiple of 100
+If amount > balance → insufficient funds
+If amount valid, print new balance
+If amount > 5000 → extra ₹50 charge'''
+balance=10000
+amount=int(input())
+if amount>balance:
+    print("Insufficient Balance")
+elif amount%100!=0:
+    print("Invalid Amount")
+else:
+    if amount>5000:
+        balance=balance-(amount+50)
+    else:
+        balance=balance-amount
+    print(balance)
+
 
 
     
