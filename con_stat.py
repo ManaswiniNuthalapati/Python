@@ -287,7 +287,24 @@ else:
 if mode=="Credit Card":
     price=price*0.95
 print(price)
-    
+
+
+'''Electricity Bill Calculator
+0–100 → ₹5/unit
+101–300 → ₹8/unit
+301+ → ₹10/unit + 15% surcharge if bill > ₹2000'''
+
+units=int(input())
+if units<=100:
+    bill=units*5
+elif units<=300:
+    bill=(100*5)+(units-100)*8
+else:
+    bill=(100*5)+(200*8)+(units-300)*10
+if bill>2000:
+    bill+=bill*0.15
+print(bill)
+
     
 
 
