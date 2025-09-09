@@ -305,6 +305,22 @@ if bill>2000:
     bill+=bill*0.15
 print(bill)
 
+'''Password Strength Checker 
+Only numbers → Weak
+Only letters → Medium
+Letters + numbers → Strong
+Letters + numbers + special chars → Very Strong'''
+password = input()
+if password.isdigit():
+    print("Weak")
+elif password.isalpha():
+    print("Medium")
+elif password.isalnum():
+    print("Strong")
+else:
+    print("Very Strong")
+
+
     
 
 
