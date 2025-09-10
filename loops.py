@@ -11,6 +11,31 @@ while i<=n:
     print(i)
     i=i+1 
 
+#Sum of first N natural numbers
+n=int(input())
+i=1
+total=0
+while i<=n:
+  total=total+i
+  i=i+1
+print(total)
+
+#print even numbers till numbers
+n=int(input())
+i=2
+while i<=n:
+  print(i)
+  i=i+2
+
+#print odd numbers till numbers
+n=int(input())
+i=1
+while i<=n:
+  print(i)
+  i=i+2
+
+
+
     
 
     
