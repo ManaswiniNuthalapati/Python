@@ -42,7 +42,23 @@ while i<=n:
   total=total*i
   i=i+1
 print(total)
-  
+
+
+# Reverse Counting
+n=int(input())
+i=n
+while i>=1:
+  print(i)
+  i=i-1
+
+# Multiplication of a number
+n=int(input())
+a=int(input())
+i=1
+while i<=a:
+  print(i*n)
+  i+=1
+
 
 
 
