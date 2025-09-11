@@ -59,6 +59,12 @@ while i<=a:
   print(i*n)
   i+=1
 
+# Program to print the integers from M to N
+m=int(input())
+n=int(input())
+while m<=n:
+  print(m)
+  m=m+1
 
 
 
