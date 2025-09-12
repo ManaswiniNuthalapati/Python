@@ -80,6 +80,24 @@ while i<=n:
   print(i)
   i+=3
 
+# program to print the numbers divisible by 3 and 5
+n=int(input())
+i=1
+while i<=n:
+  if i%3==0 and i%5==0:
+    print(i)
+  i+=1
+  
+  # count the no of digit separatelly
+n=int(input())
+count=0
+if n==0:
+  count=1
+else:
+  while n>0:
+    n=n//10
+    count+=1
+print(count)
 
 
 
