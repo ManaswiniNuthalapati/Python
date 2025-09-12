@@ -65,6 +65,22 @@ n=int(input())
 while m<=n:
   print(m)
   m=m+1
+  
+# program to print cubes of a number
+n=int(input())
+i=1
+while i<=n:
+  print(i**3)
+  i+=1
+  
+# print numbers divisible by 3
+n=int(input())
+i=3
+while i<=n:
+  print(i)
+  i+=3
+
+
 
 
 
