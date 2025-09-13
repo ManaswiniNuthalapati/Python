@@ -11,7 +11,7 @@ while i<=n:
     print(i)
     i=i+1 
 
-#Sum of first N natural numbers
+# Sum of first N natural numbers
 n=int(input())
 i=1
 total=0
@@ -116,6 +116,31 @@ while n>0:
   reverse=reverse*10+digit
   n=n//10
 print(reverse)
+
+#palindrome or  not
+n=int(input())
+temp=n
+reverse=0
+while n>0:
+  digit=n%10
+  reverse=reverse*10+digit
+  n=n//10
+if temp==reverse:
+  print("Palindrome")
+else:
+  print("Not palindrome")
+  
+  # factorial of a nummber
+n=int(input())
+i=1
+count=0
+while i<=n:
+    if i%2!=0:
+        count+=1
+    i+=1          
+print(count)
+
+  
   
 
 
