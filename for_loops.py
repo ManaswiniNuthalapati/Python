@@ -1,0 +1,8 @@
+# Print numbers from 1 to 10.
+for i in range(1,11):
+  print(i)
+  
+# Print numbers from 1 to 10.
+x=int(input())
+for i in range(x):
+  print(i+1)
