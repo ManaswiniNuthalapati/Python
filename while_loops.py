@@ -1,8 +1,9 @@
 # print hello 5 times
-a=int(input())
-i=0
-while i<=a:
-    print(a)
+i=int(input())
+n=int(input())
+while i<=n:
+  print("Hello")
+  i+=1
     
 # print numbers from 1 to N
 n=int(input())
