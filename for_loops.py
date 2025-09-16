@@ -22,3 +22,19 @@ total=0
 for i in range(n+1):
   total=total+i
 print(total)
+
+# print hello n times
+n=int(input())
+for i in range(n):
+  print("Hello")
+
+# program that takes a number n and an integer m as input and prints n, m times (each on a new line) using a for loop.
+n=input()
+m=int(input())
+for i in range(m):
+  print(n)
+
+#  multiplication table of n up to 10 in one line using a for loop.
+n = int(input())
+for i in range(1,11):
+    print(n*i,end=" ")
