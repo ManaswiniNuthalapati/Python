@@ -141,6 +141,14 @@ while i<=n:
     i+=1          
 print(count)
 
+# program that takes a number n and an integer m as input and prints n, m times (each on a new line) using a for loop.
+n=input()
+m=int(input())
+i=1
+while i<=m:
+  print(n)
+  i+=1
+
   
   
 
