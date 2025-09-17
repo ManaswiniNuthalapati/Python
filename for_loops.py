@@ -46,4 +46,10 @@ for i in range(1,11):
     a=n1*i
     b=n2*i
     print(a-b,end=" ")
+    
+#print divisors of a num
+n=int(input())
+for i in range(1,n+1):
+  if (n%i==0):
+    print(i)
 
