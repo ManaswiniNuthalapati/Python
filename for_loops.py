@@ -52,4 +52,20 @@ n=int(input())
 for i in range(1,n+1):
   if (n%i==0):
     print(i)
+    
+# Check prime or not
+n=int(input())
+i=2
+prime=True
+if n<=1:
+  prime=False
+else:
+  while i<n:
+    if n%i==0:
+      prime=False
+    i+=1
+if prime:
+  print(True)
+else:    
+  print(False)
 
