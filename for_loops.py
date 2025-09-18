@@ -61,20 +61,6 @@ if prime:
 else:    
   print(False)
   
-# fibonacci numbers-continous numbers
-n=int(input())
-if n==0:
-    fib=0
-elif n==1:
-    fib=1
-else:
-    a,b=0,1
-    for i in range(2,n+1):
-        c=a+b
-        a=b
-        b=c
-    fib=b
-print(fib)
 
 # Given two number n1 and n2, n1 > n2. Find the differences between mathematical tables of n1 and n2 and print in a single line.    
 n1=int(input())
