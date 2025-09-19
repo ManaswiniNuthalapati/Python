@@ -11,7 +11,7 @@ for i in range(x):
 for i in range(20,0,-2):
   print(i)
   
-# print multipplication of a number
+# print multiplication of a number
 n=int(input())
 for i in range(n):
   print(i*n)
