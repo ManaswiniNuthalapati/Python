@@ -70,7 +70,7 @@ for i in range(1,11):
     b=n2*i
     print(a-b,end=" ")
     
-
+# print odd numbers
 def main():
     N = int(input())
     for i in range(N):
