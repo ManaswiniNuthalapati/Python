@@ -69,6 +69,16 @@ for i in range(1,11):
     a=n1*i
     b=n2*i
     print(a-b,end=" ")
+    
+# print odd numbers
+def main():
+    N = int(input())
+    for i in range(N):
+        if i%2==1:
+            print(i)
+    return 0
+if __name__ == '__main__':
+    main()
 
 
 
