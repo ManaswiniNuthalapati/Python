@@ -85,6 +85,13 @@ for i in range(1,21):
   if i%3==0:
     continue
   print(i)
+ 
+# Write a Python program to print numbers from 1 to 50, but stop printing if you reach a number greater than 30. 
+n=int(input())
+for i in range(1,n+1):
+  if i>30:
+    break
+  print(i)
 
 
 
