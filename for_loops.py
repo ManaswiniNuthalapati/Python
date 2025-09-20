@@ -92,6 +92,21 @@ for i in range(1,n+1):
   if i>30:
     break
   print(i)
+  
+'''
+You have numbers from 1 to 50. Write a program that:
+Skips all multiples of 4 (use continue).
+Stops completely if the number is greater than 40 (use break).
+Prints all other numbers.
+'''
+n=int(input())
+for i in range(1,n+1):
+  if i%4==0:
+    continue
+  if i>=40:
+    break
+  print(i)
+
 
 
 
