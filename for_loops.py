@@ -79,6 +79,12 @@ def main():
     return 0
 if __name__ == '__main__':
     main()
+    
+# Write a Python program to print all numbers from 1 to 20, but skip the multiples of 3.
+for i in range(1,21):
+  if i%3==0:
+    continue
+  print(i)
 
 
 
