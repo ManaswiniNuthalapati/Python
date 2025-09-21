@@ -107,6 +107,14 @@ for i in range(1,n+1):
     break
   print(i)
 
+# From a given string, print only the consonants (skip vowels).
+text = "python is fun"
+vowels = "aeiouAEIOU"
+for ch in text:
+    if ch in vowels:
+        continue  
+    print(ch, end="")
+
 
 
 
