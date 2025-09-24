@@ -150,3 +150,18 @@ for i in range(1,n+1):
     for k in range(i):
         print(i,end=" ")
     print()
+    
+''' 
+Right-aligned traingle with continous numbers
+   1
+  12
+ 123
+1234
+'''
+n=5
+for i in range(1,n+1):
+    for j in range(n-i):
+        print(" ",end=" ")
+    for k in range(i):
+        print(k+1,end=" ")
+    print()
