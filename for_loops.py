@@ -114,6 +114,9 @@ for ch in text:
     if ch in vowels:
         continue  
     print(ch, end="")
+    
+
+
 
 
 
