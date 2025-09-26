@@ -178,7 +178,7 @@ for i in range(1,n+1):
     for j in range(n-i):
         print(" ",end="")
     for k in range(i):
-        print("*",end="")
+        print("*",end=" ")
         
 '''
 Inverted pyramid
@@ -191,7 +191,7 @@ for i in range(1,n+1):
     for j in range(i):
         print(" ",end="")
     for k in range(n-i+1):
-        print("*",end="")
+        print("*",end=" ")
     print()
     
 '''
@@ -223,4 +223,30 @@ for i in range(1,n+1):
         print(" ",end="")
     for k in range(n-i+1):
         print(k+1,end="")
+    print()
+    
+'''
+Diamond Pattern
+    * 
+   * * 
+  * * * 
+ * * * * 
+* * * * * 
+ * * * * 
+  * * * 
+   * * 
+    * 
+'''
+n=5
+for i in range(1,n+1):
+    for j in range(n-i):
+        print(' ',end="")
+    for k in range(i):
+        print("*",end=" ")
+    print()
+for i in range(1,n+1):
+    for j in range(i):
+        print(" ",end="")
+    for k in range(n-i):
+        print("*",end=" ")
     print()
