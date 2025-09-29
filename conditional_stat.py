@@ -1,7 +1,6 @@
-#1
 #  Given a number n, print "Big" if n > 100. Always print "Number" at the end.
 
-'''n=int(input())
+n=int(input())
 num=100
 if n>num:
     print("Big")
@@ -49,14 +48,13 @@ elif operator==3:
     print(a*b)
 else:
     print("Invalid")
-    '''
-    #1
-''' Given two integer variables a and b, and a boolean variable flag. The task is to check the status and return accordingly.
+    
+''' 
+Given two integer variables a and b, and a boolean variable flag. The task is to check the status and return accordingly.
 Return True for the following cases:
-
 Either a or b (not both) is non-negative and the flag is false.
 Both a and b are negative and the flag is true.
-Otherwise, return False.
+Otherwise, return False.'''
 class Solution:
     def checkStatus(self, a, b, flag):
         # code here
@@ -65,12 +63,10 @@ class Solution:
         elif ((a<0 and b<0) and flag==True):
             return True
         else:
-            return False'''
-        
-
-#2 
+            return False
+         
 '''You are given a string str, you need to return True if  the words "cat" and "hat" appear same number of times in str, otherwise return False.
-Note: str contains only lowercase English alphabets.
+Note: str contains only lowercase English alphabets.'''
 def cat_hat(str):
     count_cat = str.count("cat")
     count_hat = str.count("hat")
@@ -78,8 +74,8 @@ def cat_hat(str):
         return True
     else:
         return False
+    
 
-#1
 # Print **"Fizz"** if the number is divisible by 3, **"Buzz"** if divisible by 5, **"FizzBuzz"** if divisible by both, otherwise print the number. 
 num=int(input())
 if (num % 3 == 0 and num % 5 == 0):
@@ -92,7 +88,6 @@ else:
     print("None")
     
 
-#2
 # Given n apples, you and your friend take turns picking one apple each starting with you; print "You" if you take the last apple, otherwise print "Friend".
 n=int(input())
 if n%2==0:
@@ -101,7 +96,6 @@ else:
     print("You")
     
 
-#3
 # Given three numbers a, b, and c. You need to find which is the greatest of them all.
 a=int(input())  
 b=int(input())
@@ -133,6 +127,7 @@ elif year<6:
 else:
     print("Invalid")
     
+    
 #Electricity Bill Calculator. calculate total bill amount
 units=int(input())
 if units<=100:
@@ -143,6 +138,7 @@ else:
     bill=(100*5)+(100*7)+((units-200)*10)
 print(bill)
 
+
 # Character Type Check
 ch=input('Enter a char: ')
 #if ('a'>=ch) and ('z'<=ch) and ('A'>=ch) and ('Z'>=ch):
@@ -150,6 +146,7 @@ if ch in 'aeiouAEIOU':
     print("Vowel")
 else:
     print("Consonant")
+    
     
 # checking whether a number is 3 digit or not
 num=input('Enter a number:')
@@ -159,11 +156,11 @@ if n==3:
 else:
     print("False")
     
+    
 # Cab Fare Calculator 
-For the first 5 km, the fare is ₹50.
+'''For the first 5 km, the fare is ₹50.
 For the next 10 km (i.e., from 6 km to 15 km), the fare is ₹10 per km.
-Beyond 15 km, the fare is ₹15 per km.
-
+Beyond 15 km, the fare is ₹15 per km.'''
 km=int(input())
 if km<=5:
     Fare=50
@@ -172,6 +169,7 @@ elif km<=15:
 else:
     Fare=50+(10*10)+(km-15)*15
 print(Fare)
+
 
 # Insurance Premium Calculator
 age=int(input())
@@ -227,7 +225,7 @@ if fees>0:
     total=fees*hour
 elif hour>12 :
     total=total-(fees*0.1)
-print(total)'''
+print(total)
 
 # Cinema Ticket Price
 day=input()
@@ -245,6 +243,46 @@ if price>0:
     else:
         total=price
 print(total)
+
+
+# find The leap Year
+year = 2025
+if (year%4==0 and year!=100) or (year%400==0):
+    print("Leap Year")
+else:
+    print("Not Leap year")
+    
+
+#Grading System
+marks=int(input())
+if (marks>=90):
+    print("A")
+elif (marks>=80 and marks<=89):
+    print("B")
+elif (marks>=70 and marks<=79):
+    print("C")
+elif (marks>=60 and marks<=69):
+    print("C")
+else:
+    print("Fail")
+
+
+#Check Triangle Type
+side1=int(input())
+side2=int(input())
+side3=int(input())
+if(side1==side2==side3):
+    print("Equilateral")
+elif(side1==side2!=side3):
+    print("Isosceles")
+elif(side1!=side2!=side3):
+    print("Scalene")
+else:
+    print("Invalid")
+
+
+    
+    
 
 
 

@@ -70,3 +70,26 @@ x = "Hello"
 print(x)        
 x = 3.14
 print(x) 
+
+# Input a  number as a string and print The first digit & The last digit
+a=int(input())
+b=input()
+first=int(b[0])
+second=int(b[-1])
+print(first)
+print(second)
+
+
+# Store an integer in a variable, then change its value to a float and print both.
+a=input()
+print(a)
+b=float(a)
+print(b)
+
+
+# Create two float variables and print their product.
+a=float(input())
+b=float(input())
+product=a*b
+print(product)
+print(int(product))
