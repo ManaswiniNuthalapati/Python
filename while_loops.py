@@ -156,6 +156,14 @@ while i<=n:
   if (n%i==0):
     print(i)
   i+=1
+  
+# Given an integer n, print the squares of all non-negative integers less than n, each on a new line.
+n = int(input())
+i=0
+while i<n:
+        print(i**2)
+        i=i+1
+    
 
   
   
