@@ -12,3 +12,10 @@ print("Odd numbers:", end=" ")
 for i in num:
     if i%2!=0:
         print(i,end=" ")
+        
+# Replace all negative numbers with 0
+nums=[12, -7, 5, 64, -14, 0, 99]
+for i in range(len(nums)):
+    if nums[i]<0:
+        nums[i]=0
+print(nums)
