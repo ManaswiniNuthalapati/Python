@@ -102,8 +102,7 @@ print(a&b)
 print(a|b)
 print(a^b)
 
-'''
-# Assign two numbers and print their average without using division '''
+# Assign two numbers and print their average without using division 
 a=int(input())
 b=int(input())
 c=(a+b)*0.5
