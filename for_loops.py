@@ -108,7 +108,6 @@ for i in range(1,n+1):
   print(i)
 
 # From a given string, print only the consonants (skip vowels).
-
 text = "python is fun"
 vowels = "aeiouAEIOU"
 for ch in text:
@@ -117,7 +116,6 @@ for ch in text:
     print(ch, end="")
 
 # Factorial of a number
-
 n = int(input())
 fact = 1
 for i in range(1, n+1):
@@ -125,8 +123,7 @@ for i in range(1, n+1):
 print(fact)
 
 # print numbers upto N
-
-n = int(input("Enter a number: "))
+n = int(input())
 for i in range(1, n+1):
     print(i, end=" ")
     
