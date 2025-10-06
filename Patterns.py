@@ -471,3 +471,26 @@ for i in range(1,n+1):
   for l in range(i-1,0,-1):
     print(l,end=" ")
   print()
+  
+'''
+Butterfly Pattern
+
+*      *
+**    **
+***  ***
+********
+********
+***  ***
+**    **
+*      *
+'''
+n=int(input())
+for i in range(1,n+1):
+  print("*"*i,end="")
+  print(" "*(2*(n-i)),end="")
+  print("*"*i)
+for i in range(n,0,-1):
+  print("*"*i,end="")
+  print(" "*(2*(n-i)),end="")
+  print("*"*i)
+  
