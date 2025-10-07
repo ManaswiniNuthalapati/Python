@@ -139,6 +139,23 @@ fact=1
 for i in range(1,n+1):
   fact=fact*i
 print(fact)
+
+# Count vowels and consonants separately in a string
+text=input()
+vowels="aeiouAEIOU"
+count_vowel=0
+count_consonant=0
+for ch in text:
+  if ch.isalpha():
+    if ch in vowels:
+      count_vowel+=1
+    else:
+      count_consonant+=1
+print(count_vowel)
+print(count_consonant)
+
+    
+
   
 
     
