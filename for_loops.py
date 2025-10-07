@@ -151,8 +151,8 @@ for ch in text:
       count_vowel+=1
     else:
       count_consonant+=1
-print(count_vowel)
-print(count_consonant)
+print("Vowels: ",count_vowel)
+print("Consonants: ",count_consonant)
 
     
 
