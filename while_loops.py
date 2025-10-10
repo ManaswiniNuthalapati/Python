@@ -163,7 +163,16 @@ i=0
 while i<n:
         print(i**2)
         i=i+1
-    
+   
+# Find the Largest digit in a number
+n=int(input())
+largest=0 
+while n>0:
+  digit=n%10
+  if digit>largest:
+    largest=digit
+  n=n//10
+print(largest)
 
   
   
