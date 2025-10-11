@@ -163,6 +163,12 @@ for i in range(len(n)//2):
   else:
     print("Not Palindrome")
     break
+  
+#print divisors of a num
+n=int(input())
+for i in range(1,n+1):
+  if (n%i==0):
+    print(i)
 
     
 
