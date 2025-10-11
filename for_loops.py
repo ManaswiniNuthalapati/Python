@@ -154,6 +154,16 @@ for ch in text:
 print("Vowels: ",count_vowel)
 print("Consonants: ",count_consonant)
 
+# Check if the string is Palindrome or not
+n=input().lower()
+for i in range(len(n)//2):
+  if n[i]==n[-(i+1)]:
+    print("Palindrome")
+    break
+  else:
+    print("Not Palindrome")
+    break
+
     
 
   
