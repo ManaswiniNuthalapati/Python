@@ -45,3 +45,19 @@ if s:
   print("Not empty")
 else:
   print("Empty")
+  
+# Count Spaces in a Sentence
+str="I am FIme"
+count=0
+for ch in str:
+  if ch==' ':
+    count+=1
+print(count)
+  
+# Type of a String
+s="Chatgpt"
+print(type(s))
+
+# print a string for 5 times
+s=input()
+print((s+"\n")*5)
