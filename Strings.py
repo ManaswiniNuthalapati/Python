@@ -1,0 +1,15 @@
+''' 
+Strings ---> A sequence of Characters used 
+to store text data --->Letters, Numbers, special Characters,etc..
+
+Characters represented by integer values --->ASCII Values
+A to Z ---> 65 to 90
+a to z ---> 97 to 122
+
+ord()--> takes a character and returns integer as output
+chr()--> reverse
+
+Strings-- Immutable 
+
+Accessing characters in a string ---> through indexing
+'''
