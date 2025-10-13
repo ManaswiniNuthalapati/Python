@@ -13,3 +13,18 @@ Strings-- Immutable
 
 Accessing characters in a string ---> through indexing
 '''
+
+# Print the string
+str1="Hello"
+print(str1)
+
+# Print Each Character on a new line
+str="Code"
+print(str[0])
+print(str[1])
+print(str[2])
+print(str[3])
+
+# Print Length of String
+str2="Hello"
+print(len(str2))
