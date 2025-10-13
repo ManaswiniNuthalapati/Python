@@ -28,3 +28,13 @@ print(str[3])
 # Print Length of String
 str2="Hello"
 print(len(str2))
+
+# Print First and Last Character
+str="Hello"
+print(str[0],end=" ")
+print(str[-1],end=" ")
+
+# Print Middle Character (if length is odd)
+str="Apple"
+length=len(str)//2
+print(str[length])
