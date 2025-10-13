@@ -38,3 +38,10 @@ print(str[-1],end=" ")
 str="Apple"
 length=len(str)//2
 print(str[length])
+
+# Check if String is Empty
+s=input()
+if s:
+  print("Not empty")
+else:
+  print("Empty")
