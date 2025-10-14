@@ -65,3 +65,11 @@ print((s+"\n")*5)
 # Print a string with quotes inside
 n='"Hello"'
 print("She said, {}".format(n))
+
+# Use Escape Sequence for a New Line
+n="Hello \nWorld"
+print(n)
+
+# Use Escape Sequence for a Tab
+n="Hello \tWorld"
+print(n)
