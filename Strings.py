@@ -73,3 +73,11 @@ print(n)
 # Use Escape Sequence for a Tab
 n="Hello \tWorld"
 print(n)
+
+# Print String with Single and Double Quotes
+n="It's a" ' "sunny" day' 
+print(n)
+
+# Display Floating-Point Value with Two Decimals
+price=45.6789
+print(format(price,".2f"))
