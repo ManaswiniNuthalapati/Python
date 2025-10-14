@@ -81,3 +81,9 @@ print(n)
 # Display Floating-Point Value with Two Decimals
 price=45.6789
 print(format(price,".2f"))
+
+# Print Two Strings Using One Print Statement
+a="Hello"
+b="World"
+c=({},{}).format(a,b)
+print(c)
