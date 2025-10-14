@@ -61,3 +61,7 @@ print(type(s))
 # print a string for 5 times
 s=input()
 print((s+"\n")*5)
+
+# Print a string with quotes inside
+n='"Hello"'
+print("She said, {}".format(n))
