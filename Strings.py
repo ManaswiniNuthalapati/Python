@@ -87,3 +87,30 @@ a="Hello"
 b="World"
 c=({},{}).format(a,b)
 print(c)
+
+# Check if the word "data" exists in "dataanalytics".
+s1="dataanalytics"
+s2="data"
+print(s2 in s1)
+
+# Join "machine" and "learning" to form "machinelearning"
+s1="machine"
+s2="learning"
+print(s1+ " "+s2)
+
+# Print "Welcome to AI course" using concatenation of multiple strings.
+s1="Welcome"
+s2="to"
+s3="AI Course"
+s4=s1+" "+s2+" "+s3
+print(s4)
+
+# Find the position of "learn" in "learnpythonlearn".
+s1="learnpythonlearn"
+s2="learn"
+print(s1.index(s2))
+
+# Find the second occurrence of "learn" using index() with a start parameter.
+s1="learnpythonlearn"
+s2="learn"
+print(s1.rindex(s2))
