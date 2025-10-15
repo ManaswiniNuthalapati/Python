@@ -110,12 +110,12 @@ s1="learnpythonlearn"
 s2="learn"
 print(s1.index(s2))
 
-# Find the second occurrence of "learn" using index() with a start parameter.
+# Find the last occurrence of "learn" using index() with a start parameter.
 s1="learnpythonlearn"
 s2="learn"
 print(s1.rindex(s2))
 
-# Find the second occurrence of "on" in "pythonpythonpython"
+# Find all the occurrences of "on" in "pythonpythonpython"
 s1="pythonpythonpython"
 s2="on"
 first=s1.find(s2)
