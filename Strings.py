@@ -114,3 +114,18 @@ print(s1.index(s2))
 s1="learnpythonlearn"
 s2="learn"
 print(s1.rindex(s2))
+
+# Find the second occurrence of "on" in "pythonpythonpython"
+s1="pythonpythonpython"
+s2="on"
+first=s1.find(s2)
+second=s1.find(s2,first+1)
+last=s1.rindex(s2)
+print("1st Occurance:",first)
+print("2nd Occurance:",second)
+print("3rd Occurance:",last)
+
+# Verify if "Coding in Python" starts with "Coding" and ends with "Python"
+s1="Coding with Python"
+print(s1.startswith("Coding"))
+print(s1.endswith("Python"))
