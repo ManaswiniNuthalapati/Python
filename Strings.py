@@ -129,3 +129,18 @@ print("3rd Occurance:",last)
 s1="Coding with Python"
 print(s1.startswith("Coding"))
 print(s1.endswith("Python"))
+
+# Split the string "AI ML DS" into words.
+s1="AI ML DS"
+s2=s1.split()
+print(s2)
+
+# Split "apple,banana,cherry" using , as separator.
+s1="apple,banana,cherry"
+s2=s1.split(",")
+print(s2)
+
+#Join the list ["I", "love", "coding"] into one sentence separated by spaces.
+s1=["I", "love", "coding"]
+s2=" ".join(s1)
+print(s2)
