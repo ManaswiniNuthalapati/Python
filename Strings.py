@@ -144,3 +144,16 @@ print(s2)
 s1=["I", "love", "coding"]
 s2=" ".join(s1)
 print(s2)
+
+# Remove "#" characters from both ends,right and left of "###Geeks###" using strip()
+s1="###Geeks###"
+print(s1.strip("#"))
+print(s1.rstrip("#"))
+print(s1.lstrip("#"))
+
+# Search for "python" and "java" in "python programming" using find() and print their index values.
+s1="python programming"
+s2=s1.find("python")
+print(s2)
+s3=s1.find("java")
+print(s3)
