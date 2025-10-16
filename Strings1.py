@@ -22,3 +22,16 @@ s=input()
 index=s.index("@")
 s1=s[index+1:]
 print(s1)
+
+'''
+Palindrome Checker
+Check whether the given word or sentence is a palindrome.
+'''
+s=input()
+rev=""
+for i in s:
+    rev=i+rev
+if s==rev:
+    print(True)
+else:
+    print(False)
