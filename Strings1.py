@@ -13,3 +13,12 @@ if 5<=len(s)<=15:
             print(False)
 else:
     print(False)
+    
+'''
+Email Domain Extractor
+Given an email like "john.doe@gmail.com", extract "gmail.com".
+'''
+s=input()
+index=s.index("@")
+s1=s[index+1:]
+print(s1)
