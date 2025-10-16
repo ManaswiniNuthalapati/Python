@@ -157,3 +157,12 @@ s2=s1.find("python")
 print(s2)
 s3=s1.find("java")
 print(s3)
+
+# Given a list of names, sort them in ascending order using string comparison.
+s1=["Manu","Ashritha","Vinaya","Taruni"]
+for i in range(len(s1)):
+  for j in range(len(s1)):
+    if s1[i]<s1[j]:
+      s1[i],s1[j]=s1[j],s1[i]
+print(s1)
+
