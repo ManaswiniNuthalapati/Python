@@ -368,7 +368,7 @@ print(neg)
 print(pos_1)
 print(neg_1)
   
-# ount how many zeros are present in a tuple.
+# Count how many zeros are present in a tuple.
 a=(34,6,7,0,6,0,865,0,86,0,65,0)
 count=0
 for i in a:
