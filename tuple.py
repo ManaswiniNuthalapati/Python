@@ -337,3 +337,16 @@ count=0
 for i in a:
   count+=1
 print(count)
+
+# Print elements at odd index positions using slicing.
+a=(1,3,4,56,76,3)
+print(a[0:6:2])
+
+# Print the first half and second half of a tuple.
+a=(45,7,6,87,43,9,33)
+lst=list(a)
+mid=len(lst)//2
+print(a[:mid])
+print(a[mid:])
+    
+    
