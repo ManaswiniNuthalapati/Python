@@ -375,3 +375,11 @@ for i in a:
   if i==0:
     count+=1
 print(count)
+
+# Print elements which are divisible by both 3 and 5.
+a=(3,45,6,55,75,97,24,65,98,33,56)
+b=()
+for i in a:
+  if i%3==0 and i%5==0:
+    b+=(i,)
+print(b)
