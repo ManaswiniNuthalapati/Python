@@ -383,3 +383,15 @@ for i in a:
   if i%3==0 and i%5==0:
     b+=(i,)
 print(b)
+
+# Find the average of elements in a tuple.
+a=(1,2,3,4,5)
+sum=0
+count=0
+for i in a:
+  sum+=i
+  count+=1
+print(sum)
+print(count)
+print("Avg:",sum//count)
+  
