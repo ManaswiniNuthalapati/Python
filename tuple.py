@@ -420,3 +420,19 @@ print(tuple(a))
 a=input().split()
 b=input().split()
 print(tuple(a+b))
+
+# Find the **second smallest** element in a tuple.
+a=(5,4,3,8,7)
+b=list(a)
+small=b[0]
+sec=b[0]
+for i in b:
+    if i<small:
+        sec=small
+        small=i
+    elif i<sec and i!=small:
+        sec=i
+print(small)
+print(sec)
+        
+    
