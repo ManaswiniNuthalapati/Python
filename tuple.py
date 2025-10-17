@@ -348,5 +348,23 @@ lst=list(a)
 mid=len(lst)//2
 print(a[:mid])
 print(a[mid:])
-    
+
+# count how many positive and negative numbers are present in a tuple.
+a=(23,-5,43,67,-55,-87,92,-5,65)
+b=list(a)
+pos=0
+pos_1=()
+neg=0
+neg_1=()
+for i in a:
+  if i>0:
+    pos+=1
+    pos_1+=(i,)
+  else:
+    neg+=1
+    neg_1+=(i,)
+print(pos)
+print(neg)
+print(pos_1)
+print(neg_1)
     
