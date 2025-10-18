@@ -49,3 +49,14 @@ for ch in s:
   else:
     freq[ch]=1
 print(freq)
+
+'''
+Check Substring
+Input two strings s1 and s2; check if s2 exists inside s1.
+'''
+s1="Banana"
+s2="an"
+if s2 in s1:
+  print(True)
+else:
+  print(False)
