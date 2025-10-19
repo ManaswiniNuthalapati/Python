@@ -487,7 +487,6 @@ for words in a:
             count+=1
 print(count)
 
-#Decrement the tuple
 arr=()
 for i in arr:
   print(i-1, end=" ")
