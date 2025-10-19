@@ -168,7 +168,7 @@ print(s1)
 
 # verify if ien is there in data science or not
 s="Data Science"
-s1=ien
+s1="ien"
 print(s.index(s1))
 
 # Display characters from index 1 to 4 in "Python".
