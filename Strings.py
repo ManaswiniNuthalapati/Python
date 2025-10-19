@@ -174,3 +174,8 @@ print(s.index(s1))
 # Display characters from index 1 to 4 in "Python".
 s = "Python"
 print(s[1:5])
+
+# Check if "on" exists in "Python".
+s1 = "Python"
+s2 = "on"
+print(s2 in s1)
