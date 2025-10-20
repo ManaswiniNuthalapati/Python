@@ -184,3 +184,10 @@ print(s2 in s1)
 Count how many times 'a' appears in "banana".
 s = "banana"
 print(s.count('a'))
+
+'''
+Convert to uppercase and lowercase
+Convert "hello" to uppercase and "WORLD" to lowercase.
+'''
+print("hello".upper())
+print("WORLD".lower())
