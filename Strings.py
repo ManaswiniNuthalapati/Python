@@ -180,8 +180,10 @@ s1 = "Python"
 s2 = "on"
 print(s2 in s1)
 
-# Count specific character
+'''
+Count specific character
 Count how many times 'a' appears in "banana".
+'''
 s = "banana"
 print(s.count('a'))
 
