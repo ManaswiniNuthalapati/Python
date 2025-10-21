@@ -25,6 +25,11 @@ print(str[1])
 print(str[2])
 print(str[3])
 
+      #(or)
+str=input()
+for ch in str:
+  print(ch)
+
 # Print Length of String
 str2="Hello"
 print(len(str2))
@@ -179,3 +184,11 @@ print(s[1:5])
 s1 = "Python"
 s2 = "on"
 print(s2 in s1)
+
+# Find the length of a string without using len()
+n=int(input())
+count=0
+for ch in n:
+  count+=1
+print(count)
+
