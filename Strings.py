@@ -192,3 +192,16 @@ for ch in n:
   count+=1
 print(count)
 
+'''
+Count specific character
+Count how many times 'a' appears in "banana".
+'''
+s = "banana"
+print(s.count('a'))
+
+'''
+Convert to uppercase and lowercase
+Convert "hello" to uppercase and "WORLD" to lowercase.
+'''
+print("hello".upper())
+print("WORLD".lower())
