@@ -232,3 +232,20 @@ for i in a:
   if i=="a" or i=="e" or i=="i" or i=="o" or i=="u":
     count+=1
 print(count)
+
+        # "or"
+a=input()
+count=0
+for i in a:
+  if i in "aeiou":
+    count+=1
+print(count)
+
+# Find the first non-repeating character
+a="education"
+for i in a:
+  if a.count(i)==1:
+    print(i)
+    break
+ 
+  
