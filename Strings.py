@@ -26,6 +26,7 @@ print(str[2])
 print(str[3])
 
       #(or)
+      
 str=input()
 for ch in str:
   print(ch)
@@ -205,3 +206,18 @@ Convert "hello" to uppercase and "WORLD" to lowercase.
 '''
 print("hello".upper())
 print("WORLD".lower())
+
+# Find the length of a string without using len()
+n=input()
+count=0
+for i in n:
+  count+=1
+print(count)
+
+# Reverse a string using slicing
+n="madam"
+if n==n[::-1]:
+  print(True)
+else:
+  print(False)
+
