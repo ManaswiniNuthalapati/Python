@@ -64,6 +64,10 @@ print(count)
 s="Chatgpt"
 print(type(s))
 
+# Replace the spaces with Hyphens
+a="I Love Coding"
+print(a.replace(" ", "-"))
+
 # print a string for 5 times
 s=input()
 print((s+"\n")*5)
@@ -221,3 +225,10 @@ if n==n[::-1]:
 else:
   print(False)
 
+# Count vowels in a string
+a="education"
+count=0
+for i in a:
+  if i=="a" or i=="e" or i=="i" or i=="o" or i=="u":
+    count+=1
+print(count)
