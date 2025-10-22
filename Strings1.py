@@ -72,3 +72,27 @@ for ch in a:
   if len(ch)>len(longest):
     longest=ch
 print(longest)
+
+'''
+Count Each Character Frequency
+Input: "banana"
+Output: b:1, a:3, n:2
+'''
+n="banana"
+freq=""
+for ch in n:
+  if ch not in freq:
+    print(ch,":",n.count(ch),end=",")
+    freq+=ch
+
+'''
+Remove Duplicate Characters
+Input: "programming"
+Output: "progamin"
+'''
+n="programming"
+dup=""
+for ch in n:
+  if ch not in dup:
+    print(ch,end="")
+    dup+=ch
