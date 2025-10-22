@@ -1,6 +1,13 @@
-n="banana"
-freq=""
-for ch in n:
-  if ch not in freq:
-    print(ch,"-",n.count(ch))
-    freq+=ch
+a="listen"
+b="silent"
+c=a.lower()
+d=b.lower()
+if len(c)!=len(d):
+  print("Not Anagram")
+else:
+  for ch in c:
+    if c.count(ch)!=d.count(ch):
+      print("Not Anagram")
+      break
+  else:
+    print("Anagram")
