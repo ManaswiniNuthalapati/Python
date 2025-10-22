@@ -60,3 +60,15 @@ if s2 in s1:
   print(True)
 else:
   print(False)
+  
+'''Longest Word in a Sentence
+Input: "Python is amazing"
+Output: "amazing"
+'''
+n="Python is amazing"
+a=n.split()
+longest=""
+for ch in a:
+  if len(ch)>len(longest):
+    longest=ch
+print(longest)
