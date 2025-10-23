@@ -135,3 +135,21 @@ n="abc123xyz45"
 for ch in n:
   if ch.isdigit():
     print(ch,end="")
+    
+'''
+Check if String Contains Only Unique Characters
+Input: "python"
+Output: Yes
+Input: "programming"
+Output: No
+'''
+n="python"
+count=""
+for ch in n:
+  if ch not in count:
+    count+=ch
+    unique=True
+  else:
+    unique=False
+print(unique)
+
