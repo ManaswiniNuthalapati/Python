@@ -115,3 +115,23 @@ else:
       break
   else:
     print("Anagram")
+    
+'''
+Shift Letters by 1 (Caesar Cipher Style)
+Input: "abc"
+Output: "bcd"
+'''
+n="abc"
+for ch in n:
+  p=ord(ch)+1
+  print(chr(p),end="")
+  
+'''
+Extract Numbers from a String
+Input: "abc123xyz45"
+Output: "12345"
+'''
+n="abc123xyz45"
+for ch in n:
+  if ch.isdigit():
+    print(ch,end="")
