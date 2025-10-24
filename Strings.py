@@ -242,7 +242,7 @@ for i in a:
 print(count)
 
 # Find the first non-repeating character
-a="education"
+a="banana"
 for i in a:
   if a.count(i)==1:
     print(i)
