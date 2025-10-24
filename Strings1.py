@@ -156,6 +156,6 @@ print(unique)
 # Print Alphabets
 p="a"
 q="z"
-for ch in range(97,123):
+for ch in range(ord(p),ord(q)+1):
   print(chr(ch),end=" ")
 
