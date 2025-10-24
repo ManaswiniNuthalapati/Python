@@ -248,4 +248,7 @@ for i in a:
     print(i)
     break
  
+# Converting Binary number to Decimal Number
+a="111"
+print(int(a,2))
   
