@@ -167,3 +167,12 @@ for ch in s:
         letters.append(ch)
 print(letters)
 
+# Count the Number of Sentences in a Paragraph
+s="Python is fun. I love coding! Do you?"
+a=".!?"
+count=0
+for ch in s:
+    if ch in a:
+        count+=1
+print(count)
+
