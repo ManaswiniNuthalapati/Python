@@ -158,4 +158,12 @@ p="a"
 q="z"
 for ch in range(ord(p),ord(q)+1):
   print(chr(ch),end=" ")
+  
+# Find All Capital Letters
+s="PyThOnIsFuN"
+letters=[]
+for ch in s:
+    if 'A'<=ch<='Z': 
+        letters.append(ch)
+print(letters)
 
