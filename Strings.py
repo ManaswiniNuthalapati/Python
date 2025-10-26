@@ -251,4 +251,17 @@ for i in a:
 # Converting Binary number to Decimal Number
 a="111"
 print(int(a,2))
+
+# Count All Substrings with a Given Pattern
+s = "abababa"
+pattern = "aba"
+count = 0
+i = 0
+
+while i <= len(s) - len(pattern):
+    if s[i:i+len(pattern)] == pattern:
+        count += 1
+    i += 1
+
+print("Pattern count:", count)
   
