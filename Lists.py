@@ -39,3 +39,8 @@ print(color[-1])
 # Create a list of 5 fruits and print the third fruit.
 fruits=["apple","kiwi","orange","guava","banana"]
 print(fruits[2])
+
+# Create a 2D list called matrix = [[10, 20, 30], [40, 50, 60], [70, 80, 90]].
+# int the value 80 using nested indexing.
+matrix=[[10,20,30],[40,50,60],[70,80,90]]
+print(matrix[2][1])
