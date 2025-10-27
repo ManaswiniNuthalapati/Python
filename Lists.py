@@ -13,7 +13,7 @@ adding elements
 --> insert() - adding ele at specific position
 
 del keyword --> delete values by index
-remove() method --> removes the first occurancce of a specific value
+remove() method --> removes the first occurance of a specific value
 pop() --> removes and returns an item at specific index
 
 max() --> returns the largest value
@@ -94,3 +94,8 @@ Print the list after deletion.
 items=["pen","pencil","book","eraser"]
 del items[2]
 print(items)
+
+# Given fruits = ["apple", "banana", "cherry", "mango"], replace "banana" with "kiwi"
+fruits=["apple","banana","cherry","mango"]
+fruits[1]="kiwi"
+print(fruits)
