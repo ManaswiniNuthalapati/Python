@@ -24,3 +24,14 @@ reverse() --> reverses the elements
 
 
 """
+'''
+Create a list named colors with the elements ["red", "green", "blue", "yellow"].
+Print the first and last elements using both positive and negative indexing.
+'''
+color=["red","green","blue","yellow"]
+print(color[1])
+print(color[-1])
+
+# negative Indexing
+print(color[-4])
+print(color[-1])
