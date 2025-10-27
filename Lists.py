@@ -44,3 +44,53 @@ print(fruits[2])
 # int the value 80 using nested indexing.
 matrix=[[10,20,30],[40,50,60],[70,80,90]]
 print(matrix[2][1])
+
+'''
+Create an empty list named numbers.
+Use a loop to append numbers 1 to 5 into it.
+Print the final list.
+'''
+list=[]
+for i in range(1,5):
+  list.append(i)
+print(list)
+  
+'''
+Given fruits = ["apple", "banana", "cherry"],
+insert "mango" at index 1.
+append "grapes" at the end.
+Print the updated list.
+'''
+fruits=["apple","banana","cherry"]
+fruits.insert(1,"mango")
+fruits.append("grapes")
+print(fruits)
+
+'''
+Create a list languages = ["Python", "Java"].
+Use append() to add a tuple ("C", "C++") as one element.
+Print the list and observe what happens.
+'''
+list=["Python","java"]
+list.append(("C","C++"))
+print(list)
+
+'''
+Create a list nums = [1, 2, 3, 4, 3, 5].
+Remove the first occurrence of 3.
+Then remove the last element.
+Print the updated list.
+'''
+num=[1,2,3,4,3,5]
+num.remove(3)
+num.pop()
+print(num)
+
+'''
+Create a list items = ["pen", "pencil", "book", "eraser"].
+Delete the item at index 2 using del.
+Print the list after deletion.
+'''
+items=["pen","pencil","book","eraser"]
+del items[2]
+print(items)
