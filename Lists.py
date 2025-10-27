@@ -35,3 +35,7 @@ print(color[-1])
 # negative Indexing
 print(color[-4])
 print(color[-1])
+
+# Create a list of 5 fruits and print the third fruit.
+fruits=["apple","kiwi","orange","guava","banana"]
+print(fruits[2])
