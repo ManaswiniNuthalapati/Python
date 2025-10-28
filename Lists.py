@@ -111,3 +111,15 @@ print(len(numbers))
 print(numbers.count(7))
 print(max(numbers))
 print(min(numbers))
+
+'''
+Create a list fruits = ["banana", "apple", "mango", "cherry"].
+Sort the list alphabetically.
+Then reverse the list.
+Print the final result.
+'''
+marks=[90, 67, 88, 75, 95]
+print(max(marks))
+print(min(marks))
+marks.sort()
+print(marks)
