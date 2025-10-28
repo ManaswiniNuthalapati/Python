@@ -99,3 +99,15 @@ print(items)
 fruits=["apple","banana","cherry","mango"]
 fruits[1]="kiwi"
 print(fruits)
+
+'''
+Create a list numbers = [3, 7, 2, 8, 5, 7, 3].
+Print the length of the list.
+Print how many times 7 appears.
+Print the largest and smallest numbers
+'''
+numbers=[3, 7, 2, 8, 5, 7, 3]
+print(len(numbers))
+print(numbers.count(7))
+print(max(numbers))
+print(min(numbers))
