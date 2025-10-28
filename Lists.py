@@ -113,13 +113,23 @@ print(max(numbers))
 print(min(numbers))
 
 '''
-Create a list fruits = ["banana", "apple", "mango", "cherry"].
-Sort the list alphabetically.
-Then reverse the list.
-Print the final result.
+Create a list of numbers marks = [90, 67, 88, 75, 95].
+Find and print the highest and lowest marks using max() and min().
+Then use sort() to arrange them in ascending order.
 '''
 marks=[90, 67, 88, 75, 95]
 print(max(marks))
 print(min(marks))
 marks.sort()
 print(marks)
+
+'''
+Create a list fruits = ["banana", "apple", "mango", "cherry"].
+Sort the list alphabetically.
+Then reverse the list.
+Print the final result.
+'''
+fruits=["banana", "apple", "mango", "cherry"]
+fruits.sort()
+fruits.reverse()
+print(fruits)
