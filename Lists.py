@@ -174,3 +174,15 @@ nums = [10, 5, 8, 20, 15]
 num = [10, 5, 8, 20, 15]
 num.sort()
 print(num[-2])
+
+'''
+Write a program to find all elements greater than a given number n from a list.
+Example:
+'''
+nums=[10, 20, 5, 30, 25]
+n=15
+result=[]
+for i in nums:
+  if i>n:
+    result.append(i)
+print(result)
