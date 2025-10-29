@@ -186,3 +186,14 @@ for i in nums:
   if i>n:
     result.append(i)
 print(result)
+
+'''
+Write a program to find the sum of all positive numbers in a list.
+'''
+nums = [2, -5, 10, -3, 8]
+list=[]
+for i in nums:
+  if i>0:
+    list.append(i)
+print(list)
+print(sum(list))
