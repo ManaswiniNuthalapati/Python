@@ -166,3 +166,11 @@ for ch in items:
     strings.append(ch)
 print(num)
 print(strings)
+
+'''
+Without using max() or min(), find the second largest number in the list
+nums = [10, 5, 8, 20, 15]
+'''
+num = [10, 5, 8, 20, 15]
+num.sort()
+print(num[-2])
