@@ -149,3 +149,20 @@ total=0
 for i in num:
   total+=i
 print(total)
+
+'''
+Write a program that takes a mixed list like
+items = [10, "apple", 20, "banana", 30, "cherry"]
+and separates the numbers and strings into two different lists.
+Print both new lists.
+'''
+items = [10, "apple", 20, "banana", 30, "cherry"]
+num=[]
+strings=[]
+for ch in items:
+  if type(ch)==int:
+    num.append(ch)
+  elif type(ch)==str:
+    strings.append(ch)
+print(num)
+print(strings)
