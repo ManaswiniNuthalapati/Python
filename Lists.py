@@ -133,3 +133,19 @@ fruits=["banana", "apple", "mango", "cherry"]
 fruits.sort()
 fruits.reverse()
 print(fruits)
+
+'''
+Given numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9],
+Print only the even numbers.
+Then find the sum of all elements using a loop
+'''
+num=[1,2,3,4,5,6,7,8,9]
+list=[]
+for i in num:
+  if i%2==0:
+    list.append(i)
+print(list)
+total=0
+for i in num:
+  total+=i
+print(total)
