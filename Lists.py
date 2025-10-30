@@ -204,3 +204,15 @@ count=0
 for i in li:
   count+=1
 print(count)
+
+# Find the index of a particular element without using index()
+li=[12,13,45,67,89,45,20]
+target=67
+index=0
+for i in li:
+  if i==target:
+    print(index)
+    break
+  index+=1
+    
+
