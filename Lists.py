@@ -215,4 +215,11 @@ for i in li:
     break
   index+=1
     
+  # Remove all occurrences of a specific element
+  a=[1,2,3,2,4,2,5]
+  result=[]
+for x in numbers:
+    if x!=2:
+        result.append(x)
+
 
