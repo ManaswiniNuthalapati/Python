@@ -197,3 +197,10 @@ for i in nums:
     list.append(i)
 print(list)
 print(sum(list))
+
+# Find the length of a list without using len().
+li=[10,20,80,40,70,77,58,14]
+count=0
+for i in li:
+  count+=1
+print(count)
