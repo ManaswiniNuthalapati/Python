@@ -222,4 +222,16 @@ for x in numbers:
     if x!=2:
         result.append(x)
 
+# Print elements from even indexes only
+a=[10,20,30,40,50]
+for i in range(0,len(nums),2):
+    print(nums[i])
+
+# Print elements from odd indexes only
+a=[10,20,30,40,50]
+for i in range(1,len(nums),2):
+    print(nums[i])
+    
+
+
 
