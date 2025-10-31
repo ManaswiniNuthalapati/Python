@@ -232,6 +232,13 @@ a=[10,20,30,40,50]
 for i in range(1,len(nums),2):
     print(nums[i])
     
+# Find the Sum and Average of a List
+nums=[10, 20, 30, 40]
+total=0
+for i in nums:
+    total+=i
+avg=total/len(nums)
+    
 
 
 
