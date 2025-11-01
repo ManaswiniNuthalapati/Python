@@ -19,3 +19,12 @@ for i in range(len(nums)):
     if nums[i]<0:
         nums[i]=0
 print(nums)
+
+# Print only names starting with a vowel
+names=["Anu","Isha","Vinaya","Sai","Meena","Uma","Krishna"]
+vowels=['A', 'E', 'I', 'O', 'U']
+list=[]
+for name in names:
+    if name[0].upper() in vowels:
+        list.append(name)
+print(list)
