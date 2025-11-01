@@ -28,3 +28,12 @@ for name in names:
     if name[0].upper() in vowels:
         list.append(name)
 print(list)
+
+# Count how many times a specific element appears (without using count())
+nums=[1, 2, 3, 2, 4, 2, 5, 2]
+target=2
+count=0
+for i in nums:
+    if i==target:
+        count+=1
+print(count)
