@@ -238,6 +238,13 @@ total=0
 for i in nums:
     total+=i
 avg=total/len(nums)
+
+# Given a list of integers, find the difference between max and min elements (without using max() or min())
+a=[3,5,4,32,51,67,86]
+a.sort()
+print(a[0])
+print(a[-1])
+print((a[0])-(a[-1]))
     
 
 
