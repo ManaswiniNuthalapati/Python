@@ -253,6 +253,13 @@ for i in a:
   if i not in list:
     list.append(i)
 print(list)
+
+# Reverse a list manually (without using slicing or reverse())
+a=[23,45,64,2,6,7,8]
+list=[]
+for i in range(len(a)-1,-1,-1):
+  list.append(a[i])
+print(list)
     
 
 
