@@ -260,7 +260,17 @@ list=[]
 for i in range(len(a)-1,-1,-1):
   list.append(a[i])
 print(list)
+
+# Given a list, find the sum of elements at even indexes only.
+a=[1,2,3,4,5,6,7,8]
+sum=0
+for i in a:
+  if i%2!=0:
+    sum+=i
+print(sum)
     
+    
+
 
 
 
