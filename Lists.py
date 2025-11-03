@@ -268,6 +268,14 @@ for i in a:
   if i%2!=0:
     sum+=i
 print(sum)
+
+# Combine two lists element-wise into a new list (like [1,2,3] and [4,5,6] → [5,7,9]).
+a=[1,2,3]
+b=[4,5,6]
+c=[]
+for i in range(len(a)):
+  c.append(a[i]+b[i])
+print(c)
     
     
 
