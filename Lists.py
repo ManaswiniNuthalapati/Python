@@ -245,6 +245,14 @@ a.sort()
 print(a[0])
 print(a[-1])
 print((a[0])-(a[-1]))
+
+# Remove duplicates from a list without using set()
+a=[3,5,6,78,54,3,2,5]
+list=[]
+for i in a:
+  if i not in list:
+    list.append(i)
+print(list)
     
 
 
