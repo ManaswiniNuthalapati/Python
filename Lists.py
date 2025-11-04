@@ -299,6 +299,18 @@ for i in num:
   product*=i
 print(product)
 
+# Separate Odd and Even Numbers into Two Lists
+num=[10,15,20,25,30,35]
+even=[]
+odd=[]
+for i in num:
+  if i%2==0:
+    even.append(i)
+  else:
+    odd.append(i)
+print(even)
+print(odd)
+
     
     
 
