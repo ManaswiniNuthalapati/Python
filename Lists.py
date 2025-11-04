@@ -276,6 +276,12 @@ c=[]
 for i in range(len(a)):
   c.append(a[i]+b[i])
 print(c)
+
+# Swap the First and Last Elements of a List
+a=[10,20,30,40,50]
+a[0],a[-1]=a[-1],a[0]
+print(a)
+
     
     
 
