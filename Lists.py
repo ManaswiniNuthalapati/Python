@@ -292,6 +292,13 @@ a=num.count(0)
 result.extend([0]*a)
 print(result)
 
+# Find the Product of All Elements in a List
+num=[2,3,4,5]
+product=1
+for i in num:
+  product*=i
+print(product)
+
     
     
 
