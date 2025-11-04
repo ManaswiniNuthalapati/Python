@@ -282,6 +282,16 @@ a=[10,20,30,40,50]
 a[0],a[-1]=a[-1],a[0]
 print(a)
 
+# Move All Zeros to the End of the List
+num=[0,1,0,3,12,0,5]
+result=[]
+for i in num:
+  if i!=0:
+    result.append(i)
+a=num.count(0)
+result.extend([0]*a)
+print(result)
+
     
     
 
