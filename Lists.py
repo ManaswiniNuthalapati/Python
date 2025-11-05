@@ -350,6 +350,13 @@ for num in a:
     else:
       count+=1
 print(count)
+
+# Given a list of words, print all words that have length > 5.
+a=["john","joe","doe","kaeinr","jurs","asdfgh"]
+for name in a:
+  b=len(name)
+  if b>5:
+    print(name)
     
 
     
