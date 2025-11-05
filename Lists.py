@@ -339,6 +339,19 @@ for i in a:
     print(i)
 print("count is:",count)
 
+# Count how many elements are prime numbers.
+a=[23,65,7,42,1,68,54,97]
+count=0
+for num in a:
+  if num>1:
+    for i in range(2,int(num**0.5)+1):
+      if num % i==0:
+        break
+    else:
+      count+=1
+print(count)
+    
+
     
     
 
