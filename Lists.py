@@ -318,6 +318,18 @@ for i in range(len(a)):
     a[i]=0
 print(a)
 
+# Print all elements greater than 50 from a list.
+a=[23,45,78,65,9,87,8,90]
+for i in range(len(a)):
+  if a[i]>50:
+    print(a[i])
+    
+# Given a list of names, print only those starting with “S” or “s”.
+a=["vinni","sai","sadhu","Sri"]
+for i in a:
+  if i.startswith("S") or i.startswith("s"):
+    print(i)
+
     
     
 
