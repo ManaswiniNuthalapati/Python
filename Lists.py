@@ -311,6 +311,13 @@ for i in num:
 print(even)
 print(odd)
 
+# Replace every negative number in a list with 0.
+a=[-3,5,67,-4,6,55,-64,0]
+for i in range(len(a)):
+  if a[i]<0:
+    a[i]=0
+print(a)
+
     
     
 
