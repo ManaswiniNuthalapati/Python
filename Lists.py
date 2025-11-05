@@ -329,6 +329,15 @@ a=["vinni","sai","sadhu","Sri"]
 for i in a:
   if i.startswith("S") or i.startswith("s"):
     print(i)
+    
+# Count and print how many elements are divisible by 3 or 5.
+a=[10,39,84,14,47,12,32]
+count=0
+for i in a:
+  if i%3==0 or i%5==0:
+    count+=1
+    print(i)
+print("count is:",count)
 
     
     
