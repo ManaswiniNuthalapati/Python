@@ -46,3 +46,19 @@ for i in list1:
     if i in list2 and i not in ele:
         ele.append(i)
 print(ele)
+
+# Write a Python program that separates positive and negative numbers from a list into two separate lists.
+nums = [12,-7,5,-3,8,-1,0]
+positive=[]
+negative=[]
+zeros=[]
+for n in nums:
+    if n>0:
+        positive.append(n)
+    elif n<0:
+        negative.append(n)
+    else:
+        zeros.append(n)
+print(positive)
+print(negative)
+print(zeros)
