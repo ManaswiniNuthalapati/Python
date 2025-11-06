@@ -37,3 +37,12 @@ for i in nums:
     if i==target:
         count+=1
 print(count)
+
+# Find Common Elements in Two Lists
+list1=[1, 2, 3, 4, 5]
+list2=[4, 5, 6, 7, 8]
+ele=[]
+for i in list1:
+    if i in list2 and i not in ele:
+        ele.append(i)
+print(ele)
