@@ -35,3 +35,12 @@ list1=[1,2,3,4,5]
 list2=[3,4,6]
 diff=[x for x in list1 if x not in list2]
 print(diff)
+
+# Cumulative Sum
+lst=[1,2,3,4]
+cum=[]
+total=0
+for x in lst:
+    total += x
+    cum.append(total)
+print(cum)
