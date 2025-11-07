@@ -21,3 +21,17 @@ freq={}
 for i in lst:
     freq[i]=freq.get(i,0)+1
 print(freq)
+
+# Split List in Half
+lst=[1,2,3,4,5,6]
+mid=len(lst) // 2
+first_half=lst[:mid]
+second_half=lst[mid:]
+print(first_half)
+print(second_half)
+
+# List Difference
+list1=[1,2,3,4,5]
+list2=[3,4,6]
+diff=[x for x in list1 if x not in list2]
+print(diff)
