@@ -14,3 +14,10 @@ rev=""
 for char in string:
     rev=char+rev
 print(rev)
+
+# Frequency Counter
+lst=[2,2,3,1,3,3]
+freq={}
+for i in lst:
+    freq[i]=freq.get(i,0)+1
+print(freq)
