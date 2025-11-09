@@ -52,3 +52,11 @@ for i in range(1, num + 1):
     if num % i == 0:
         count += 1
 print("Number of divisors:", count)
+
+# Sum of List Except Current Index
+lst = [1, 2, 3]
+result = []
+total = sum(lst)
+for x in lst:
+    result.append(total - x)
+print("Output:", result)
