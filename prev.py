@@ -60,3 +60,8 @@ total = sum(lst)
 for x in lst:
     result.append(total - x)
 print("Output:", result)
+
+# Interchange First and Last Elements
+lst = [10, 20, 30, 40]
+lst[0], lst[-1] = lst[-1], lst[0]
+print("After swapping:", lst)
