@@ -73,3 +73,15 @@ for i in range(len(lst)):
         if lst[i] > lst[j]:
             lst[i], lst[j] = lst[j], lst[i]
 print("Sorted list:", lst)
+
+# Count Prime Numbers in List
+lst = [2, 3, 4, 5, 10, 11]
+count = 0
+for num in lst:
+    if num > 1:
+        for i in range(2, int(num**0.5) + 1):
+            if num % i == 0:
+                break
+        else:
+            count += 1
+print("Number of primes:", count)
