@@ -95,3 +95,14 @@ for i in range(n):
         else:
             print(" ", end="")
     print()
+    
+    
+# Merge and Sort Lists
+a = [3, 1, 4]
+b = [2, 5, 0]
+merged = a + b
+for i in range(len(merged)):
+    for j in range(i+1, len(merged)):
+        if merged[i] > merged[j]:
+            merged[i], merged[j] = merged[j], merged[i]
+print("Sorted merged list:", merged)
