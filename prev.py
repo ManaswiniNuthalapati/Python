@@ -116,3 +116,14 @@ for i in range(len(merged)):
         if merged[i] > merged[j]:
             merged[i], merged[j] = merged[j], merged[i]
 print("Sorted merged list:", merged)
+
+# Perfect Number
+num = int(input("Enter a number: "))
+sum_div = 0
+for i in range(1, num):
+    if num % i == 0:
+        sum_div += i
+if sum_div == num:
+    print(num, "is a Perfect Number ✅")
+else:
+    print(num, "is not a Perfect Number ❌")
