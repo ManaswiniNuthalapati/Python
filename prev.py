@@ -127,3 +127,15 @@ if sum_div == num:
     print(num, "is a Perfect Number ✅")
 else:
     print(num, "is not a Perfect Number ❌")
+    
+# Palindrome Number
+num = int(input("Enter a number: "))
+rev = 0
+temp = num
+while temp > 0:
+    rev = rev * 10 + temp % 10
+    temp //= 10
+if rev == num:
+    print("Palindrome ✅")
+else:
+    print("Not Palindrome ❌")
