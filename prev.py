@@ -198,3 +198,24 @@ if d1 > d2:
     print("First has greater decimal part")
 else:
     print("Second has greater decimal part")
+    
+# KM to meters, cms, mms
+km = float(input("Enter km: "))
+print("Meters :", km * 1000)
+print("CM     :", km * 100000)
+print("MM     :", km * 1000000)
+
+# Percentage + rounded percentage
+marks = int(input("Enter marks out of 600: "))
+percentage = (marks / 600) * 100
+
+print("Percentage:", percentage)
+print("Rounded:", round(percentage))
+
+# Absolute difference > 10
+a = int(input())
+b = int(input())
+if abs(a - b) > 10:
+    print("Difference > 10")
+else:
+    print("Difference <= 10")
