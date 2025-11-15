@@ -164,3 +164,10 @@ d = float(input())
 
 avg = (a + b + c + d) / 4
 print("Average:", avg)
+
+# Print name, age, height formatted
+name = input("Name: ")
+age = int(input("Age: "))
+height = float(input("Height in cm: "))
+
+print(f"My name is {name}, I am {age} years old and {height} cm tall.")
