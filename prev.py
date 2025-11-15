@@ -171,3 +171,30 @@ age = int(input("Age: "))
 height = float(input("Height in cm: "))
 
 print(f"My name is {name}, I am {age} years old and {height} cm tall.")
+
+# Convert minutes → hours + minutes
+mins = int(input("Enter minutes: "))
+hours = mins // 60
+rem = mins % 60
+print(f"{hours} hour(s) {rem} minute(s)")
+
+# Full operator task
+a = int(input())
+b = int(input())
+print("Add:", a+b)
+print("Sub:", a-b)
+print("Mul:", a*b)
+print("Div:", a/b)
+print("Mod:", a%b)
+print("Floor div:", a//b)
+print("Power:", a**b)
+
+# Compare decimal parts of two floats
+x = float(input())
+y = float(input())
+d1 = x - int(x)
+d2 = y - int(y)
+if d1 > d2:
+    print("First has greater decimal part")
+else:
+    print("Second has greater decimal part")
