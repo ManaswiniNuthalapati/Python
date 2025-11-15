@@ -155,3 +155,12 @@ for i in range(1, num + 1):
     if num % i == 0:
         count += 1
 print("Number of divisors:", count)
+
+# Average of 4 numbers
+a = float(input())
+b = float(input())
+c = float(input())
+d = float(input())
+
+avg = (a + b + c + d) / 4
+print("Average:", avg)
