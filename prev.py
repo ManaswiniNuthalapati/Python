@@ -263,3 +263,10 @@ print(largest)
 s = "hi how are you"
 words = s.split()
 print(len(words))
+
+Print Fibonacci series
+a, b = 0, 1
+for _ in range(10):
+    print(a, end=" ")
+    a, b = b, a + b
+
