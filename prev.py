@@ -264,7 +264,7 @@ s = "hi how are you"
 words = s.split()
 print(len(words))
 
-Print Fibonacci series
+# Print Fibonacci series
 a, b = 0, 1
 for _ in range(10):
     print(a, end=" ")
