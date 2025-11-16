@@ -258,3 +258,9 @@ for i in lst:
     if i > largest:
         largest = i
 print(largest)
+
+Count words in a sentence
+Solution:
+s = "hi how are you"
+words = s.split()
+print(len(words))
