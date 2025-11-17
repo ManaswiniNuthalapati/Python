@@ -278,7 +278,7 @@ for i in lst:
         unique.append(i)
 print(unique)
 
-Check if two strings are anagrams
+# Check if two strings are anagrams
 s1 = "listen"
 s2 = "silent"
 if sorted(s1) == sorted(s2):
