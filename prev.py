@@ -270,7 +270,7 @@ for _ in range(10):
     print(a, end=" ")
     a, b = b, a + b
     
-Remove duplicates from a list
+# Remove duplicates from a list
 lst = [1,2,3,2,1,4,5,4]
 unique = []
 for i in lst:
