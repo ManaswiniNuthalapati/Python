@@ -285,3 +285,10 @@ if sorted(s1) == sorted(s2):
     print("Anagram")
 else:
     print("Not Anagram")
+    
+Find factorial using a loop
+n = 5
+fact = 1
+for i in range(1, n+1):
+    fact *= i
+print(fact)
