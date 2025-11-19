@@ -302,3 +302,15 @@ print(fact)
 '''
 for i in range(1, 5):
     print("*" * i)
+    
+Print even and odd numbers separately from a list
+lst = [10, 3, 5, 8, 2, 7]
+even = []
+odd = []
+for i in lst:
+    if i % 2 == 0:
+        even.append(i)
+    else:
+        odd.append(i)
+print("Even:", even)
+print("Odd:", odd)
