@@ -314,3 +314,9 @@ for i in lst:
         odd.append(i)
 print("Even:", even)
 print("Odd:", odd)
+
+Swap two numbers WITHOUT a third variable
+a = 5
+b = 10
+a, b = b, a
+print(a, b)
