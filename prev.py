@@ -224,3 +224,11 @@ else:
 s = "hi how are you"
 s = "".join(s.split())
 print(s)
+
+Using Loop (if interviewer asks for logic)
+s = "hi how are you"
+result = ""
+for i in s:
+    if i != " ":
+        result += i
+print(result)
