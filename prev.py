@@ -219,3 +219,8 @@ if abs(a - b) > 10:
     print("Difference > 10")
 else:
     print("Difference <= 10")
+    
+# Using split() and join()
+s = "hi how are you"
+s = "".join(s.split())
+print(s)
