@@ -241,3 +241,12 @@ while num > 0:
     rev = rev * 10 + digit  
     num = num // 10         
 print("Reversed number:", rev)
+
+Count vowels in a string
+s = "education"
+vowels = "aeiouAEIOU"
+count = 0
+for i in s:
+    if i in vowels:
+        count += 1
+print(count)
