@@ -250,3 +250,11 @@ for i in s:
     if i in vowels:
         count += 1
 print(count)
+
+Find the largest number in a list (without max())
+lst = [10, 5, 22, 9, 31]
+largest = lst[0]
+for i in lst:
+    if i > largest:
+        largest = i
+print(largest)
