@@ -242,7 +242,7 @@ while num > 0:
     num = num // 10         
 print("Reversed number:", rev)
 
-Count vowels in a string
+# Count vowels in a string
 s = "education"
 vowels = "aeiouAEIOU"
 count = 0
