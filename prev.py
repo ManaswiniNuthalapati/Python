@@ -321,8 +321,7 @@ b = 10
 a, b = b, a
 print(a, b)
 
-Check if a number is prime
-Code:
+# Check if a number is prime
 num = 29
 prime = True
 for i in range(2, num):
