@@ -320,3 +320,16 @@ a = 5
 b = 10
 a, b = b, a
 print(a, b)
+
+Check if a number is prime
+Code:
+num = 29
+prime = True
+for i in range(2, num):
+    if num % i == 0:
+        prime = False
+        break
+if prime:
+    print("Prime")
+else:
+    print("Not Prime")
