@@ -333,7 +333,7 @@ if prime:
 else:
     print("Not Prime")
     
-Print sum of digits of a number
+# Print sum of digits of a number
 num = 123
 s = 0
 while num > 0:
