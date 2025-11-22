@@ -340,3 +340,12 @@ while num > 0:
     s += num % 10
     num //= 10
 print(s)
+
+# Find common elements between two lists
+a = [1,2,3,4]
+b = [3,4,5,6]
+common = []
+for i in a:
+    if i in b:
+        common.append(i)
+print(common)
