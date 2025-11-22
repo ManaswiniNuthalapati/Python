@@ -332,3 +332,11 @@ if prime:
     print("Prime")
 else:
     print("Not Prime")
+    
+Print sum of digits of a number
+num = 123
+s = 0
+while num > 0:
+    s += num % 10
+    num //= 10
+print(s)
