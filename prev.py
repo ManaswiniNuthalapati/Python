@@ -355,7 +355,7 @@ a = int(input())
 b = int(input())
 print(a + b)
 
-Problem 2: Find area of a circle
-r = float(input("Enter radius: "))
+Find area of a circle
+r = float(input())
 area = 3.14159 * r * r
-print("Area =", area)
+print(area)
