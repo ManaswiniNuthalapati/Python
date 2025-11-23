@@ -359,3 +359,10 @@ print(a + b)
 r = float(input())
 area = 3.14159 * r * r
 print(area)
+
+Check if a number is even or odd
+n = int(input("Enter a number: "))
+if n % 2 == 0:
+    print("Even Number")
+else:
+    print("Odd Number")
