@@ -366,3 +366,14 @@ if n % 2 == 0:
     print("Even Number")
 else:
     print("Odd Number")
+    
+Problem 4: Largest of three numbers
+a = int(input())
+b = int(input())
+c = int(input())
+if a > b and a > c:
+    print("Largest is", a)
+elif b > c:
+    print("Largest is", b)
+else:
+    print("Largest is", c)
