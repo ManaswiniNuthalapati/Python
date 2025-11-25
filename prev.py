@@ -377,3 +377,9 @@ elif b>c:
     print(b)
 else:
     print(c)
+    
+Problem 5: Print numbers from 1 to N
+n = int(input("Enter N: "))
+for i in range(1, n + 1):
+    print(i)
+
