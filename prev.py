@@ -383,3 +383,11 @@ n = int(input())
 for i in range(1, n + 1):
     print(i)
 
+Problem 6: Factorial of a number
+n = int(input("Enter a number: "))
+fact = 1
+
+for i in range(1, n + 1):
+    fact = fact * i
+
+print("Factorial =", fact)
