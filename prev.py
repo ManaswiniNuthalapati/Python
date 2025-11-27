@@ -390,11 +390,11 @@ for i in range(1, n + 1):
     fact = fact * i
 print("Factorial =", fact)
 
-Reverse a number
-n = int(input("Enter a number: "))
+# Reverse a number
+n = int(input())
 rev = 0
 while n > 0:
     digit = n % 10
     rev = rev * 10 + digit
     n = n // 10
-print("Reversed number =", rev)
+print(rev)
