@@ -424,3 +424,11 @@ for ch in s:
         count += 1
 print(count)
 
+# Check palindrome
+s = input("Enter string: ")
+if s == s[::-1]:
+    print("Palindrome")
+else:
+    print("Not Palindrome")
+
+
