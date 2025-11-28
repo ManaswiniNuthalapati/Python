@@ -416,11 +416,11 @@ new_list = list(set(lst))
 print(new_list)
 
 # Count vowels in a string
-s = input("Enter string: ")
+s = input()
 vowels = "aeiouAEIOU"
 count = 0
 for ch in s:
     if ch in vowels:
         count += 1
-print("Vowel count =", count)
+print(count)
 
