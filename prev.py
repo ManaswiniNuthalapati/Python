@@ -399,7 +399,7 @@ while n > 0:
     n = n // 10
 print(rev)
 
-Problem 8: Function to check prime number
+# Function to check prime number
 def is_prime(n):
     if n <= 1:
         return False
