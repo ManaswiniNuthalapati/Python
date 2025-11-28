@@ -425,7 +425,7 @@ for ch in s:
 print(count)
 
 # Check palindrome
-s = input("Enter string: ")
+s = input()
 if s == s[::-1]:
     print("Palindrome")
 else:
