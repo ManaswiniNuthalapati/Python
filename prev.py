@@ -415,3 +415,12 @@ lst = [1, 2, 2, 3, 4, 4, 5]
 new_list = list(set(lst))
 print(new_list)
 
+Problem 12: Count vowels in a string
+s = input("Enter string: ")
+vowels = "aeiouAEIOU"
+count = 0
+for ch in s:
+    if ch in vowels:
+        count += 1
+print("Vowel count =", count)
+
