@@ -398,3 +398,15 @@ while n > 0:
     rev = rev * 10 + digit
     n = n // 10
 print(rev)
+
+Problem 8: Function to check prime number
+def is_prime(n):
+    if n <= 1:
+        return False
+    for i in range(2, n):
+        if n % i == 0:
+            return False
+    return True
+num = int(input("Enter number: "))
+print(is_prime(num))
+
