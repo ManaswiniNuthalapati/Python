@@ -410,7 +410,7 @@ def is_prime(n):
 num = int(input("Enter number: "))
 print(is_prime(num))
 
-Problem 11: Remove duplicates from list
+# Remove duplicates from list
 lst = [1, 2, 2, 3, 4, 4, 5]
 new_list = list(set(lst))
 print(new_list)
