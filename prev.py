@@ -432,7 +432,7 @@ else:
     print("Not Palindrome")
 
 # Count Frequency of Each Character in a String
-s = input("Enter a string: ")
+s = input()
 freq = {}
 for ch in s:
     if ch in freq:
