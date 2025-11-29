@@ -441,7 +441,7 @@ for ch in s:
         freq[ch] = 1
 print()
 
-Check if Two Strings are Anagrams
+# Check if Two Strings are Anagrams
 s1 = input("Enter first string: ").replace(" ", "").lower()
 s2 = input("Enter second string: ").replace(" ", "").lower()
 if sorted(s1) == sorted(s2):
