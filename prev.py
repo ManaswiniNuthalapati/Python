@@ -450,7 +450,7 @@ else:
     print("Not Anagram")
     
 # Print Multiplication Table
-n = int(input("Enter a number: "))
+n = int(input())
 for i in range(1, 11):
     print(n, "x", i, "=", n * i)
 
