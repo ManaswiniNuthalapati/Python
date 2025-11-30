@@ -448,6 +448,11 @@ if sorted(s1) == sorted(s2):
     print("Anagram")
 else:
     print("Not Anagram")
+    
+2. Print Multiplication Table
+n = int(input("Enter a number: "))
+for i in range(1, 11):
+    print(n, "x", i, "=", n * i)
 
 
 
