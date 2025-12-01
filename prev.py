@@ -454,7 +454,7 @@ n = int(input())
 for i in range(1, 11):
     print(n, "x", i, "=", n * i)
     
-Find Duplicate Elements in a List
+# Find Duplicate Elements in a List
 lst = [1, 2, 3, 2, 4, 3, 5]
 for i in range(len(lst)):
     for j in range(i + 1, len(lst)):
