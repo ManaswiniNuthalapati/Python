@@ -462,13 +462,13 @@ for i in range(len(lst)):
             print(lst[i])
             
 # Sum of digits of a number
-n = int(input())
-temp = n
-s = 0
-while temp > 0:
-    digit = temp % 10
-    s += digit
-    temp //= 10
+n=int(input())
+temp=n
+s=0
+while temp>0:
+    digit=temp%10
+    s+=digit
+    temp//=10
 print(n, "=", s)
 
 
