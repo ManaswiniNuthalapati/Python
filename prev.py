@@ -478,7 +478,7 @@ for i in nums:
   total+=i
 print(total)
 
-Removing Duplicates
+# Removing Duplicates
 a=[1, 2, 2, 3, 4, 4, 5]
 b=[]
 for x in a:
