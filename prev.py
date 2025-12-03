@@ -471,7 +471,7 @@ while temp>0:
     temp//=10
 print(n, "=", s)
 
-Sum of list elements
+# Sum of list elements
 nums = [10, 20, 30, 40]
 total=0
 for i in nums:
