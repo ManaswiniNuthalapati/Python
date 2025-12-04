@@ -486,6 +486,7 @@ for x in a:
         b.append(x)
 print(b)
 
+
 a="manu"
 b=""
 for ch in a:
