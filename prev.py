@@ -486,7 +486,7 @@ for x in a:
         b.append(x)
 print(b)
 
-
+# Convert string to uppercase without using upper()
 a="manu"
 b=""
 for ch in a:
