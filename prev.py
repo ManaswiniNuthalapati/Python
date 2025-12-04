@@ -486,5 +486,18 @@ for x in a:
         b.append(x)
 print(b)
 
+a="manu"
+b=""
+for ch in a:
+    c=ord(ch)
+    if ch.islower():
+        d=c-32
+        d=chr(d)
+        b+=d
+    else:
+        b+=ch
+print(b)
+        
+
 
 
