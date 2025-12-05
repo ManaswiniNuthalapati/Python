@@ -502,7 +502,13 @@ print(b)
 # print all elements of a list using loop 
 a=[1,2,3,4,5]
 for i in a:
-  print(i)       
+  print(i)   
+  
+# print all even numbers in a list
+a=[1,2,3,4,5,6]
+for i in a:
+  if i%2==0:
+    print(i)    
 
 
 
