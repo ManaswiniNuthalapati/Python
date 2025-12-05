@@ -509,6 +509,14 @@ a=[1,2,3,4,5,6]
 for i in a:
   if i%2==0:
     print(i)    
+    
+# find the sum of all elements in a list
+a=[1,2,3,4,5,6]
+count=0
+for i in a:
+  count+=i
+print(count)
+
 
 
 
