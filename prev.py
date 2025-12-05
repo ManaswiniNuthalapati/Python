@@ -498,7 +498,11 @@ for ch in a:
     else:
         b+=ch
 print(b)
-        
+
+# print all elements of a list using loop 
+a=[1,2,3,4,5]
+for i in a:
+  print(i)       
 
 
 
