@@ -524,5 +524,13 @@ for i in a:
   count+=1
 print(count)
 
+# find the largest num in a list
+a=[1,2,3,4,5]
+large=a[0]
+for i in a:
+    if i>large:
+        large=i
+print(large)
+
 
 
