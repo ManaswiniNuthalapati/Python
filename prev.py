@@ -540,4 +540,16 @@ for i in a:
     b.append(i)
 print(b)
 
+# Count how many times a number appears in a list
+a=[1,2,3,4,3,3,2,5,4,2]
+b=[]
+for i in a:
+    if i not in b:
+        count=0
+        for j in a:
+            if i==j:
+                count+=1
+        print(i,"-",count)
+        b.append(i)
+
 
