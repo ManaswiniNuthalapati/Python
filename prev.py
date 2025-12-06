@@ -552,4 +552,15 @@ for i in a:
         print(i,"-",count)
         b.append(i)
 
+# Count how many even and odd numbers are present
+a=[1,2,5,3,7,5,4,8]
+even=0
+odd=0
+for i in a:
+  if i%2==0:
+    even+=1
+  else:
+    odd+=1
+print("Odd:",odd)
+print("Even:",even)
 
