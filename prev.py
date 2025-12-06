@@ -571,3 +571,22 @@ for i in a:
   if i>10:
     b.append(i)
 print(b)
+
+# Reverse a list
+a=[1,2,3,4,5]
+rev=[]
+for i in range(len(a)-1,-1,-1):
+    rev.append(a[i])
+print(rev)
+
+# find the second largest number
+a=[12,43,56,34,75]
+large=a[0]
+second=a[0]
+for i in a:
+    if i>large:
+        second=large
+        large=i
+    elif i>second and i!=large:
+        second=i
+print(second)
