@@ -564,3 +564,10 @@ for i in a:
 print("Odd:",odd)
 print("Even:",even)
 
+# Print numbers greater than 10 from a list
+a=[1,4,7,98,564,567,43,4,76,98,4,3,2,6]
+b=[]
+for i in a:
+  if i>10:
+    b.append(i)
+print(b)
