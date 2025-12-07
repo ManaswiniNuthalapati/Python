@@ -605,3 +605,14 @@ else:
 a=[1,2,3,4]
 b=[5,6,7,8]
 print(a+b)
+
+# Print common elements in a new list
+a=[1,2,3,4,5,6]
+b=[4,5,6,3,8,9]
+li=[]
+for i in a:
+  for j in b:
+    if i==j:
+      li.append(i)
+print(li)
+    
