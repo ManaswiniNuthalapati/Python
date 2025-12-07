@@ -615,4 +615,16 @@ for i in a:
     if i==j:
       li.append(i)
 print(li)
-    
+
+# Shift all zeroes to the end
+a=[1,3,8,0,5,7,0,8,0]
+b=[]
+count=0
+for i in a:
+    if i==0:
+        count+=1
+    else:
+        b.append(i)
+for i in range(count):
+    b.append(0)
+print(b)   
