@@ -590,3 +590,13 @@ for i in a:
     elif i>second and i!=large:
         second=i
 print(second)
+
+# check if the list is palindrome or not
+a=[1,2,3,2,1]
+rev=[]
+for i in range(len(a)-1,-1,-1):
+  rev.append(a[i])
+if a==rev:
+  print("Yes")
+else:
+  print("No")
