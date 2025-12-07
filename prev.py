@@ -637,3 +637,10 @@ for i in range(n):
         if a[i]>a[j]:
             a[i],a[j]=a[j],a[i]
 print(a)
+
+# Missing values in a list from 1 to n
+a=[1,2,4,5]
+n=5
+for i in range(1,n+1):
+    if i not in a:
+        print(i)
