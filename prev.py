@@ -600,3 +600,8 @@ if a==rev:
   print("Yes")
 else:
   print("No")
+  
+# Merge two lists into one
+a=[1,2,3,4]
+b=[5,6,7,8]
+print(a+b)
