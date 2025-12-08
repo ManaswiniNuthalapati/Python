@@ -39,4 +39,15 @@ for i in a:
         print("True")
     else:
         print("False")
-        
+      
+# Count how many times a specific element appears in a tuple.
+a=(1,3,2,1,4,3,2,5)  
+b=1
+c=a.count(b)
+print(c)
+
+# Find the index of a given element in a tuple.
+a=(1,2,3,4,5)
+b=2
+c=a.index(b)
+print(c)
