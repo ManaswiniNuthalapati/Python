@@ -21,3 +21,22 @@ print(a[0])
 # Write a program to print the last element of a tuple using negative indexing.
 a=(1,2,3,4,5)
 print(a[-1])
+
+# find the length of the tuple
+a=(1,2,3,4,5)
+print(len(a))
+
+# Loop through a tuple and print all elements.
+a=(1,2,3,4,5)
+for i in a:
+    print(a)
+    
+# Check whether a given element exists in a tuple.
+a=(1,2,3,4,5)
+b=1
+for i in a:
+    if b in a:
+        print("True")
+    else:
+        print("False")
+        
