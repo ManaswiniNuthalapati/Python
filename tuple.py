@@ -51,3 +51,17 @@ a=(1,2,3,4,5)
 b=2
 c=a.index(b)
 print(c)
+
+# Print the middle element of a tuple.
+a=(1,2,3,4,5)
+b=len(a)//2
+print(a[b])
+
+# Create a tuple with one element and print its data type.
+a=("apple")
+print(type(a))
+
+# Convert a list into a tuple.
+li=[1,2,3,4,5]
+tup=tuple(li)
+print(tup)
