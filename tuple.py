@@ -14,3 +14,10 @@ print(a)
 a=(1,"python",20.5,True)
 print(a)
 
+# Write a program to print the first element of a tuple.
+a=(1,2,3,4,5)
+print(a[0])
+
+# Write a program to print the last element of a tuple using negative indexing.
+a=(1,2,3,4,5)
+print(a[-1])
