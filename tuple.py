@@ -101,3 +101,19 @@ print(max)
 a=(1,2,3,4,5)
 rev=a[::-1]
 print(rev)
+
+# print only even numbers and odd numbers separately in a tuple
+a=(1,2,3,4,5,6,7,8,9)
+even=[]
+odd=[]
+for i in a:
+  if i%2==0:
+    even.append(i)
+  else:
+    odd.append(i)
+print(tuple(even))
+print(tuple(odd))
+
+# Create a nested tuple and print an inner element
+a=(1,2,(10,20,30),3)
+print(a[2][2])
