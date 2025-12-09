@@ -67,6 +67,9 @@ tup=tuple(li)
 print(tup)
 
 # Convert a tuple into list
+a=(1,2,3,4,5)
+li=list(a)
+print(li)
 
 # Add a new element to a tuple by using conversion.
 a=(1,2,3,4,5)
