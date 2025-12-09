@@ -86,7 +86,7 @@ print(total)
 a=(1,2,3,4,5)
 print(min(a))
 print(max(a))
-                 OR
+                 # OR
 a=(1,2,3,4,5)
 max,min=a[0]
 for i in a:
