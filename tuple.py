@@ -65,3 +65,39 @@ print(type(a))
 li=[1,2,3,4,5]
 tup=tuple(li)
 print(tup)
+
+# Add a new element to a tuple by using conversion.
+a=(1,2,3,4,5)
+b=list(a)
+print(b)
+b.append(6)
+print(b)
+c=tuple(b)
+print(c)
+
+# create a tuple and find its sum of all elements
+a=(1,2,3,4,5)
+total=0
+for i in a:
+  total+=i
+print(total)
+
+# Find the maximum and minimum value in a tuple.
+a=(1,2,3,4,5)
+print(min(a))
+print(max(a))
+                 # OR
+a=(1,2,3,4,5)
+max,min=a[0]
+for i in a:
+    if max>i:
+        min=i
+    else:
+        max=i
+print(min)
+print(max)
+
+# reverse a tuple using slicing
+a=(1,2,3,4,5)
+rev=a[::-1]
+print(rev)
