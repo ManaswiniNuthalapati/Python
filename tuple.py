@@ -131,13 +131,13 @@ for i in t:
 print(total)
 
 # Find the Maximum and Minimum Element in a Tuple
-t = (45, 12, 89, 33, 6)
-max_num = t[0]
-min_num = t[0]
+t=(45, 12, 89, 33, 6)
+max=t[0]
+min=t[0]
 for i in t:
-    if i > max_num:
-        max_num = i
-    if i < min_num:
-        min_num = i
-print("Maximum value:", max_num)
-print("Minimum value:", min_num)
+    if i>max:
+        max=i
+    if i<min:
+        min=i
+print(max)
+print(min)
