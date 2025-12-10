@@ -131,7 +131,7 @@ for i in t:
 print(total)
 
 # Find the Maximum and Minimum Element in a Tuple
-t=(45, 12, 89, 33, 6)
+t=(45,12,89,33,6)
 max=t[0]
 min=t[0]
 for i in t:
