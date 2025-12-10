@@ -122,3 +122,10 @@ print(tuple(odd))
 # Create a nested tuple and print an inner element
 a=(1,2,(10,20,30),3)
 print(a[2][2])
+
+# Create a tuple of numbers and find the sum of all its elements.
+t = (10, 20, 30, 40, 50)
+total = 0
+for i in t:
+    total += i
+print("Sum of tuple elements:", total)
