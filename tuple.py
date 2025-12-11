@@ -148,3 +148,7 @@ if len(t)==0:
     print("Tuple is empty")
 else:
     print("Tuple is not empty")
+    
+# create a tuple and print only first 3 names
+s=("Asha","Ravi","Kiran","Megha","Sita")
+print(s[:3])
