@@ -142,9 +142,9 @@ for i in t:
 print(max)
 print(min)
 
-Create a tuple and check whether it is empty or not.
-t = ()
-if len(t) == 0:
+# Create a tuple and check whether it is empty or not.
+t=()
+if len(t)==0:
     print("Tuple is empty")
 else:
     print("Tuple is not empty")
