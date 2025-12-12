@@ -198,3 +198,17 @@ if a==rev:
 else:
   print("Not")
 
+# find the second largest number in atuple
+a=(12,46,76,43,54)
+large=a[0]
+sec=a[0]
+for i in a:
+  if i>large:
+    sec=large
+    large=i
+  elif i>sec and i!=large:
+    sec=i
+print(large)
+print(sec)
+  
+
