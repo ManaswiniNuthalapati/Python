@@ -152,3 +152,9 @@ else:
 # create a tuple and print only first 3 names
 s=("Asha","Ravi","Kiran","Megha","Sita")
 print(s[:3])
+
+# Print all elements at even index positions from a tuple.
+a=(10,20,30,40,50)
+for i in range(len(a)):
+    if i%2==0:
+        print(a[i])
