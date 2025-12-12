@@ -211,4 +211,10 @@ for i in a:
 print(large)
 print(sec)
   
-
+# remove all duplictes from a tuple
+a=(1,4,3,5,1,4,3,6)
+t=()
+for i in a:
+  if i not in t:
+    t+=(i,)
+print(t)
