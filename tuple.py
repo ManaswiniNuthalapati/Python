@@ -185,3 +185,16 @@ prod=1
 for i in a:
   prod=prod*i
 print(prod)
+
+# Check whether a tuple is a palindrome or not.
+#(Example: (1, 2, 3, 2, 1))
+a=(1,2,3,2,1)
+rev=()
+for i in a:
+  rev=(i,)+rev
+print(rev)
+if a==rev:
+  print("Palindrome")
+else:
+  print("Not")
+
