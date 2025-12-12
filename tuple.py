@@ -178,3 +178,10 @@ a=(23,6,10,20,60,55,98)
 for i in a:
   if i%5==0:
     print(i)
+    
+# Find the product of all elements in a tuple.
+a=(1,2,3,4,5)
+prod=1
+for i in a:
+  prod=prod*i
+print(prod)
