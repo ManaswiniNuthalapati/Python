@@ -218,3 +218,18 @@ for i in a:
   if i not in t:
     t+=(i,)
 print(t)
+
+# Swap first and last element in a tuple
+a=(1,4,3,2,6)
+lst=list(a)
+lst[0],lst[-1]=lst[-1],lst[0]
+a=tuple(lst)
+print(a)
+
+# Split a tuple into wo equal halves
+a=(1,2,3,4,5,6)
+mid=len(a)//2
+fir=a[:mid]
+sec=a[mid:]
+print(fir)
+print(sec)
