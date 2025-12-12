@@ -158,3 +158,23 @@ a=(10,20,30,40,50)
 for i in range(len(a)):
     if i%2==0:
         print(a[i])
+        
+# Print all elements at odd index positions from a tuple.
+a=(1,20,30,40,50,60)
+for i in range(len(a)):
+  if i%2!=0:
+    print(a[i])
+    
+# Count how many elements are greater than 50 in a tuple.
+a=(23,54,6,7,87,4,3,22)
+count=0
+for i in a:
+  if i>50:
+    count+=1
+print(count)
+
+# Create a tuple of 10 numbers and print only numbers divisible by 5.
+a=(23,6,10,20,60,55,98)
+for i in a:
+  if i%5==0:
+    print(i)
