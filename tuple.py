@@ -233,3 +233,26 @@ fir=a[:mid]
 sec=a[mid:]
 print(fir)
 print(sec)
+
+# Create an empty tuple and print it.
+a=()
+print(a)
+
+# Create a tuple using the tuple() constructor.
+a=tuple([1,2,3])
+print(a)
+
+#Create a tuple of characters from a string.
+a=tuple("Python")
+print(a)
+
+# Print the data type of an empty tuple.
+a=(1,2,3)
+print(type(a))
+
+# Create a tuple of 3 numbers and unpack them into 3 variables.
+a=(1,2,3)
+b,c,d=a
+print(b)
+print(c)
+print(d)
