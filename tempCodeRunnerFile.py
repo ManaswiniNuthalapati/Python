@@ -1,6 +1,6 @@
-a=(2,-1,5,-3,6,-9,4-6)
-b=list(a)
-for i in range(len(b)):
-  if b[i]<0:
-    b[i]=0
+a=(2,5,4,6,2,1,8,9,1)
+b=()
+for i in a:
+  if a.count(i)>1 and i not in b:
+    b=b+(i,)
 print(b)

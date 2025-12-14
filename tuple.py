@@ -308,4 +308,10 @@ print(large)
 print(small)
 print("Difference:",large-small)
 
-    
+  # # Find all elements that appear more than once in a tuple.
+a=(2,5,4,6,2,1,8,9,1)
+b=()
+for i in a:
+  if a.count(i)>1 and i not in b:
+    b=b+(i,)
+print(b)
