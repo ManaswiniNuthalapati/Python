@@ -293,3 +293,19 @@ for i in range(len(b)):
   if b[i]<0:
     b[i]=0
 print(b)
+
+# Find the difference between the largest and smallest element in a tuple.
+
+a=(4,3,9,5,8,6,2)
+large=a[0]
+small=a[0]
+for i in a:
+    if i>large:
+        large=i
+    if i<small:
+        small=i
+print(large)
+print(small)
+print("Difference:",large-small)
+
+    
