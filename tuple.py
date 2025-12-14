@@ -285,3 +285,11 @@ print(a[-3])
 days=("mon","tue","wed","thur","fri","sat","sun")
 for i in range(len(days)):
   print(i,days[i])
+  
+# # Create a tuple and replace all negative numbers with 0
+a=(2,-1,5,-3,6,-9,4-6)
+b=list(a)
+for i in range(len(b)):
+  if b[i]<0:
+    b[i]=0
+print(b)
