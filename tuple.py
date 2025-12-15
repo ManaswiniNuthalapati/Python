@@ -286,7 +286,7 @@ days=("mon","tue","wed","thur","fri","sat","sun")
 for i in range(len(days)):
   print(i,days[i])
   
-# # Create a tuple and replace all negative numbers with 0
+# Create a tuple and replace all negative numbers with 0
 a=(2,-1,5,-3,6,-9,4-6)
 b=list(a)
 for i in range(len(b)):
@@ -315,3 +315,10 @@ for i in a:
   if a.count(i)>1 and i not in b:
     b=b+(i,)
 print(b)
+
+Convert tuple to list and add element
+a = (1, 2, 3)
+b = list(a)
+b.append(4)
+a = tuple(b)
+print(a)
