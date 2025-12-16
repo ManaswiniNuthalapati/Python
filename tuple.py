@@ -327,6 +327,6 @@ print(a)
 a=(1,2,3,4,5)
 b=(1,2,3,4,5)
 if a==b:
-      print("Equal")
+  print("Equal")
 else:
-      print("Not Equal")
+  print("Not Equal")
