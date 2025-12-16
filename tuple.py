@@ -322,3 +322,11 @@ b = list(a)
 b.append(4)
 a = tuple(b)
 print(a)
+
+# Create two tuples and check whether they are equal.
+a=(1,2,3,4,5)
+b=(1,2,3,4,5)
+if a==b:
+      print("Equal")
+else:
+      print("Not Equal")
