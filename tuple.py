@@ -415,3 +415,8 @@ print(tuple(a[fir:last]))
 # Creating a tuple
 a=input().split()
 print(tuple(a))
+
+# Concatenation of tuples
+a=input().split()
+b=input().split()
+print(tuple(a+b))
