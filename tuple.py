@@ -405,3 +405,9 @@ for i in range(len(a)):
 a=input().split()
 index=int(input())
 print(a[index])
+
+# Using Slicing
+a=input().split()
+fir=int(input())
+last=int(input())
+print(tuple(a[fir:last]))
