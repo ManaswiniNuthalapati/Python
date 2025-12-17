@@ -428,6 +428,12 @@ while "" in b:
     b.remove("")
 print(tuple(b))
 
+# Merge a list and tuple into a single tuple
+a=[1,2,3]
+b=(4,5,6)
+b=list(b)
+print(tuple(a+b))
+
 # Find the **second smallest** element in a tuple.
 a=(5,4,3,8,7)
 b=list(a)
