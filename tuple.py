@@ -421,6 +421,13 @@ a=input().split()
 b=input().split()
 print(tuple(a+b))
 
+# Remove empty strings from a tuple.
+a=("hi","","yoo","hello","")
+b=list(a)
+while "" in b:
+    b.remove("")
+print(tuple(b))
+
 # Find the **second smallest** element in a tuple.
 a=(5,4,3,8,7)
 b=list(a)
@@ -473,4 +480,4 @@ for words in a:
         if i in "AEIOUaeiou":
             count+=1
 print(count)
-        
+
