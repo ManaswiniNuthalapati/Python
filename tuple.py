@@ -411,3 +411,7 @@ a=input().split()
 fir=int(input())
 last=int(input())
 print(tuple(a[fir:last]))
+
+# Creating a tuple
+a=input().split()
+print(tuple(a))
