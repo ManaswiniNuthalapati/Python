@@ -400,3 +400,8 @@ a=(4,1,6,98,4,65,6)
 for i in range(len(a)):
     if i==a[i]:
       print("index:",i,"value:",a[i])
+  
+# Accessing tuples
+a=input().split()
+index=int(input())
+print(a[index])
