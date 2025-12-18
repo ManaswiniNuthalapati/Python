@@ -452,3 +452,12 @@ print(res)
 # Count how many elements are present inside a nested tuple (total count).
 a=(1,2,(3,4,5),6,7)
 print(len(a[2]))
+
+# Find the maximum element inside a nested tuple.
+a=(1,8,6,(9,5,3,2),19,10,12)
+max=a[3][0]
+for i in a[3]:
+    if i>max:
+        max=i
+print(max)
+    
