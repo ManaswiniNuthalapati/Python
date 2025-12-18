@@ -435,4 +435,9 @@ for i in b:
 print(small)
 print(sec)
         
-    
+# left rotate tuple
+a=(1,2,3,4)
+b=1
+b=b%len(a)
+res=a[b:]+a[:b]
+print(res) 
