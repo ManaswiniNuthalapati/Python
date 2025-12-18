@@ -464,3 +464,13 @@ print(max)
 # Access the last element of the inner tuple in a nested tuple.
 a=(1,2,(3,4,5),(6,7,8))
 print(a[3][-1])
+
+# Count vowels present in a tuple of characters.
+a=("apple","banana","orange")
+count=0
+for words in a:
+    for i in words:
+        if i in "AEIOUaeiou":
+            count+=1
+print(count)
+        
