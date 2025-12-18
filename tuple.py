@@ -448,3 +448,7 @@ b=1
 b=b%len(a)
 res=a[-b:]+a[:b]
 print(res)
+
+# Count how many elements are present inside a nested tuple (total count).
+a=(1,2,(3,4,5),6,7)
+print(len(a[2]))
