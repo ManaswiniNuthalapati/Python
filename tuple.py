@@ -460,4 +460,7 @@ for i in a[3]:
     if i>max:
         max=i
 print(max)
-    
+
+# Access the last element of the inner tuple in a nested tuple.
+a=(1,2,(3,4,5),(6,7,8))
+print(a[3][-1])
