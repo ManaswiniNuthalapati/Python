@@ -491,4 +491,11 @@ print(count)
 arr=()
 for i in arr:
   print(i-1, end=" ")
+                         # OR
+arr=()
+result = []
+for i in arr:
+  result.append(i - 1)
+print(tuple(result))
+
 
