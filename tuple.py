@@ -499,4 +499,7 @@ for i in arr:
 print(tuple(result))
 
 # Unpacking Tuple
+a = (10,20,30)
+x,y,z = a
+print(x,y,z)
 
