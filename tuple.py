@@ -506,3 +506,5 @@ print(x,y,z)
 # Check if element exists
 a = (5,10,15,20)
 print(15 in a)
+
+# Convert tuple to list & modify
