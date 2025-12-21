@@ -508,3 +508,8 @@ a = (5,10,15,20)
 print(15 in a)
 
 # Convert tuple to list & modify
+a = (10,20,30,40)
+b = list(a)
+b[2] = 300
+a = tuple(b)
+print(a)
