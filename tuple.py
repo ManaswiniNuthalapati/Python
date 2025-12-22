@@ -513,3 +513,5 @@ b = list(a)
 b[2] = 300
 a = tuple(b)
 print(a)
+
+# Remove empty strings
