@@ -515,3 +515,6 @@ a = tuple(b)
 print(a)
 
 # Remove empty strings
+a = ("hi","","hello","","bye")
+a = tuple(x for x in a if x != "")
+print(a)
