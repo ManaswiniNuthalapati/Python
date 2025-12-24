@@ -15,4 +15,7 @@ union()     # Combine sets
 intersection() # Common elements
 difference()   # Elements in A not in B
 '''
+# Create a set
+s={1,2,3,4}
+print(s)
 
