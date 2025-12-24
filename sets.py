@@ -19,3 +19,9 @@ difference()   # Elements in A not in B
 s={1,2,3,4}
 print(s)
 
+# Create a set and remove duplicates
+a=[1,2,2,3,4,4,5]
+b=set(a)
+print(b)
+
+
