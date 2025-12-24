@@ -30,5 +30,10 @@ s.add(4)
 s.remove(2)
 print(s)
 
+# Find common elements between two sets
+A = {1,2,3,4}
+B = {3,4,5,6}
+print(A.intersection(B))
+
 
 
