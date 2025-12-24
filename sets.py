@@ -24,4 +24,11 @@ a=[1,2,2,3,4,4,5]
 b=set(a)
 print(b)
 
+# Add and Remove elements
+s={1,2,3}
+s.add(4)
+s.remove(2)
+print(s)
+
+
 
