@@ -35,5 +35,9 @@ A={1,2,3,4}
 B={3,4,5,6}
 print(A.intersection(B))
 
+# Find elements present in Set A but not in Set B
+A={10,20,30,40}
+B={30,40,50}
+print(A.difference(B))
 
 
