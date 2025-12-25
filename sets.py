@@ -46,7 +46,7 @@ B={1,2,3,4,5}
 print(A.issubset(B))
 
 # Check if value exists
-s = {5,10,15,20}
+s={5,10,15,20}
 print(10 in s)
 
 
