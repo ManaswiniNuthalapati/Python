@@ -40,4 +40,10 @@ A={10,20,30,40}
 B={30,40,50}
 print(A.difference(B))
 
+# Check if Set is Subset
+A={1,2,3}
+B={1,2,3,4,5}
+print(A.issubset(B))
+
+
 
