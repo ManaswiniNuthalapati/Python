@@ -76,3 +76,12 @@ B = {3,4,5,6}
 A={1,2,3,4}
 B={3,4,5,6}
 print(A.intersection(B))
+
+'''
+find difference A - B
+A = {10,20,30,40}
+B = {30,40,50}
+'''
+A={10,20,30,40}
+B={30,40,50}
+print(A.difference(B))
