@@ -104,4 +104,7 @@ if A.disjoint(B):
     print("Yes Disjoint")
 else:
     print("No")
-    
+
+# Convert string "banana" to a set.
+a=set("banana")
+print(a)
