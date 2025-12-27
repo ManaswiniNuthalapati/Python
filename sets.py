@@ -85,3 +85,15 @@ B = {30,40,50}
 A={10,20,30,40}
 B={30,40,50}
 print(A.difference(B))
+
+'''
+Check whether these sets are disjoint:
+A = {1,5,9}
+B = {2,4,6}
+'''
+A={1,5,9}
+B={2,4,6}
+if not A.intersection(B):
+  print("Yes Disjoint")
+else:
+  print("No")
