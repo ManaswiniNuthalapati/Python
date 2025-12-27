@@ -97,3 +97,11 @@ if not A.intersection(B):
   print("Yes Disjoint")
 else:
   print("No")
+                  #OR
+A={1,5,9}
+B={2,4,6}
+if A.disjoint(B):
+    print("Yes Disjoint")
+else:
+    print("No")
+    
