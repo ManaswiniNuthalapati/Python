@@ -58,3 +58,12 @@ print(a)
 a={1,2,3,4,5}
 b=a.remove(3)
 print(a)
+
+'''
+Find union of:
+A={1,2,3}
+B={3,4,5}
+'''
+A ={1,2,3}
+B ={3,4,5}
+print(A.union(B))
