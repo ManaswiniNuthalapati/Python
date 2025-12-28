@@ -54,4 +54,7 @@ a={1,2,3,4,5}
 b=a.add(6)
 print(a)
 
-
+# Remove an element
+a={1,2,3,4,5}
+b=a.remove(3)
+print(a)
