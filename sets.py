@@ -49,6 +49,9 @@ print(A.issubset(B))
 s={5,10,15,20}
 print(10 in s)
 
-
+# Add an element
+a={1,2,3,4,5}
+b=a.add(6)
+print(a)
 
 
