@@ -117,3 +117,13 @@ B = {1,2,3,4}
 A = {1,2}
 B = {1,2,3,4}
 print(A.issubset(B))
+
+'''
+Find symmetric difference
+A = {1,2,3}
+B = {3,4,5}
+'''
+A = {1,2,3}
+B = {3,4,5}
+print(A.symmetric_difference(B))
+
