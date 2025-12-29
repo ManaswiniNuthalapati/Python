@@ -144,3 +144,15 @@ A = {1,2,3,4}
 B = {2,3,5}
 C = {2,3,6}
 print(A.intersection(B).intersection(C))
+
+'''
+Given a list:
+nums = [1,1,2,3,4,4,5,6,6]
+Find number of unique elements using set.'''
+nums = [1,1,2,3,4,4,5,6,6]
+s=set(nums)
+count=0
+for i in s:
+  count+=1
+print("Set is: ",s,"\n""Count is: ",count)
+
