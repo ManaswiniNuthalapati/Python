@@ -134,3 +134,13 @@ remove 5'''
 s={1,2,3}
 a=s.discard(5)
 print(s)
+
+'''
+Find common items between 3 sets:
+A = {1,2,3,4}
+B = {2,3,5}
+C = {2,3,6}'''
+A = {1,2,3,4}
+B = {2,3,5}
+C = {2,3,6}
+print(A.intersection(B).intersection(C))
