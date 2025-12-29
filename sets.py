@@ -108,3 +108,12 @@ else:
 # Convert string "banana" to a set.
 a=set("banana")
 print(a)
+
+'''
+Check if A is a subset of B
+A = {1,2}
+B = {1,2,3,4}
+'''
+A = {1,2}
+B = {1,2,3,4}
+print(A.issubset(B))
