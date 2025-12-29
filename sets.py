@@ -127,3 +127,10 @@ A = {1,2,3}
 B = {3,4,5}
 print(A.symmetric_difference(B))
 
+'''
+Remove an element safely (without error) from:
+s = {1,2,3}
+remove 5'''
+s={1,2,3}
+a=s.discard(5)
+print(s)
