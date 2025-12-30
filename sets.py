@@ -198,3 +198,13 @@ print(A-B)
 print(B-A)
 print(A.intersection(B))
 print(U-(A.union(B)))
+
+# Convert list → set and check if length reduced (means duplicates existed or not).
+a=[1,2,3,4,4]
+b=set(a)
+if len(b)==len(a):
+  print("Duplicates not exist")
+else:
+  print("Exists")
+  
+  
