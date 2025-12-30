@@ -168,3 +168,8 @@ if len(a)==len(b):
   else:
     print("No")
   
+# Given a sentence "hello world hello python world", print only unique words.
+a="hello world hello python world"
+b=a.split()
+print(set(b))
+  
