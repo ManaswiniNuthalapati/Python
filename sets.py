@@ -182,3 +182,19 @@ if set(s1)==set(s2):
   print("True")
 else:
   print("False")
+  
+'''
+A = {1,2,3,4,5}
+B = {3,4,5,6,7}
+Find:
+✔ elements only in A
+✔ elements only in B
+✔ elements in both
+✔ elements in none if universal = {1..7}'''
+A = {1,2,3,4,5}
+B = {3,4,5,6,7}
+U = {1,2,3,4,5,6,7}
+print(A-B)
+print(B-A)
+print(A.intersection(B))
+print(U-(A.union(B)))
