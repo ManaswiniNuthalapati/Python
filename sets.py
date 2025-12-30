@@ -156,3 +156,15 @@ for i in s:
   count+=1
 print("Set is: ",s,"\n""Count is: ",count)
 
+# Write logic to check if two lists contain same elements ignoring order.
+# Example: [1,2,3] and [3,2,1]
+a=[1,2,3]
+b=[4,2,1]
+a.sort()
+b.sort()
+if len(a)==len(b):
+  if a==b:
+    print("same")
+  else:
+    print("No")
+  
