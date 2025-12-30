@@ -207,4 +207,7 @@ if len(b)==len(a):
 else:
   print("Exists")
   
-  
+# check whether set A is a proper subset of B
+a={1,2}
+b={1,2,3}
+print(a<b)
