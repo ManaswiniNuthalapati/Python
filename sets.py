@@ -172,4 +172,13 @@ if len(a)==len(b):
 a="hello world hello python world"
 b=a.split()
 print(set(b))
-  
+
+# Check if two sentences are made with the same set of words (order can differ
+S1="I love coding"
+S2="coding I love"
+s1=S1.lower().split()
+s2=S2.lower().split()
+if set(s1)==set(s2):
+  print("True")
+else:
+  print("False")
