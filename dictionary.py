@@ -33,5 +33,12 @@ print(d.get("name"))
 d["city"] = "Hyderabad"   # add
 d["name"] = "Dict"        # update
 
+# Removing Items
+d.pop("city")       # removes specific key
+d.popitem()         # removes last inserted key-value pair
+del d["name"]       # deletes a key using del keyword
+d.clear()           # removes all items (dictionary becomes empty)
+del d               # deletes the entire dictionary from memory
+
 
 
