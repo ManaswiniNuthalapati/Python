@@ -29,4 +29,9 @@ print(d["name"])
 # Access using get()
 print(d.get("name"))
 
+# Adding and Updating
+d["city"] = "Hyderabad"   # add
+d["name"] = "Dict"        # update
+
+
 
