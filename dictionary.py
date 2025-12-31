@@ -84,3 +84,17 @@ a={"name":"Manaswini", "age":19, "city":"Hyderabad"}
 print(a.keys())
 print(a.values())
 print(a.items())
+
+#Find length of dictionary
+a={"name":"Manaswini", "age":19, "city":"Hyderabad"}
+print(len(a))
+
+# Copy dictionary
+a={"name":"Manaswini", "age":19}
+b=a.copy()
+print(b)
+
+
+# Clear dictionary
+a={"name":"Manaswini", "age":19}
+a.clear()
