@@ -74,3 +74,7 @@ for i in a:
     count[i]=1
 print(count)
 
+# Convert two lists → dictionary
+a=["name","Manu","age",19]
+b=["manu","name",19,"age"]
+print(dict(zip(a,b)))
