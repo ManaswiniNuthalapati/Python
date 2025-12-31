@@ -64,3 +64,13 @@ print(a)
 a={"name":"Manaswini", "age":19, "city":"Hyderabad"}
 print("name" in a)
 
+# Count frequency of elements in a list using dictionary
+a=["name","Manaswini", "age","age", "city","Hyderabad"]
+count={}
+for i in a:
+  if i in count:
+    count[i]+=1
+  else:
+    count[i]=1
+print(count)
+
