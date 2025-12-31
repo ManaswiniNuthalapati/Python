@@ -17,3 +17,14 @@ print(d1)
 d2=dict(a ="Geeks", b ="for", c ="Geeks")
 print(d2)
 
+#Accessing Dictionary Items
+'''
+We can access a value from a dictionary by using the key within square brackets or get() method.
+'''
+d={"name":"John",1:"Python",(1, 2):[1,2,4]}
+# Access using key
+print(d["name"])
+# Access using get()
+print(d.get("name"))
+
+
