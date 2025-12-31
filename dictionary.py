@@ -78,3 +78,9 @@ print(count)
 a=["name","Manu","age",19]
 b=["manu","name",19,"age"]
 print(dict(zip(a,b)))
+
+# Get only keys / values / items
+a={"name":"Manaswini", "age":19, "city":"Hyderabad"}
+print(a.keys())
+print(a.values())
+print(a.items())
