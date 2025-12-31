@@ -40,5 +40,10 @@ del d["name"]       # deletes a key using del keyword
 d.clear()           # removes all items (dictionary becomes empty)
 del d               # deletes the entire dictionary from memory
 
-
+# Important Dictionary Methods
+'''
+d.keys()      # returns all keys
+d.values()    # returns all values
+d.items()     # returns key-value pairs
+'''
 
