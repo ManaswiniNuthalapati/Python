@@ -47,3 +47,20 @@ d.values()    # returns all values
 d.items()     # returns key-value pairs
 '''
 
+# Create a dictionary & access values
+a={"name":"Manaswini", "age":19, "city":"Hyderabad"}
+print(a)
+print(a["name"])
+
+
+# Add / Update / Delete keys
+a={"name":"Manaswini", "age":19, "city":"Hyderabad"}
+a["Branch"]="DS"
+print(a)
+a["name"]="Manaswini Nuthalapati"
+print(a)
+
+# Check if key exists
+a={"name":"Manaswini", "age":19, "city":"Hyderabad"}
+print("name" in a)
+
