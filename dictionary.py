@@ -1,10 +1,12 @@
 # DICTIONARIES
 '''
-Python dictionary is a data structure that stores the value in key: value pairs. Values in a dictionary can be of any data type
-and can be duplicated, whereas keys can't be repeated and must be immutable.
-    Keys are case sensitive which means same name but different cases of Key will be treated distinctly.
-    Keys must be immutable which means keys can be strings, numbers or tuples but not lists.
-    Internally uses hashing. Hence, operations like search, insert, delete can be performed in Constant Time.
+Written inside { }
+Data stored as key : value
+Keys must be unique
+Keys must be immutable (string, number, tuple)
+Values can be any data type
+Dictionaries are mutable (you can change them)
+They are unordered (Python 3.7+ maintains insertion order)
 '''
 
 # Creation Of Dictionary
