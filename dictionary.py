@@ -110,3 +110,30 @@ print(max(a.values()))
 a={"name":"Manaswini", "age":"19", "city":"Hyderabad"}
 print(sorted(a.keys()))
 print(sorted(a.values()))
+
+
+# Merge two dictionaries
+a={"name":"Manaswini", "age":"19", "city":"Hyderabad"}
+b={"city":"Warangal"}
+c={**a,**b}
+print(c)
+
+# Check if two dictionaries are equal
+a={"name":"Manaswini", "age":"19", "city":"Hyderabad"}
+b={"name":"vinaya", "age":"19", "city":"Warangal"}
+print(a==b)
+
+#Get value with get() safely
+a={"name":"Manaswini", "age":"19", "city":"Hyderabad"}
+print(a.get("name"))
+
+# Create dictionary using dict comprehension
+a=dict(name="Manaswini", age="19", city="Hyderabad")
+print(a)
+
+# Reverse keys & values (if unique)
+a={"name":"Manaswini", "age":"19", "city":"Hyderabad"}
+rev={}
+for key,value in a.items():
+  rev[value]=key
+print(rev)
