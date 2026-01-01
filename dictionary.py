@@ -103,3 +103,10 @@ a.clear()
 a={"id":1, "age":19, "marks":96}
 print(min(a.values()))
 print(max(a.values()))
+
+# Sort dictionary
+#by keys
+#by values
+a={"name":"Manaswini", "age":"19", "city":"Hyderabad"}
+print(sorted(a.keys()))
+print(sorted(a.values()))
