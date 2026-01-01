@@ -98,3 +98,8 @@ print(b)
 # Clear dictionary
 a={"name":"Manaswini", "age":19}
 a.clear()
+
+# Find the maximum & minimum value in a dictionary
+a={"id":1, "age":19, "marks":96}
+print(min(a.values()))
+print(max(a.values()))
