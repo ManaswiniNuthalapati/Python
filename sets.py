@@ -216,3 +216,10 @@ print(a<b)
 a=[1,2,2,3,4,4,5]
 result=set(a)
 print(result)
+
+# Check if a set is empty
+s = set()
+if not s:
+    print("Set is empty")
+else:
+    print("Set is not empty")
