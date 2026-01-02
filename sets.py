@@ -218,7 +218,7 @@ result=set(a)
 print(result)
 
 # Check if a set is empty
-s = set()
+s=set()
 if not s:
     print("Set is empty")
 else:
