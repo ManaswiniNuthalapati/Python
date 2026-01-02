@@ -213,6 +213,6 @@ b={1,2,3}
 print(a<b)
 
 # Remove duplicates from a list
-a = [1, 2, 2, 3, 4, 4, 5]
-result = set(a)
+a=[1,2,2,3,4,4,5]
+result=set(a)
 print(result)
