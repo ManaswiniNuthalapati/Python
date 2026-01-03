@@ -177,3 +177,12 @@ Output: "Science"'''
 a={"Math": 85, "Science": 90, "English": 88}
 b=max(a)
 print(b)
+                #OR
+a={"Math": 85, "Science": 90, "English": 88}
+max_key=None
+max_value=-float("inf")
+for key,value in a.items():
+  if value>max_value:
+    max_key=key
+    max_value=value
+print(max_key)
