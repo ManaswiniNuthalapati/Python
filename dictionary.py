@@ -186,3 +186,11 @@ for key,value in a.items():
     max_key=key
     max_value=value
 print(max_key)
+
+# Update Nested Dictionary Values
+'''
+{"A": {"Math": 80}, "B": {"Math": 90}}
+'''
+a={"A": {"Math": 80}, "B": {"Math": 90}}
+a["A"]["Math"]=85
+print(a)
