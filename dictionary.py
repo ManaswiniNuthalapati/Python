@@ -167,3 +167,13 @@ for keys,values in d.items():
     res[keys]=values
     d_1.add(values)
 print(res)
+
+'''
+Find Key with Highest Value
+Test Case 1
+Input: {"Math": 85, "Science": 90, "English": 88}
+Output: "Science"'''
+
+a={"Math": 85, "Science": 90, "English": 88}
+b=max(a)
+print(b)
