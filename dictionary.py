@@ -194,3 +194,11 @@ print(max_key)
 a={"A": {"Math": 80}, "B": {"Math": 90}}
 a["A"]["Math"]=85
 print(a)
+
+Convert two lists into a dictionary
+keys=["name", "age", "city"]
+values=["Manu", 19, "Hyderabad"]
+d={}
+for i in range(len(keys)):
+    d[keys[i]] = values[i]
+print(d)
