@@ -202,3 +202,11 @@ d={}
 for i in range(len(keys)):
     d[keys[i]] = values[i]
 print(d)
+
+Find common keys between two dictionaries
+d1 = {"a": 1, "b": 2, "c": 3}
+d2 = {"b": 20, "c": 30, "d": 40}
+
+for k in d1:
+    if k in d2:
+        print(k)
