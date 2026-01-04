@@ -210,7 +210,7 @@ for k in d1:
     if k in d2:
         print(k)
 
-Sum all values in dictionary
+# Sum all values in dictionary
 d = {"a": 10, "b": 20, "c": 30}
 total = 0
 for v in d.values():
