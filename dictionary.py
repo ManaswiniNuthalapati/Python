@@ -195,7 +195,7 @@ a={"A": {"Math": 80}, "B": {"Math": 90}}
 a["A"]["Math"]=85
 print(a)
 
-Convert two lists into a dictionary
+# Convert two lists into a dictionary
 keys=["name", "age", "city"]
 values=["Manu", 19, "Hyderabad"]
 d={}
