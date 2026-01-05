@@ -247,3 +247,14 @@ res={}
 for item in data:
   res[item["id"]]=item["score"]
 print(res)
+
+'''Dictionary of lists
+scores = {
+    "Math": [80, 85],
+    "Sci": [70, 75]
+    }'''
+scores = {
+    "Math": [80, 85], "Sci": [70, 75]
+    }
+scores["Math"].append(90)
+print(scores)
