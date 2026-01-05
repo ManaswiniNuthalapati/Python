@@ -223,14 +223,17 @@ access inner values
 update inside nested dictionary
 delete inside nested dictionary
 '''
+# access inner values 
 data = {
     "u1": {"name": "A", "city": "Hyd"},
     "u2": {"name": "B", "city": "Blr"}
 }
 print(data["u2"]["city"])
 
+# update inside nested dictionary
 data["u2"]["city"]="Kmm"
 print(data)
 
+# delete inside nested dictionary
 del data["u2"]["city"]
 print(data)
