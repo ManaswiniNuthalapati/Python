@@ -258,3 +258,19 @@ scores = {
     }
 scores["Math"].append(90)
 print(scores)
+
+'''
+Find student name whose marks > 80.
+Test Case
+students = [
+    {"name": "A", "marks": 75},
+    {"name": "B", "marks": 85}
+]
+'''
+students = [
+    {"name": "A", "marks": 75},
+    {"name": "B", "marks": 85}
+]
+for items in students:
+    if items["marks"]>80:
+      print(items["name"])
