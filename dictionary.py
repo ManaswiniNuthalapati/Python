@@ -237,3 +237,13 @@ print(data)
 # delete inside nested dictionary
 del data["u2"]["city"]
 print(data)
+
+# Convert JSON like data to Dictionary
+data = [
+    {"id": 1, "score": 90},
+    {"id": 2, "score": 85}
+]
+res={}
+for item in data:
+  res[item["id"]]=item["score"]
+print(res)
