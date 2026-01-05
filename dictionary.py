@@ -216,3 +216,21 @@ total = 0
 for v in d.values():
     total += v
 print(total)
+
+'''
+Nested dictionary problems like 
+access inner values 
+update inside nested dictionary
+delete inside nested dictionary
+'''
+data = {
+    "u1": {"name": "A", "city": "Hyd"},
+    "u2": {"name": "B", "city": "Blr"}
+}
+print(data["u2"]["city"])
+
+data["u2"]["city"]="Kmm"
+print(data)
+
+del data["u2"]["city"]
+print(data)
