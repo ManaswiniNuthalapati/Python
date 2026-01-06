@@ -289,3 +289,10 @@ if key in student:
     print("Key exists")
 else:
     print("Key does not exist")
+    
+# Reverse Keys and Values
+d={"a":1,"b":2,"c":3}
+rev={}
+for k in d:
+    rev[d[k]] = k
+print(rev)
