@@ -275,9 +275,9 @@ for items in students:
     if items["marks"]>80:
       print(items["name"])
       
-Merge Two Dictionaries
-d1 = {"a": 1, "b": 2}
-d2 = {"c": 3, "d": 4}
+# Merge Two Dictionaries
+d1={"a":1,"b":2}
+d2={"c":3,"d":4}
 for k in d2:
-    d1[k] = d2[k]
+    d1[k]=d2[k]
 print(d1)
