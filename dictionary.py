@@ -281,3 +281,11 @@ d2={"c":3,"d":4}
 for k in d2:
     d1[k]=d2[k]
 print(d1)
+
+# Check if a Key Exists
+student={"name": "John","age": 20,"city": "Hyderabad"}
+key = "age"
+if key in student:
+    print("Key exists")
+else:
+    print("Key does not exist")
