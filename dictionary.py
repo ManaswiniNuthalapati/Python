@@ -287,7 +287,13 @@ marks = {"A":45,"B":78,"C":60,"D":40}
 for k in marks:
     if marks[k]>50:
         print(k)
-        
+
+Access Value from Nested Dictionary
+students = {
+    "A": {"Math": 80, "Sci": 70},
+    "B": {"Math": 90, "Sci": 85}
+}
+print(students["B"]["Math"])    
 # Check if a Key Exists
 student={"name": "John","age": 20,"city": "Hyderabad"}
 key = "age"
