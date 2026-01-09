@@ -293,7 +293,8 @@ students = {
     "A": {"Math": 80, "Sci": 70},
     "B": {"Math": 90, "Sci": 85}
 }
-print(students["B"]["Math"])    
+print(students["B"]["Math"]) 
+   
 # Check if a Key Exists
 student={"name": "John","age": 20,"city": "Hyderabad"}
 key = "age"
