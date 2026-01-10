@@ -305,10 +305,10 @@ for v in d.values():
 print(total)
 
 # Reverse Keys and Values
-d = {"a": 1, "b": 2, "c": 3}
-rev = {}
+d={"a":1,"b":2,"c":3}
+rev={}
 for k in d:
-    rev[d[k]] = k
+    rev[d[k]]=k
 print(rev)
 
 # LC 383 RansomNote
