@@ -304,6 +304,13 @@ for v in d.values():
     total += v
 print(total)
 
+Reverse Keys and Values
+d = {"a": 1, "b": 2, "c": 3}
+rev = {}
+for k in d:
+    rev[d[k]] = k
+print(rev)
+
 # LC 383 RansomNote
 class Solution:
     def canConstruct(self, ransomNote: str, magazine: str) -> bool:
