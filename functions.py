@@ -71,3 +71,8 @@ greet()
 def add(a, b):
     print(a+b)
 add(3,5)
+
+# Return the Square of a Number
+def square(n):
+    return n*n
+print(square(4))
