@@ -65,7 +65,6 @@ Must have a base case to stop recursion.
 # Function to Print a Message
 def greet():
     print("Hello, World!")
-
 greet()
 
 # Add Two Numbers
