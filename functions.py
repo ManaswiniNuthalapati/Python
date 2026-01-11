@@ -62,3 +62,8 @@ Must have a base case to stop recursion.
         return 1
     return n * factorial(n-1)
     '''
+# Function to Print a Message
+def greet():
+    print("Hello, World!")
+
+greet()
