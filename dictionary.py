@@ -303,3 +303,26 @@ total=0
 for v in d.values():
     total += v
 print(total)
+
+# LC 383 RansomNote
+class Solution:
+    def canConstruct(self, ransomNote: str, magazine: str) -> bool:
+        freq={}
+        freq_1={}
+        for i in ransomNote:
+            if i in freq:
+                freq[i]+=1
+            else:
+                freq[i]=1
+        for i in magazine:
+            if i in freq_1:
+                freq_1[i]+=1
+            else:
+                freq_1[i]=1
+        for i in freq:
+            if i not in freq_1:
+                return False
+            if freq_1[i]<freq[i]:
+                return False
+        return True
+        
