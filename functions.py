@@ -77,7 +77,7 @@ def square(n):
     return n*n
 print(square(4))
 
-Print a Name
+# Print a Name
 def print_name():
     print("My name is Manaswini")
 print_name()
