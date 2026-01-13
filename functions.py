@@ -82,7 +82,7 @@ def print_name():
     print("My name is Manaswini")
 print_name()
 
-
+# Check Even or Odd
 def check_even_odd(num):
     if num % 2 == 0:
         print("Even")
