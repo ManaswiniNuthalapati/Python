@@ -81,3 +81,11 @@ print(square(4))
 def print_name():
     print("My name is Manaswini")
 print_name()
+
+
+def check_even_odd(num):
+    if num % 2 == 0:
+        print("Even")
+    else:
+        print("Odd")
+check_even_odd(10)
