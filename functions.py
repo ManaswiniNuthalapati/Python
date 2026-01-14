@@ -92,5 +92,5 @@ check_even_odd(10)
 
 # Find the Square Number
 def square(num):
-    print(num * num)
+    print(num*num)
 square(4)
