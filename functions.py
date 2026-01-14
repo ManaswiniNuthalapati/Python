@@ -90,6 +90,7 @@ def check_even_odd(num):
         print("Odd")
 check_even_odd(10)
 
+# Find the Square Number
 def square(num):
     print(num * num)
 square(4)
