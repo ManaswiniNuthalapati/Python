@@ -89,3 +89,7 @@ def check_even_odd(num):
     else:
         print("Odd")
 check_even_odd(10)
+
+def square(num):
+    print(num * num)
+square(4)
