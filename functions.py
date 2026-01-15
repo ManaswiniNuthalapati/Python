@@ -95,6 +95,7 @@ def square(num):
     print(num*num)
 square(4)
 
+# Print Numbers from 1 to N
 def print_numbers(n):
     for i in range(1, n + 1):
         print(i)
