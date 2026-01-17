@@ -101,7 +101,7 @@ def print_numbers(n):
         print(i)
 print_numbers(5)
 
-Check Positive or Negative
+# Check Positive or Negative
 def check_number(n):
     if n > 0:
         print("Positive")
