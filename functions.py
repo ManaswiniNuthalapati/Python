@@ -100,3 +100,13 @@ def print_numbers(n):
     for i in range(1,n+1):
         print(i)
 print_numbers(5)
+
+Check Positive or Negative
+def check_number(n):
+    if n > 0:
+        print("Positive")
+    elif n < 0:
+        print("Negative")
+    else:
+        print("Zero")
+check_number(-5)
