@@ -112,9 +112,9 @@ def check_number(n):
 check_number(-5)
 
 # Sum of Two Numbers (Return Version)
-def sum_two(a, b):
-    return a + b
-result = sum_two(10, 20)
+def sum_two(a,b):
+    return a+b
+result=sum_two(10,20)
 print(result)
 
 # Multiply Two Numbers
