@@ -112,6 +112,6 @@ def check_number(n):
 check_number(-5)
 
 # Multiply Two Numbers
-def multiply(a, b):
-    print(a * b)
-multiply(4, 6)
+def multiply(a,b):
+    print(a*b)
+multiply(4,6)
