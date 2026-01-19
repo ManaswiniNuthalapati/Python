@@ -110,3 +110,8 @@ def check_number(n):
     else:
         print("Zero")
 check_number(-5)
+
+# Multiply Two Numbers
+def multiply(a, b):
+    print(a * b)
+multiply(4, 6)
