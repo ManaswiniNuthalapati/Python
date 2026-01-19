@@ -283,10 +283,11 @@ for k in d2:
 print(d1)
 
 # Find Keys with Value Greater Than X
-marks = {"A": 45, "B": 78, "C": 60, "D": 40}
+marks = {"A":45,"B":78,"C":60,"D":40}
 for k in marks:
-    if marks[k] > 50:
+    if marks[k]>50:
         print(k)
+        
 # Check if a Key Exists
 student={"name": "John","age": 20,"city": "Hyderabad"}
 key = "age"
