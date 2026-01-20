@@ -179,5 +179,5 @@ print(count)
 # Leetcode 434 count  no of segments
 class Solution:
     def countSegments(self, s: str) -> int:
-        count=s.split()
-        return len(count)
+        res=s.split()
+        return len(res)
