@@ -77,6 +77,20 @@ def square(n):
     return n*n
 print(square(4))
 
+# Find Maximum of Two Numbers
+def maximum(a,b):
+    if a>b:
+        print(a)
+    else:
+        print(b)
+maximum(8,3)
+
+# Print Numbers from 1 to 5
+def numbers():
+    for i in range(1,6):
+        print(i)
+numbers()
+
 # Print a Name
 def print_name():
     print("My name is Manaswini")
@@ -111,6 +125,14 @@ def check_number(n):
         print("Zero")
 check_number(-5)
 
+# Sum of Numbers from 1 to N
+def total(n):
+    s=0
+    for i in range(1,n+1):
+        s+=i
+    print(s)
+total(5)
+
 # Sum of Two Numbers (Return Version)
 def sum_two(a,b):
     return a+b
@@ -121,3 +143,4 @@ print(result)
 def multiply(a,b):
     print(a*b)
 multiply(4,6)
+
