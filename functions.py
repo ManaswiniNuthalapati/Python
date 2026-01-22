@@ -144,3 +144,9 @@ def multiply(a,b):
     print(a*b)
 multiply(4,6)
 
+# Print Table of a number
+def table(n):
+    for i in range(1,11):
+        print(n*i)
+table(5)
+
