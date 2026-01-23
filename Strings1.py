@@ -1,3 +1,11 @@
+# Remove duplicate characters
+s = "programming"
+res = ""
+for i in s:
+    if i not in res:
+        res += i
+print(res)
+
 '''
 Username Validation
 Input a username and check if it only contains lowercase letters and digits.
