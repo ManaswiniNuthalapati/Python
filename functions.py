@@ -163,3 +163,11 @@ def palindrome(n):
     else:
         print("Not Palindrome")
 palindrome(121)
+
+# Sum of Numbers from 1 to N
+def total(n):
+    s=0
+    for i in range(1,n+1):
+        s+=i
+    print(s)
+total(5)
