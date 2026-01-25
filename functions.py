@@ -150,3 +150,7 @@ def table(n):
         print(n*i)
 table(5)
 
+# Count Digits
+def count(n):
+    print(len(str(n)))
+count(12345)
