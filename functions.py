@@ -154,3 +154,12 @@ table(5)
 def count(n):
     print(len(str(n)))
 count(12345)
+
+# Check Palindrome Number
+def palindrome(n):
+    s=str(n)
+    if s==s[::-1]:
+        print("Palindrome")
+    else:
+        print("Not Palindrome")
+palindrome(121)
