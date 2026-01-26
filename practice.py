@@ -101,3 +101,11 @@ if n3<small:
   small=n3
 print(large)
 print(small)
+
+# Check whether a number is multiple of another number
+num=0
+n=5
+if num%n==0:
+   print(True)
+else:
+  print(False)
