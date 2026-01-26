@@ -109,3 +109,16 @@ if num%n==0:
    print(True)
 else:
   print(False)
+
+# Grade calculation system using marks
+marks=84
+if marks>=90:
+  print("A")
+elif 80<marks<89:
+  print("B")
+elif 70<marks<79:
+  print("C")
+elif 60<marks<69:
+  print("D")
+else:
+  print("E")
