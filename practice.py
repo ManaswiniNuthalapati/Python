@@ -84,3 +84,20 @@ if a<n<b:
   print("Exists")
 else:
   print("Not Exists")
+
+# Find greatest and smallest among three numbers
+n1=10
+n2=20
+n3=30
+large=n1
+small=n1
+if n2>large:
+  large=n2
+if n3>large:
+  large=n3
+if n2<small:
+  small=n2
+if n3<small:
+  small=n3
+print(large)
+print(small)
