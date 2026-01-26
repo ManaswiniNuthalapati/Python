@@ -66,3 +66,12 @@ if n%5==0 and n%11==0:
   print("Divisible")
 else:
   print("Not Divisible")
+  
+# Check whether all three numbers are equal
+n1=10
+n2=10
+n3=10
+if n1==n2==n3:
+  print("Equal")
+else:
+  print("Not Equal")
