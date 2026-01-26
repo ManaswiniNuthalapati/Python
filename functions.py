@@ -171,3 +171,9 @@ def total(n):
         s+=i
     print(s)
 total(5)
+
+# Print Numbers from 1 to 5
+def numbers():
+    for i in range(1,6):
+        print(i)
+numbers()
