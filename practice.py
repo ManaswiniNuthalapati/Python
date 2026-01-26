@@ -75,3 +75,12 @@ if n1==n2==n3:
   print("Equal")
 else:
   print("Not Equal")
+
+# Check whether a number lies between two given numbers
+n=18
+a=10
+b=20
+if a<n<b:
+  print("Exists")
+else:
+  print("Not Exists")
