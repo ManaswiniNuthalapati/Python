@@ -87,7 +87,7 @@ if a<n<b:
 else:
   print("Not Exists")
 
-# Find greatest and smallest among three numbers
+# Find Greatest and Smallest among Three numbers
 n1=10
 n2=20
 n3=30
@@ -104,7 +104,7 @@ if n3<small:
 print(large)
 print(small)
 
-# Check whether a number is multiple of another number
+# Check whether a Number is Multiple of Another Number
 num=0
 n=5
 if num%n==0:
