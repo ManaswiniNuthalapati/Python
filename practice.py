@@ -115,7 +115,7 @@ else:
 # Grade calculation system using marks
 marks=84
 if marks>=90:
-  print("A")
+  print("Grade is:","A")
 elif 80<marks<89:
   print("B")
 elif 70<marks<79:
