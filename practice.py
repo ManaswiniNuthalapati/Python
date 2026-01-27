@@ -7,7 +7,7 @@ elif a==0:
 else:
   print("Negative")
   
-# Check whether a number is even or odd
+# Check whether a number is Even or Odd
 n=10
 if n%2==0:
   print("Even")
