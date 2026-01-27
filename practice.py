@@ -69,7 +69,7 @@ if n%5==0 and n%11==0:
 else:
   print("Not Divisible")
   
-# Check whether all three numbers are equal
+# Check whether all Three numbers are equal or not
 n1=10
 n2=10
 n3=10
@@ -78,7 +78,7 @@ if n1==n2==n3:
 else:
   print("Not Equal")
 
-# Check whether a number lies between two given numbers
+# Check whether a number lies between two given numbers or not
 n=18
 a=10
 b=20
