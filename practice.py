@@ -30,7 +30,7 @@ if n1>n2:
 else:
   print("Smallest:",n1)
 
-# Find largest of 3 numbers
+# Find Largest of 3\three Numbers
 n1=10
 n2=20
 n3=30
@@ -41,7 +41,7 @@ elif n2>n1 and n2>n3:
 else:
   print("Largest:",n3)
   
-# Check whether a year is leap year
+# Check whether a year is Leap Year or not
 n=1900
 if (n%4==0 and n%100!=0) or n%400==0:
   print("Leap Year")
