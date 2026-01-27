@@ -48,21 +48,21 @@ if (n%4==0 and n%100!=0) or n%400==0:
 else:
   print("Not leap Year")
   
-# Check eligibility for voting
+# Check Eligibility for Voting
 n=22
 if n>=18:
   print("Eligible to vote")
 else:
   print("Not Eligible")
   
-# Check whether character is vowel or consonant
+# Check whether character is Vowel or Consonant
 n="a"
 if n in "aeiouAEIOU":
   print("vowel")
 else:
   print("consonant")
   
-# Check whether number is divisible by 5 and 11
+# Check whether number is Divisible by 5 and 11
 n=55
 if n%5==0 and n%11==0:
   print("Divisible")
