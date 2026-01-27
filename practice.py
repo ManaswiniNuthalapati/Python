@@ -14,7 +14,7 @@ if n%2==0:
 else:
   print("Odd")
   
-# Find largest of two numbers
+# Find Largest of Two Numbers
 n1=10
 n2=20
 if n1>n2:
@@ -22,7 +22,7 @@ if n1>n2:
 else:
   print("Largest:",n2)
 
-# Find smallest of two numbers
+# Find Smallest of Two Numbers
 n1=10
 n2=20
 if n1>n2:
