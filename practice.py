@@ -117,10 +117,10 @@ marks=84
 if marks>=90:
   print("Grade is:","A")
 elif 80<marks<89:
-  print("B")
+  print("Grade is:","B")
 elif 70<marks<79:
-  print("C")
+  print("Grade is:","C")
 elif 60<marks<69:
-  print("D")
+  print("Grade is:","D")
 else:
-  print("E")
+  print("Grade is:","E")
