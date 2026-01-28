@@ -124,3 +124,50 @@ elif 60<marks<69:
   print("Grade is:","D")
 else:
   print("Grade is:","E")
+  
+# Print numbers from 1 to N
+n=10
+for i in range(1,n+1):
+  print(i,end=" ")
+
+# Print numbers from N to 1
+n=10
+for i in range(n+1,1,-1):
+  print(i,end=" ")
+  
+# Print even numbers from 1 to 100
+n=100
+for i in range(n+1):
+  if i%2==0:
+    print(i)
+  
+# Print odd numbers from 1 to 100
+n=100
+for i in range(n+1):
+  if i%2!=0:
+    print(i)
+
+
+# Print multiplication table of a number
+n=5
+for i in range(1,10):
+  print(n*i)
+
+# Find sum of first N natural numbers
+n=10
+sum=0
+for i in range(n+1):
+  sum+=i
+print(sum)
+
+# Count total numbers from 1 to N
+n=10
+count=0
+for i in range(n+1):
+  count+=1
+print(count)
+
+# Print all numbers divisible by 5 between 1 and 100
+for i in range(1,100):
+  if i%5==0:
+    print(i)
