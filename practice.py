@@ -196,3 +196,30 @@ rev=""
 for i in b:
   rev=i+rev
 print(int(rev))
+
+# Count number of digits
+n=1234567890
+n_1=str(n)
+count=0
+for i in n_1:
+  count+=1
+print(count)
+
+# Sum of digits of a number
+n="1234567890"
+n.split()
+sum=0
+for i in n:
+  sum+=int(i)
+print(sum)
+  
+# Check whether a number is palindrome
+n=12345
+n_1=str(n)
+rev=""
+for i in n_1:
+  rev=i+rev
+if n==rev:
+  print("Palindrome")
+else:
+  print("Not Palindrome")
