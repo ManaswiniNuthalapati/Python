@@ -171,3 +171,28 @@ print(count)
 for i in range(1,100):
   if i%5==0:
     print(i)
+    
+# Find factorial of a number
+n=5
+fact=1
+for i in range(1,n+1):
+  fact*=i
+print(fact)
+
+# Print Fibonacci series
+n=5
+a=0
+b=1
+for i in range(n+1):
+  print(a,end=" ")
+  c=a+b
+  a=b
+  b=c
+
+# Reverse a number
+a=102
+b=str(a)
+rev=""
+for i in b:
+  rev=i+rev
+print(int(rev))
