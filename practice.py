@@ -245,3 +245,13 @@ for n in range(1,11):
   else:
     print(n)
 
+# Check whether a number is Armstrong
+n=153
+length=len(str(n))
+sum=0
+for i in str(n):
+  sum+=int(i)**length
+if n==sum:
+  print("Armstrong")
+else:
+  print("Not Armstrong")
