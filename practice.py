@@ -223,3 +223,25 @@ if n==rev:
   print("Palindrome")
 else:
   print("Not Palindrome")
+
+# Check whether a number is prime
+n=13
+if n<=1:
+  print(False)
+else:
+  for i in range(2,n):
+    if n%i==0:
+      print(False)
+      break
+  else:
+    print(True)
+# Print all prime numbers in a range
+for n in range(1,11):
+  if n<=1:
+    continue
+  for i in range(2,n):
+    if n%i==0:
+      break
+  else:
+    print(n)
+
