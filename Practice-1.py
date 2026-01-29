@@ -40,3 +40,16 @@ n="34,67,55,33,12,98"
 n_1=n.split(",")
 print(list(n_1))
 print(tuple(n_1))
+
+'''
+Square Pattern
+****
+****
+****
+****
+'''
+n=4
+for i in range(n):
+  for j in range(n):
+    print("*",end=" ")
+  print()
