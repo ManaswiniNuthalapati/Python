@@ -95,3 +95,29 @@ for i in range(1,n+1):
 n=5
 for i in range(1,n+1):
   print("*",end=" ")
+
+'''
+Right angle triangle
+*
+* *
+* * *
+* * * *
+'''
+n=5
+for i in range(1,n+1):
+  for j in range(i):
+    print("*",end=" ")
+  print()
+  
+'''
+Inverted Right Triangle
+* * * *
+* * *
+* *
+*
+'''
+n=5
+for i in range(n,-1,-1):
+  for j in range(i):
+    print("*",end=" ")
+  print()
