@@ -134,3 +134,27 @@ for i in range(n):
   for j in range(n):
     print(1,end=" ")
   print()
+  
+'''
+Increasing Number Triangle
+1
+1 2
+1 2 3
+'''
+n=3
+for i in range(1,n+1):
+  for j in range(1,i+1):
+    print(j,end=" ")
+  print()
+  
+'''
+Number Triangle
+1
+2 2
+3 3 3
+'''
+n=3
+for i in range(1,n+1):
+  for j in range(1,i+1):
+    print(i,end=" ")
+  print()
