@@ -148,7 +148,7 @@ for i in range(1,n+1):
   print()
   
 '''
-Number Triangle
+Repeated Number Triangle
 1
 2 2
 3 3 3
