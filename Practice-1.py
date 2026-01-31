@@ -221,4 +221,64 @@ for i in range(1,n+1):
     num+=1
   print()
   
+'''
+Diamond Pattern
+   *
+  ***
+ *****
+*******
+ *****
+  ***
+   *
+'''
+n=5
+for i in range(1,n+1):
+  for j in range(n-i):
+    print(" ",end="")
+  for k in range(2*i-1):
+    print("*",end="")
+  print()
+for i in range(n-1,0,-1):
+  for j in range(n-i):
+    print(" ",end="")
+  for k in range(2*i-1):
+    print("*",end="")
+  print()
   
+  '''
+  Hollow Triangle
+    *
+   * *
+  *   *
+ *     *
+*********
+'''
+n=5
+for i in range(1,n+1):
+    print(" "*(n-i),end="")
+    if i==1:
+      print("*")
+    elif i==n:
+      print("*"*(2*n-1))
+    else:
+      print("*"+" "*(2*i-3)+"*")
+'''
+Butterfly Pattern
+*       *
+**     **
+***   ***
+**** ****
+***   ***
+**     **
+*       *
+'''
+n=int(input())
+for i in range(1,n+1):
+  print("*"*i,end="")
+  print(" "*(2*(n-i)),end="")
+  print("*"*i)
+
+for i in range(n,0,-1):
+  print("*"*i,end="")
+  print(" "*(2*(n-i)),end="")
+  print("*"*i)
