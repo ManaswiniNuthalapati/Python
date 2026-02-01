@@ -301,3 +301,12 @@ Python is easy
 I love coding
 '''
 print(N.upper())
+
+'''
+Write a program that computes the value of
+a + aa + aaa + aaaa
+with a given digit as input.
+'''
+a=input().strip()
+res=int(a)+int(a*2)+int(a*3)+int(a*4)
+print(res)
