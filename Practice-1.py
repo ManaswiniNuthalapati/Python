@@ -310,3 +310,13 @@ with a given digit as input.
 a=input().strip()
 res=int(a)+int(a*2)+int(a*3)+int(a*4)
 print(res)
+
+'''
+Write a program that accepts a comma-separated sequence of words as input and 
+prints the words in a comma-separated sequence after sorting them alphabetically.
+'''
+n="without,hello,bag,world"
+words=n.split(',')
+words.sort()
+res=",".join(words)
+print(res)
