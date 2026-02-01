@@ -294,3 +294,10 @@ for i in n:
     num+=1
 print("Letters:",alpha)
 print("Digits:",num)
+
+# Write a program that accepts a sentence and calculate the number of upper case letters and lower case letters.
+N='''Hello world
+Python is easy
+I love coding
+'''
+print(N.upper())
