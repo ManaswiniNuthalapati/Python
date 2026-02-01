@@ -282,3 +282,15 @@ for i in range(n,0,-1):
   print("*"*i,end="")
   print(" "*(2*(n-i)),end="")
   print("*"*i)
+  
+# Write a program that accepts a sentence and calculate the number of letters and digits.
+n="hello world! 123"
+alpha=0
+num=0
+for i in n:
+  if i.isalpha():
+    alpha+=1
+  elif i.isdigit():
+    num+=1
+print("Letters:",alpha)
+print("Digits:",num)
