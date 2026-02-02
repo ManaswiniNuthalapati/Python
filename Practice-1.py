@@ -333,3 +333,14 @@ for i in n:
   if dec%5==0:
     res.append(i)
 print(res)
+
+'''
+Write a program which accepts a sequence of comma separated integers as input
+and prints the numbers that are divisible by 2 in a comma separated sequence.
+'''
+n=input().split()
+res=[]
+for i in n:
+  if int(i)%2==0:
+    res.append(i)
+print(",".join(res))
