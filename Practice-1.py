@@ -344,3 +344,14 @@ for i in n:
   if int(i)%2==0:
     res.append(i)
 print(",".join(res))
+
+'''
+Write a program which can map() to make a list whose elements are square of elements in
+[1,2,3,4,5,6,7,8,9,10]
+'''
+n=list(map(int,input().split()))
+total=[]
+for i in n:
+  total.append(i*i)
+print(total)
+
