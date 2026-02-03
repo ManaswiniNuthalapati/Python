@@ -374,3 +374,9 @@ def factorial(n):
     return n * factorial(n - 1)
 n = int(input("Enter a number: "))
 print(factorial(n))
+
+# Generate list of squares from 1 to 20
+squares = []
+for i in range(1, 21):
+    squares.append(i * i)
+print(squares)
