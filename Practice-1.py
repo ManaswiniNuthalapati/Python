@@ -355,3 +355,12 @@ for i in n:
   total.append(i*i)
 print(total)
 
+'''
+Write a program which can use filter() to make a list 
+whose elements are even numbers between 1 and 20 (both included).
+'''
+def is_even(x):
+    return x % 2 == 0
+nums = list(range(1, 21))
+even_nums = list(filter(is_even, nums))
+print(even_nums)
