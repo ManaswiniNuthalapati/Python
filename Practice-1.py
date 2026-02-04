@@ -386,5 +386,11 @@ Write a program which can generate a tuple where the values are square of number
 between 1 and 20 (both included).
 Then print the first half values in the tuple.
 '''
+
+'''
+Write a program which can generate a tuple where the values are square of numbers 
+between 1 and 20 (both included).
+Then print the last 5 elements in the tuple.
+'''
 t = tuple(i*i for i in range(1, 21))
 print(t[-5:])
