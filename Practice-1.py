@@ -380,3 +380,9 @@ squares = []
 for i in range(1, 21):
     squares.append(i * i)
 print(squares)
+
+'''
+Write a program which can generate a tuple where the values are square of numbers
+between 1 and 20 (both included).
+Then print the first half values in the tuple.
+'''
