@@ -399,14 +399,14 @@ t = tuple(i*i for i in range(1, 21))
 print(t[-5:])
 
 # Check if two strings are anagrams
-s1 = "listen"
-s2 = "silent"
-s1 = s1.replace(" ", "").lower()
-s2 = s2.replace(" ", "").lower()
-if len(s1) != len(s2):
+s1="listen"
+s2="silent"
+s1=s1.replace(" ", "").lower()
+s2=s2.replace(" ", "").lower()
+if len(s1)!=len(s2):
     print("Not Anagrams")
 else:
-    if sorted(s1) == sorted(s2):
+    if sorted(s1)==sorted(s2):
         print("Anagrams")
     else:
         print("Not Anagrams")
