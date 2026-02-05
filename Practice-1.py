@@ -412,18 +412,18 @@ else:
         print("Not Anagrams")
         
 # Find first non-repeating character (without def)
-s = "aabbcde"
-freq = {}
+s="aabbcde"
+freq={}
 for ch in s:
     if ch in freq:
-        freq[ch] += 1
+        freq[ch]+=1
     else:
-        freq[ch] = 1
-found = False
+        freq[ch]=1
+found=False
 for ch in s:
-    if freq[ch] == 1:
+    if freq[ch]==1:
         print("First non-repeating character:", ch)
-        found = True
+        found=True
         break
 if not found:
     print("No non-repeating character found")
