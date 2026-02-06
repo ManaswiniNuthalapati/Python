@@ -427,3 +427,4 @@ for ch in s:
         break
 if not found:
     print("No non-repeating character found")
+    
