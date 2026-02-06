@@ -428,3 +428,10 @@ for ch in s:
 if not found:
     print("No non-repeating character found")
     
+# Find sum of all values in a dictionary
+d = {"a": 10, "b": 20, "c": 30, "d": 40}
+total = 0
+for value in d.values():
+    total += value
+print(total)
+    
