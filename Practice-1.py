@@ -435,3 +435,10 @@ for value in d.values():
     total += value
 print(total)
     
+# Invert a dictionary (swap keys and values)
+d = {"a": 1, "b": 2, "c": 3}
+inverted = {}
+for key, value in d.items():
+    inverted[value] = key
+print("Original dictionary:", d)
+print("Inverted dictionary:", inverted)
