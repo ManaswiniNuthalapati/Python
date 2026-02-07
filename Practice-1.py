@@ -514,10 +514,10 @@ actual_sum=sum(arr)
 print(expected_sum - actual_sum)
 
 # Longest Word in a Sentence
-s = input("Enter sentence: ")
-words = s.split()
-longest = words[0]
+s=input("Enter sentence: ")
+words=s.split()
+longest=words[0]
 for w in words:
-    if len(w) > len(longest):
-        longest = w
-print("Longest word:", longest)
+    if len(w)>len(longest):
+        longest=w
+print(longest)
