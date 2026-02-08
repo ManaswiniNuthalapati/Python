@@ -506,7 +506,7 @@ for x in arr:
 result.extend([0]*zero_count)
 print(result)
 
-Find Missing Number in 1 to N
+# Find Missing Number in 1 to N
 arr=list(map(int, input().split()))
 n=int(input())
 expected_sum=n*(n+1)//2
