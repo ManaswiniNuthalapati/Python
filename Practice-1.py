@@ -493,3 +493,15 @@ if is_sorted:
     print("Array is sorted")
 else:
     print("Array is not sorted")
+    
+Move All Zeros to End (Maintain Order)
+arr = list(map(int, input().split()))
+result = []
+zero_count = 0
+for x in arr:
+    if x != 0:
+        result.append(x)
+    else:
+        zero_count += 1
+result.extend([0] * zero_count)
+print(result)
