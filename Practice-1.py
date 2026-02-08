@@ -494,7 +494,7 @@ if is_sorted:
 else:
     print("Array is not sorted")
     
-Move All Zeros to End (Maintain Order)
+# Move All Zeros to End (Maintain Order)
 arr = list(map(int, input().split()))
 result = []
 zero_count = 0
