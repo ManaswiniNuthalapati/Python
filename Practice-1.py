@@ -505,3 +505,10 @@ for x in arr:
         zero_count+=1
 result.extend([0]*zero_count)
 print(result)
+
+Find Missing Number in 1 to N
+arr = list(map(int, input().split()))
+n = int(input())
+expected_sum = n * (n + 1) // 2
+actual_sum = sum(arr)
+print("Missing number:", expected_sum - actual_sum)
