@@ -472,12 +472,12 @@ result=" ".join(words)
 print(result)
 
 # Find Duplicate Elements in a List
-lst = list(map(int, input().split()))
-seen = set()
-duplicates = set()
+lst=list(map(int, input().split()))
+seen=set()
+duplicates=set()
 for x in lst:
     if x in seen:
         duplicates.add(x)
     else:
         seen.add(x)
-print("Duplicates:", list(duplicates))
+print(list(duplicates))
