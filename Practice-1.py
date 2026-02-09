@@ -482,7 +482,7 @@ for x in lst:
         seen.add(x)
 print(list(duplicates))
 
-Check if Array is Sorted
+# Check if Array is Sorted
 arr = list(map(int, input().split()))
 is_sorted = True
 for i in range(len(arr)-1):
