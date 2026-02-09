@@ -483,11 +483,11 @@ for x in lst:
 print(list(duplicates))
 
 # Check if Array is Sorted
-arr = list(map(int, input().split()))
-is_sorted = True
+arr=list(map(int, input().split()))
+is_sorted=True
 for i in range(len(arr)-1):
-    if arr[i] > arr[i+1]:
-        is_sorted = False
+    if arr[i]>arr[i+1]:
+        is_sorted=False
         break
 if is_sorted:
     print("Array is sorted")
