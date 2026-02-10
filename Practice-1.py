@@ -463,3 +463,10 @@ for x in lst:
     elif x!=first and x>second:
         second=x
 print("Second largest:", second)
+
+# Reverse Words in a Sentence
+s = input("Enter sentence: ")
+words = s.split()
+words.reverse()
+result = " ".join(words)
+print(result)
