@@ -452,3 +452,14 @@ for ch in s:
     if freq[ch]==1:
         print("First non-repeating:",ch)
         break
+      
+# Find Second Largest Element in a List
+lst = list(map(int, input().split()))
+first = second = -10**18
+for x in lst:
+    if x > first:
+        second = first
+        first = x
+    elif x != first and x > second:
+        second = x
+print("Second largest:", second)
