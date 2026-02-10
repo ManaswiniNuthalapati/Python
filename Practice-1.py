@@ -454,12 +454,12 @@ for ch in s:
         break
       
 # Find Second Largest Element in a List
-lst = list(map(int, input().split()))
-first = second = -10**18
+lst=list(map(int, input().split()))
+first=second=-10**18
 for x in lst:
-    if x > first:
-        second = first
-        first = x
-    elif x != first and x > second:
-        second = x
+    if x>first:
+        second=first
+        first=x
+    elif x!=first and x>second:
+        second=x
 print("Second largest:", second)
