@@ -465,8 +465,8 @@ for x in lst:
 print("Second largest:", second)
 
 # Reverse Words in a Sentence
-s = input("Enter sentence: ")
-words = s.split()
+s=input("Enter sentence: ")
+words=s.split()
 words.reverse()
-result = " ".join(words)
+result=" ".join(words)
 print(result)
