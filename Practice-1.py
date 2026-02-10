@@ -442,3 +442,13 @@ for key, value in d.items():
     inverted[value] = key
 print("Original dictionary:", d)
 print("Inverted dictionary:", inverted)
+
+# Find First Non-Repeating Character in a String
+s = input("Enter string: ")
+freq = {}
+for ch in s:
+    freq[ch] = freq.get(ch, 0) + 1
+for ch in s:
+    if freq[ch] == 1:
+        print("First non-repeating:", ch)
+        break
