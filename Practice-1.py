@@ -530,3 +530,8 @@ def rotate(nums, k):
 print(rotate([1,2,3,4,5,6,7],3))
 
 # Find the Missing Number in 1..n
+def find_missing(nums, n):
+    expected = n * (n + 1) // 2
+    actual = sum(nums)
+    return expected - actual
+print(find_missing([1,2,4,5,6], 6))  # 3
