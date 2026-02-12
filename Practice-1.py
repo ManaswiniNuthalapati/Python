@@ -534,4 +534,4 @@ def find_missing(nums, n):
     expected = n * (n + 1) // 2
     actual = sum(nums)
     return expected - actual
-print(find_missing([1,2,4,5,6], 6))  # 3
+print(find_missing([1,2,4,5,6], 6))
