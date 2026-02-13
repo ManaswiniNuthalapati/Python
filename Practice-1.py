@@ -537,3 +537,7 @@ def find_missing(nums, n):
 print(find_missing([1,2,4,5,6],6))
 
 # Check If String Is Palindrome After Removing Non-Alphanumerics
+def is_palindrome(s):
+    s = "".join(ch.lower() for ch in s if ch.isalnum())
+    return s == s[::-1]
+print(is_palindrome("A man, a plan, a canal: Panama"))
