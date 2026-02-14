@@ -543,3 +543,8 @@ def is_palindrome(s):
 print(is_palindrome("A man, a plan, a canal: Panama"))
 
 # Check if Sentence is Pangram
+def is_pangram(s):
+    s = s.lower()
+    letters = set(ch for ch in s if ch.isalpha())
+    return len(letters) == 26
+print(is_pangram("The quick brown fox jumps over the lazy dog"))
