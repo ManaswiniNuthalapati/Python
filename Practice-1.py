@@ -567,4 +567,8 @@ def intersection(nums1, nums2):
     return list(set(nums1)&set(nums2))
 print(intersection([1,2,2,1], [2,2])) 
 
-
+# Check if String Has All Unique Characters
+def all_unique(s):
+    return len(set(s))==len(s)
+print(all_unique("abcde"))
+print(all_unique("hello"))  
