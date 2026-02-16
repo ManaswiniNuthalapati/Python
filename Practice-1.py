@@ -556,9 +556,9 @@ def reverse_words(s):
 print(reverse_words("hello world python"))
 
 # Check if One String is Rotation of Another
-def is_rotation(s1, s2):
-    if len(s1) != len(s2):
+def is_rotation(s1,s2):
+    if len(s1)!=len(s2):
         return False
-    return s2 in (s1 + s1)
-print(is_rotation("abcde", "cdeab")) 
+    return s2 in (s1+s1)
+print(is_rotation("abcde","cdeab")) 
 
