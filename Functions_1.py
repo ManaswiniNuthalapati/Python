@@ -8,3 +8,8 @@ my_function()
 def greet(name):
     print("Hello", name)
 greet("Manaswini")
+
+# Write a function add(a, b) that prints the sum of two numbers.
+def add(a, b):
+    print(a + b)
+add(10, 5)
