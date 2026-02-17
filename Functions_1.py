@@ -1,4 +1,19 @@
+'''
+A function is a block of code that runs only when it is called.
+You can pass data into a function, and it can return data as a result.
 
+Functions help you:
+Reuse code
+Make programs cleaner
+Avoid writing the same code again and again
+
+Summary 
+Use def to create a function
+Call a function using ()
+Functions can take parameters
+Use return to send back a value
+You can set default values for parameters
+'''
 # Create and Call a Function
 def my_function():
     print("Hello, Python!")
