@@ -13,3 +13,9 @@ greet("Manaswini")
 def add(a, b):
     print(a + b)
 add(10, 5)
+
+# Write a function square(n) that returns the square of a number and print the result.
+def square(n):
+    return n * n
+result = square(4)
+print(result)
