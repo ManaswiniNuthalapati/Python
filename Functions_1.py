@@ -19,3 +19,9 @@ def square(n):
     return n * n
 result = square(4)
 print(result)
+
+# Write a function greet(name="User") that prints "Hello" and the name. Call it with and without an argument.
+def greet(name="User"):
+    print("Hello", name)
+greet("Vinaya")
+greet()
