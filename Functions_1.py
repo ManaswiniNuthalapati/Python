@@ -25,3 +25,10 @@ def greet(name="User"):
     print("Hello", name)
 greet("Vinaya")
 greet()
+
+# Write a function print_list(items) that prints each item in a list.
+def print_list(items):
+    for i in items:
+        print(i)
+numbers = [1, 2, 3, 4, 5]
+print_list(numbers)
