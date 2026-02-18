@@ -86,3 +86,11 @@ Call it with your name.'''
 def greet(name):
   result="hello" + name
 greet("Manu")
+
+'''
+Write a function square(n) that returns 
+the square of a number. Print the result for 4.
+'''
+def square(n):
+  return n*n
+print(square(4))
