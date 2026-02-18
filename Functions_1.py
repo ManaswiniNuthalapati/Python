@@ -47,3 +47,29 @@ def print_list(items):
         print(i)
 numbers = [1, 2, 3, 4, 5]
 print_list(numbers)
+
+'''
+What Are Arguments in Python?
+
+Arguments are values you pass into a function when you call it.
+They are placed inside the parentheses after the function name.
+Arguments allow you to send data into functions so that the function can use that data.
+
+Example
+def greet(name):
+    print("Hello " + name)
+greet("Alice")  
+
+Here:
+name inside the function is called a parameter.
+"Alice" is the argument passed to the function.
+
+Types of Arguments in Python
+Python supports several ways of passing arguments — each has a specific purpose:
+Argument Type	                Description
+Positional	                    Passed in order
+Keyword	                        Passed with name=value
+Default	                        Has a default value if not provided
+*args	                        Accepts any number of positional values
+**kwargs	                    Accepts any number of keyword values
+'''
