@@ -120,3 +120,18 @@ and call it using keyword arguments in any order.'''
 def student(name,age,branch):
   print(name,age,branch)
 student("Manu",19,"DS")
+
+'''
+Write a function book(title, author, price) and call it like this:
+book(price=300, title="Python", author="Guido")
+'''
+def book(title,author,price):
+  print(title,author,price)
+book(price=300,title="Python",author="Guido")
+
+'''
+Write a function total(*numbers) that 
+prints the sum of all numbers passed.'''
+def total(*numbers):
+  print(sum(numbers))
+total(1,2,3)
