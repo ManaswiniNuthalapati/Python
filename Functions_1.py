@@ -105,3 +105,18 @@ def country(name, c="India"):
   print("My name is ",name,"I am from",c)
 country("Manu")
 country("Manu","India")
+
+'''
+Write a function multiply(a, b, c=1) 
+that multiplies three numbers, where c has a default value.'''
+def multiply(a,b,c=1):
+  return a*b*c
+print(multiply(2,3))
+print(multiply(2,3,4))
+
+'''
+Write a function student(name, age, branch)
+and call it using keyword arguments in any order.'''
+def student(name,age,branch):
+  print(name,age,branch)
+student("Manu",19,"DS")
