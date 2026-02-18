@@ -73,3 +73,16 @@ Default	                        Has a default value if not provided
 *args	                        Accepts any number of positional values
 **kwargs	                    Accepts any number of keyword values
 '''
+'''
+Write a function add(a, b) that
+prints the sum of two numbers. Call it with 5 and 7.'''
+def add(a,b):
+  return a+b
+add(5,7)
+
+'''Write a function greet(name) that prints:
+Hello, <name>
+Call it with your name.'''
+def greet(name):
+  result="hello" + name
+greet("Manu")
