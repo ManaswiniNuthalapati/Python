@@ -94,3 +94,14 @@ the square of a number. Print the result for 4.
 def square(n):
   return n*n
 print(square(4))
+
+'''
+Write a function country(name, c="India") that prints:
+My name is <name> and I am from <c>
+Call it once with only name
+Call it once with name and country
+'''
+def country(name, c="India"):
+  print("My name is ",name,"I am from",c)
+country("Manu")
+country("Manu","India")
