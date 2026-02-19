@@ -140,3 +140,9 @@ total(1,2,3)
 def total(*numbers):
     print(sum(numbers))
 total(1, 2, 3, 4) 
+
+# Print each item on new line
+def print_items(*items):
+    for item in items:
+        print(item)
+print_items("apple", "banana", "cherry")
