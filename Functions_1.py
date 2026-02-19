@@ -151,3 +151,8 @@ print_items("apple", "banana", "cherry")
 def max_number(*nums):
     return max(nums)
 print(max_number(10, 5, 20, 3))
+
+# Count how many arguments
+def count_args(*args):
+    print(len(args))
+count_args(1, 2, 3, 4, 5)
