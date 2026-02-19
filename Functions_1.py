@@ -146,3 +146,8 @@ def print_items(*items):
     for item in items:
         print(item)
 print_items("apple", "banana", "cherry")
+
+# Return largest number
+def max_number(*nums):
+    return max(nums)
+print(max_number(10, 5, 20, 3))
