@@ -135,3 +135,8 @@ prints the sum of all numbers passed.'''
 def total(*numbers):
   print(sum(numbers))
 total(1,2,3)
+
+# Sum of all numbers
+def total(*numbers):
+    print(sum(numbers))
+total(1, 2, 3, 4) 
