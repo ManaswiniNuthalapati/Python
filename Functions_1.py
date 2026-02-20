@@ -175,3 +175,11 @@ def person_info(**data):
     for key, value in data.items():
         print(f"{key}: {value}")
 person_info(name="Tobias", age=30, city="Bergen")
+
+# Sum of numbers
+def sum_all(*nums):
+    total = 0
+    for n in nums:
+        total=total + n
+    return total
+print(sum_all(1, 2, 3, 4))
