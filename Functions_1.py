@@ -156,3 +156,18 @@ print(max_number(10, 5, 20, 3))
 def count_args(*args):
     print(len(args))
 count_args(1, 2, 3, 4, 5)
+
+'''
+*args — Arbitrary Positional Arguments
+Use a single asterisk (*) before a parameter to let the function accept multiple positional arguments.
+Inside the function, these arguments are received as a tuple.
+'''
+def my_function(*numbers):
+    for num in numbers:
+        print(num)
+my_function(1, 2, 3, 4)
+'''
+**kwargs — Arbitrary Keyword Arguments
+Use double asterisks (**) before a parameter to accept multiple named arguments.
+Inside the function, these are stored in a dictionary, where keys are argument names and values are their values.
+'''
