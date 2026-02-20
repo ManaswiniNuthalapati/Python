@@ -171,3 +171,7 @@ my_function(1, 2, 3, 4)
 Use double asterisks (**) before a parameter to accept multiple named arguments.
 Inside the function, these are stored in a dictionary, where keys are argument names and values are their values.
 '''
+def person_info(**data):
+    for key, value in data.items():
+        print(f"{key}: {value}")
+person_info(name="Tobias", age=30, city="Bergen")
