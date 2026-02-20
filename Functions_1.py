@@ -183,3 +183,12 @@ def sum_all(*nums):
         total=total + n
     return total
 print(sum_all(1, 2, 3, 4))
+
+# Find maximum number
+def find_max(*nums):
+    max_val = nums[0]
+    for n in nums:
+        if n > max_val:
+            max_val = n
+    return max_val
+print(find_max(3, 7, 2, 9, 1)) 
