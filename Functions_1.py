@@ -205,4 +205,3 @@ def func():
     y = 5
     print(y)
 func()
-print(y)
