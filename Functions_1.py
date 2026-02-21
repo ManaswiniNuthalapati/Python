@@ -192,3 +192,10 @@ def find_max(*nums):
             max_val = n
     return max_val
 print(find_max(3, 7, 2, 9, 1)) 
+
+# Global Variable Access
+x = 10
+def func():
+    print(x)
+func()
+print(x)
