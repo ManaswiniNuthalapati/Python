@@ -199,3 +199,10 @@ def func():
     print(x)
 func()
 print(x)
+
+# Local Variable Outside Function
+def func():
+    y = 5
+    print(y)
+func()
+print(y)
