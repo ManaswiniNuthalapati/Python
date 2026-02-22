@@ -205,3 +205,11 @@ def func():
     y = 5
     print(y)
 func()
+
+# Local vs Global with Same Name
+a = 100
+def test():
+    a = 50
+    print(a)
+test()
+print(a)
