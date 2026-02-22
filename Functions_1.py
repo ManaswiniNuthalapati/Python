@@ -213,3 +213,11 @@ def test():
     print(a)
 test()
 print(a)
+
+# Changing Local Does Not Change Global
+x = 20
+def change():
+    x = 10
+    print(x)
+change()
+print(x)
