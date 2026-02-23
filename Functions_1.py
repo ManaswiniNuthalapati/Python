@@ -202,6 +202,12 @@ It tells Python where a variable “lives” and where it can be accessed.
 
 2. Local Scope
 🔹 A local variable is created inside a function — and it only exists inside that function.
+
+Why Scope Matters
+
+✔ Scope helps prevent variables from conflicting with each other.
+✔ It tells Python where it’s allowed to read or change a variable.
+✔ It helps organize your code better.
 '''
 # Global Variable Access
 x = 10
