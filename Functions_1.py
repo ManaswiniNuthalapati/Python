@@ -193,6 +193,16 @@ def find_max(*nums):
     return max_val
 print(find_max(3, 7, 2, 9, 1)) 
 
+'''Scope in Python means where in your code a variable can be seen and used.
+It tells Python where a variable “lives” and where it can be accessed.
+1. Global Scope
+
+🔹 A global variable is one that is created outside any function — at the top level of your code.
+✔ You can use a global variable anywhere in your program — inside functions and outside functions.
+
+2. Local Scope
+🔹 A local variable is created inside a function — and it only exists inside that function.
+'''
 # Global Variable Access
 x = 10
 def func():
