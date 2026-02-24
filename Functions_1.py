@@ -252,6 +252,21 @@ for name, age in dic.items():
     if age > 22:
         print(name)
         
+'''
+Given list:
+lst = [10, 20, 16, 23, 12, 25, 16, 16, 10, 20]
+# print the number which comes 3 times
+'''
+lst = [10, 20, 16, 23, 12, 25, 16, 16, 10, 20]
+freq = {}
+for n in lst:
+    if n in freq:
+        freq[n] += 1
+    else:
+        freq[n] = 1
+for key, value in freq.items():
+    if value == 3:
+        print(key)
 # Check even or odd for each number in a list
 def check_even_odd(nums):
     result={}
