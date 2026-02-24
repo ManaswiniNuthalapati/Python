@@ -238,6 +238,15 @@ def change():
 change()
 print(x)
 
+'''
+Given dictionary:
+dic = {'ram': 20, 'krish': 23, 'shyam': 21, 'radha': 25, 'chandu': 22}
+a) Print all names and ages
+'''
+dic = {'ram': 20, 'krish': 23, 'shyam': 21, 'radha': 25, 'chandu': 22}
+for name, age in dic.items():
+    print(name, age)
+    
 # Check even or odd for each number in a list
 def check_even_odd(nums):
     result={}
