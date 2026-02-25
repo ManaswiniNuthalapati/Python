@@ -240,12 +240,12 @@ print(x)
 
 # Check even or odd for each number in a list
 def check_even_odd(nums):
-    result = {}
+    result={}
     for n in nums:
-        if n % 2 == 0:
+        if n%2==0:
             result[n]="Even"
         else:
-            result[n] = "Odd"
+            result[n]="Odd"
     return result
-numbers = [1, 2, 3, 4, 5, 6]
+numbers=[1,2,3,4,5,6]
 print(check_even_odd(numbers))
