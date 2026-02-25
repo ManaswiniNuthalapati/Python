@@ -252,7 +252,7 @@ print(check_even_odd(numbers))
 
 # Return True if string contains vowels
 def contains_vowel(s):
-    vowels = "aeiouAEIOU"
+    vowels="aeiouAEIOU"
     for ch in s:
         if ch in vowels:
             return True
