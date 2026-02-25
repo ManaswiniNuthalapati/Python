@@ -249,3 +249,5 @@ def check_even_odd(nums):
     return result
 numbers=[1,2,3,4,5,6]
 print(check_even_odd(numbers))
+
+# Return True if string contains vowels
