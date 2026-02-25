@@ -251,3 +251,11 @@ numbers=[1,2,3,4,5,6]
 print(check_even_odd(numbers))
 
 # Return True if string contains vowels
+def contains_vowel(s):
+    vowels = "aeiouAEIOU"
+    for ch in s:
+        if ch in vowels:
+            return True
+    return False
+print(contains_vowel("sky"))     
+print(contains_vowel("hello"))   
