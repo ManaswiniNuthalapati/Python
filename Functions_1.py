@@ -303,3 +303,13 @@ def find_duplicates(lst):
 print(find_duplicates([1,2,3,2,4,1,5]))
 
 # Find Min & Max
+def find_min_max(lst):
+    minimum = lst[0]
+    maximum = lst[0]
+    for num in lst:
+        if num < minimum:
+            minimum = num
+        if num > maximum:
+            maximum = num
+    return (minimum, maximum)
+print(find_min_max([4, 1, 9, 2, 7]))
