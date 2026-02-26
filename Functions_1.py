@@ -313,3 +313,11 @@ def find_min_max(lst):
             maximum=num
     return (minimum, maximum)
 print(find_min_max([4,1,9,2,7]))
+
+# Reverse Dictionary
+def reverse_dict(dic):
+    new_dict = {}
+    for key, value in dic.items():
+        new_dict[value] = key
+    return new_dict
+print(reverse_dict({'a':1,'b':2}))
