@@ -289,3 +289,15 @@ def contains_vowel(s):
     return False
 print(contains_vowel("sky"))     
 print(contains_vowel("hello"))   
+
+# Find Duplicate Elements
+def find_duplicates(lst):
+    freq = {}
+    duplicates = []
+    for num in lst:
+        freq[num] = freq.get(num, 0) + 1
+    for key, value in freq.items():
+        if value > 1:
+            duplicates.append(key)
+    return duplicates
+print(find_duplicates([1,2,3,2,4,1,5]))
