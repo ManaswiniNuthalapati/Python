@@ -301,3 +301,5 @@ def find_duplicates(lst):
             duplicates.append(key)
     return duplicates
 print(find_duplicates([1,2,3,2,4,1,5]))
+
+# Find Min & Max
