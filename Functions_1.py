@@ -321,3 +321,13 @@ def reverse_dict(dic):
         new_dict[value] = key
     return new_dict
 print(reverse_dict({'a':1,'b':2}))
+
+'''
+A decorator is a function that wraps another function to modify or extend its behavior without changing its actual code.
+Think of a decorator as a wrapper around a function
+
+Basic Syntax
+@decorator_function
+def my_function():
+    pass
+'''
