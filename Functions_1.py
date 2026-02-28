@@ -332,3 +332,7 @@ def my_function():
     pass
 '''
  # Find Maximum of Two Numbers
+ def find_max(a, b):
+    if a > b:
+        return a
+    return b
