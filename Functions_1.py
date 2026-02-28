@@ -331,3 +331,4 @@ Basic Syntax
 def my_function():
     pass
 '''
+ # Find Maximum of Two Numbers
