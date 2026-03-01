@@ -332,11 +332,11 @@ def my_function():
     pass
 '''
  # Find Maximum of Two Numbers
- def find_max(a, b):
+def find_max(a, b):
     if a > b:
         return a
     return b
-find_max(10,20)
+print(find_max(10, 20))
 
 # Check Prime Number
 def is_prime(n):
