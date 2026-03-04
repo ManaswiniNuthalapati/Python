@@ -31,7 +31,6 @@ Python does not have built-in arrays like some other languages.
 Instead, Python uses lists as arrays.
 
 Array Methods (Important)
-
 Python arrays (lists) have many built-in methods.
 
 Method	    Description
@@ -47,3 +46,58 @@ clear()	    Removes all elements
 copy()	    Returns copy of array
 '''
 
+# Print numbers from 1 to n
+n = int(input())
+for i in range(1, n + 1):
+    print(i)
+    
+# Print even numbers from 1 to n
+n = int(input())
+for i in range(1, n + 1):
+    if i % 2 == 0:
+        print(i)
+        
+# Print numbers from n to 1
+n = int(input())
+for i in range(n, 0, -1):
+    print(i) 
+ 
+# Find sum of numbers from 1 to n
+n = int(input())
+total = 0
+for i in range(1, n + 1):
+    total += i
+print(total)
+
+#  Print multiplication table of a number
+n = int(input())
+for i in range(1, 11):
+    print(n * i)
+
+# Print all elements of an array
+arr = [4, 7, 2, 9]
+for i in range(len(arr)):
+    print(arr[i])
+
+# Find sum of array elements
+arr = [2, 5, 7, 1]
+total = 0
+for i in range(len(arr)):
+    total += arr[i]
+print(total)
+
+# Find maximum element in array
+arr = [3, 9, 1, 6, 4]
+max_val = arr[0]
+for i in range(1, len(arr)):
+    if arr[i] > max_val:
+        max_val = arr[i]
+print(max_val)
+
+# Count even numbers in array
+arr = [1, 2, 3, 4, 5, 6]
+count = 0
+for i in range(len(arr)):
+    if arr[i] % 2 == 0:
+        count += 1
+print(count)
