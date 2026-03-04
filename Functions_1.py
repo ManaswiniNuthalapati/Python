@@ -356,3 +356,5 @@ def frequency(arr):
         else:
             freq[num]=1
     return freq
+
+# Sum of First n Numbers
