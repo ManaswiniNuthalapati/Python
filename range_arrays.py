@@ -87,7 +87,7 @@ for i in range(len(arr)):
 print(total)
 
 # Find maximum element in array
-arr = [3, 9, 1, 6, 4]
+arr=[3,9,1,6,4]
 max_val=arr[0]
 for i in range(1,len(arr)):
     if arr[i]>max_val:
