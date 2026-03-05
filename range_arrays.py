@@ -101,3 +101,11 @@ for i in range(len(arr)):
     if arr[i]%2==0:
         count+=1
 print(count)
+
+# Remove all zeros from array
+n=[1,0,2,0,3,0,4]
+new=[]
+for i in n:
+  if i!=0:
+    new.append(i)
+print(new)
