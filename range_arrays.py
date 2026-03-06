@@ -129,3 +129,13 @@ for i in arr:
     elif i>sec and i!=large:
         sec=i
 print(sec)
+
+# Reverse an array. 
+arr=[1,2,3,4,5]
+l=0
+r=len(arr)-1
+while l<r:
+ arr[l],arr[r]=arr[r],arr[l]
+ l+=1
+ r-=1
+print(arr)
