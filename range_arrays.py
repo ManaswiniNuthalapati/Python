@@ -162,4 +162,4 @@ arr=[2,4,6,8]
 count=0
 for i in arr:
  count+=i
-print(s/len(arr))
+print(count/len(arr))
