@@ -148,3 +148,11 @@ for i in arr:
  if i==target:
   count+=1
 print(count)
+
+# Remove Duplicates
+arr=[1,2,2,3,3,4]
+res=[]
+for i in arr:
+ if i not in res:
+  res.append(i)
+print(res)
