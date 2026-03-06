@@ -156,3 +156,10 @@ for i in arr:
  if i not in res:
   res.append(i)
 print(res)
+
+# Find Average of Array
+arr=[2,4,6,8]
+count=0
+for i in arr:
+ count+=i
+print(s/len(arr))
