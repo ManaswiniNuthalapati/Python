@@ -109,3 +109,23 @@ for i in n:
   if i!=0:
     new.append(i)
 print(new)
+
+# Find the smallest element in an array.
+n=[8,3,6,2,7]
+min=n[0]
+for i in n:
+  if i<min:
+    min=i
+print(min)
+
+# Find the second largest element in an array.
+arr=[5,9,3,8,7]
+large=arr[0]
+sec=arr[0]
+for i in arr:
+    if i>large:
+        sec=large
+        large=i
+    elif i>sec and i!=large:
+        sec=i
+print(sec)
