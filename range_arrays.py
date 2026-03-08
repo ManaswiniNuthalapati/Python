@@ -163,3 +163,9 @@ count=0
 for i in arr:
  count+=i
 print(count/len(arr))
+
+arr = [5,10,15]
+total = 0
+for i in arr:
+    total += i
+print(total)
