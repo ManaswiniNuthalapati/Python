@@ -17,3 +17,22 @@ for i in range(len(n)):
     if n[i]>large:
         large=n[i]
 print(large)
+
+n=[1,2,3,4]
+sum=0
+res=[]
+for i in range(len(n)):
+    sum+=n[i]
+    res.append(sum)
+print(res)
+
+# Find Index of Largest Element
+arr=[4,7,9,2]
+large=arr[0]
+l_idx=0
+for i in range(len(arr)):
+    if arr[i]>large:
+        large=arr[i]
+        l_idx=i
+print(large,"-",l_idx)
+        
