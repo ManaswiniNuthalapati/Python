@@ -9,3 +9,11 @@ sum=0
 for i in range(len(n)):
     sum+=n[i]
 print(sum)
+
+#  Find Largest Element
+n=[3,7,2,9,5]
+large=n[0]
+for i in range(len(n)):
+    if n[i]>large:
+        large=n[i]
+print(large)
