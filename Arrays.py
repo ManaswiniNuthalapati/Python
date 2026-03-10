@@ -58,4 +58,29 @@ for i in range(len(arr)):
         break
     else:
         res=False
-print(res)      
+print(res)    
+
+'''
+Find minimum element
+'''
+arr=[4,6,5,1,2,7]
+small=arr[0]
+small_idx=0
+for i in range(len(arr)):
+    if arr[i]<small:
+        small=arr[i]
+        small_idx=i
+print(small,"-",small_idx)
+
+# Find second largest element
+arr=[4,6,5,1,2,7]
+large=arr[0]
+sec=arr[0]
+for i in range(len(arr)):
+    if arr[i]>large:
+        sec=large
+        large=arr[i]
+if i>sec and i!=large:
+    sec=i
+print(sec)
+      
