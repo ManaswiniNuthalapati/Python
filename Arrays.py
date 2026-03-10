@@ -35,4 +35,27 @@ for i in range(len(arr)):
         large=arr[i]
         l_idx=i
 print(large,"-",l_idx)
-        
+
+# Count Elements Greater Than X
+arr = [1,5,7,2,9]
+x = 5
+count=0
+for i in range(len(arr)):
+    if arr[i]>x:
+        count+=1
+print(count)
+
+# Check if Element Exists
+arr = [3,6,1,9]
+x = 6
+'''if x in arr:
+    print(True)
+else:
+    print(False)'''
+for i in range(len(arr)):
+    if arr[i]==x:
+        res=True
+        break
+    else:
+        res=False
+print(res)      
