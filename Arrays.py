@@ -93,3 +93,13 @@ for i in range(len(arr)-1):
         res="Not"
         break
 print(res)
+
+# Count frequency of element
+n=[5,6,3,7,4,3,8,6,1,9,1]
+freq={}
+for i in n:
+    if i in freq:
+        freq[i]+=1
+    else:
+        freq[i]=1
+print(freq)
