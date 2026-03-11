@@ -119,4 +119,15 @@ for key in freq:
         max_count=freq[key]
         max_ele=key
 print(max_ele)
-        
+
+# Find duplicates in array
+n = [5,6,3,7,4,3,8,6,1,9,1]
+freq = {}
+for i in n:
+    if i in freq:
+        freq[i] += 1
+    else:
+        freq[i] = 1
+for key in freq:
+    if freq[key] > 1:
+        print(key)
