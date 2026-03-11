@@ -103,3 +103,20 @@ for i in n:
     else:
         freq[i]=1
 print(freq)
+
+# Find element appearing most times
+n = [5,6,3,7,4,3,8,6,1,9,1]
+freq={}
+for i in n:
+    if i in freq:
+        freq[i]+=1
+    else:
+        freq[i]=1
+max_count=0
+max_ele=None
+for key in freq:
+    if freq[key]>max_count:
+        max_count=freq[key]
+        max_ele=key
+print(max_ele)
+        
