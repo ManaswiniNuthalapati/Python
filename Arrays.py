@@ -131,3 +131,12 @@ for i in n:
 for key in freq:
     if freq[key] > 1:
         print(key)
+        
+'''
+Reverse an array
+'''
+n=[1, 2, 0, 4, 5]
+n_1=[]
+for i in range(len(n)-1,-1,-1):
+    n_1.append(n[i])
+print(n_1)
