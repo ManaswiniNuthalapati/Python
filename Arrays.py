@@ -183,3 +183,11 @@ for i in range(len(n)):
         neg.append(n[i])
 res=neg+pos
 print(res)
+
+# Remove duplicates (sorted array)
+n=[1, 1, 2]
+dup=[]
+for i in range(len(n)):
+    if n[i] not in dup:
+        dup.append(n[i])
+print(dup)
