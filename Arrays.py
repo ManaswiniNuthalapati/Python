@@ -171,3 +171,15 @@ for i in range(len(n)):
         n[i],n[j]=n[j],n[i]
         j+=1
 print(n)
+
+# Move negatives to left
+n=[1, -2, 3, -4, 5]
+pos=[]
+neg=[]
+for i in range(len(n)):
+    if n[i]>0:
+        pos.append(n[i])
+    elif n[i]<0:
+        neg.append(n[i])
+res=neg+pos
+print(res)
