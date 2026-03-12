@@ -152,3 +152,12 @@ for i in range(len(n)):
         n_2.append(n[i])
 res=n_1+n_2
 print(res)
+
+                   # "OR"
+n=[0, 1, 0, 3, 12]
+j=0
+for i in range(len(n)):
+    if n[i]!=0:
+        n[j],n[i]=n[i],n[j]
+        j+=1
+print(n)
