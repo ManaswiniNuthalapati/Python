@@ -140,3 +140,15 @@ n_1=[]
 for i in range(len(n)-1,-1,-1):
     n_1.append(n[i])
 print(n_1)
+
+# Move zeros to end
+n=[0, 1, 0, 3, 12]
+n_1=[]
+n_2=[]
+for i in range(len(n)):
+    if n[i]!=0:
+        n_1.append(n[i])
+    elif n[i]==0:
+        n_2.append(n[i])
+res=n_1+n_2
+print(res)
