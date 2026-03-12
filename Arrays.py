@@ -172,7 +172,7 @@ for i in range(len(n)):
         j+=1
 print(n)
 
-# Move negatives to left
+                                # "OR"
 n=[1, -2, 3, -4, 5]
 pos=[]
 neg=[]
