@@ -161,3 +161,13 @@ for i in range(len(n)):
         n[j],n[i]=n[i],n[j]
         j+=1
 print(n)
+
+# Move negatives to left
+n=[1, -2, 3, -4, 5]
+n.sort()
+j=0
+for i in range(len(n)):
+    if n[i]<0:
+        n[i],n[j]=n[j],n[i]
+        j+=1
+print(n)
