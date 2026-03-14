@@ -193,21 +193,21 @@ for i in range(len(n)):
 print(dup)
 
 # Two Sum
-nums = [2,7,11,15]
-target = 9
+nums=[2,7,11,15]
+target=9
 for i in range(len(nums)):
-    for j in range(i+1, len(nums)):
-        if nums[i] + nums[j] == target:
-            print([i, j])
+    for j in range(i+1,len(nums)):
+        if nums[i]+nums[j]==target:
+            print([i,j])
 
 # Running Sum of Array
-nums = [1,2,3,4]
-running_sum = []
-total = 0
+nums=[1,2,3,4]
+sum=[]
+total=0
 for i in nums:
     total += i
-    running_sum.append(total)
-print(running_sum)
+    sum.append(total)
+print(sum)
 
 # Reverse an Array
 nums = [1,2,3,4,5]
