@@ -201,3 +201,10 @@ for i in range(len(nums)):
             print([i, j])
 
 # Running Sum of Array
+nums = [1,2,3,4]
+running_sum = []
+total = 0
+for i in nums:
+    total += i
+    running_sum.append(total)
+print(running_sum)
