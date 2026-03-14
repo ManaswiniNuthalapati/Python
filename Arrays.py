@@ -205,16 +205,16 @@ nums=[1,2,3,4]
 sum=[]
 total=0
 for i in nums:
-    total += i
+    total+=i
     sum.append(total)
 print(sum)
 
 # Reverse an Array
-nums = [1,2,3,4,5]
-left = 0
-right = len(nums) - 1
-while left < right:
-    nums[left], nums[right] = nums[right], nums[left]
-    left += 1
-    right -= 1
+nums=[1,2,3,4,5]
+left=0
+right=len(nums)-1
+while left<right:
+    nums[left],nums[right]=nums[right],nums[left]
+    left+=1
+    right-=1
 print(nums)
