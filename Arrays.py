@@ -220,3 +220,9 @@ while left<right:
 print(nums)
 
 # Count Even Numbers in Array
+nums = [1,2,3,4,5,6]
+count = 0
+for i in nums:
+    if i % 2 == 0:
+        count += 1
+print(count)
