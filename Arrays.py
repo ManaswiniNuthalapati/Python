@@ -220,16 +220,16 @@ while left<right:
 print(nums)
 
 # Count Even Numbers in Array
-nums = [1,2,3,4,5,6]
-count = 0
+nums=[1,2,3,4,5,6]
+count=0
 for i in nums:
-    if i % 2 == 0:
-        count += 1
+    if i%2==0:
+        count+=1
 print(count)
 
 # Rotate Array by K Steps
-nums = [1,2,3,4,5]
-k = 2
-k = k % len(nums)
-nums = nums[-k:] + nums[:-k]
+nums=[1,2,3,4,5]
+k=2
+k=k%len(nums)
+nums=nums[-k:]+nums[:-k]
 print(nums)
