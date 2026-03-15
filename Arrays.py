@@ -226,3 +226,5 @@ for i in nums:
     if i % 2 == 0:
         count += 1
 print(count)
+
+# Rotate Array by K Steps
