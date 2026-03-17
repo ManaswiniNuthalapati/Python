@@ -234,4 +234,22 @@ k=k%len(nums)
 nums=nums[-k:]+nums[:-k]
 print(nums)
 
+<<<<<<< HEAD
 # Find Largest numbers in Array
+=======
+# Max Subarrray
+def maxSubArray(nums):
+    curr = nums[0]
+    max_sum = nums[0]
+    
+    for i in range(1, len(nums)):
+        curr = max(nums[i], curr + nums[i])
+        max_sum = max(max_sum, curr)
+    
+    return max_sum
+
+# missing number 
+def missingNumber(nums):
+    n = len(nums)
+    return n*(n+1)//2 - sum(nums)
+>>>>>>> e227343d8674395a2406e740e7323a73a8a288c9
