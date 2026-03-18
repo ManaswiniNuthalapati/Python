@@ -233,3 +233,14 @@ k=2
 k=k%len(nums)
 nums=nums[-k:]+nums[:-k]
 print(nums)
+
+# Max Subarrray
+def maxSubArray(nums):
+    curr = nums[0]
+    max_sum = nums[0]
+    
+    for i in range(1, len(nums)):
+        curr = max(nums[i], curr + nums[i])
+        max_sum = max(max_sum, curr)
+    
+    return max_sum
