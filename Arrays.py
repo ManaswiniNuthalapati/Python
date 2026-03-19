@@ -244,3 +244,8 @@ def maxSubArray(nums):
         max_sum = max(max_sum, curr)
     
     return max_sum
+
+# missing number 
+def missingNumber(nums):
+    n = len(nums)
+    return n*(n+1)//2 - sum(nums)
