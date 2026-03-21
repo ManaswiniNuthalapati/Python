@@ -266,3 +266,5 @@ def smallest(nums):
         if num < min_val:
             min_val = num
     return min_val
+
+# Reverse Array
