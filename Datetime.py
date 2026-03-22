@@ -58,3 +58,7 @@ print(x.strftime("%d-%m-%Y"))   # 23-03-2026
 print(x.strftime("%A"))         # Monday
 print(x.strftime("%B"))         # March
 '''
+# Print current date and time
+import datetime
+x=datetime.datetime.now()
+print(x)
