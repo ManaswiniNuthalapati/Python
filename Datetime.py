@@ -62,3 +62,8 @@ print(x.strftime("%B"))         # March
 import datetime
 x=datetime.datetime.now()
 print(x)
+
+# Extract and print only year
+import datetime
+x=datetime.datetime.now()
+print(x.year)
