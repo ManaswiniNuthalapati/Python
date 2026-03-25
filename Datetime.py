@@ -67,3 +67,8 @@ print(x)
 import datetime
 x=datetime.datetime.now()
 print(x.year)
+
+# Print current day name
+import datetime
+x=datetime.datetime.now()
+print(x.strftime("%A"))
