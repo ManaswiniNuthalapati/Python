@@ -85,3 +85,51 @@ math.sqrt() → square root
 math.pi → constant
 math.log() → logarithm
 '''
+
+# Findminandmaxofnumbersinlist
+nums=[12,45,7,89,23]
+print("Min:",min(nums))
+print("Max:",max(nums))
+
+# Findabsolutevaluesofgivennumbers
+print(abs(-25))
+print(abs(13))
+print(abs(-7.5))
+
+# Calculatepowerofnumbersusingpow
+print(pow(3,4))
+print(pow(5,3))
+
+# Findsquarerootofgivennumbers
+import math
+print(math.sqrt(49))
+print(math.sqrt(144))
+
+#Findceilandfloorofnumber
+x=6.7
+print("Ceil:",math.ceil(x))
+print("Floor:",math.floor(x))
+
+#Calculateareaofcircleusingradius
+r=7
+area=math.pi*r*r
+print("Area:",area)
+
+# Findfactorialofnumbers
+print(math.factorial(5))
+print(math.factorial(7))
+
+#Findgcdofgivennumbers
+print(math.gcd(24,36))
+print(math.gcd(18,48))
+
+#Findlogarithmvalues
+print(math.log(10))
+print(math.log10(100))
+
+#Checkifnumberisperfectsquare
+n=49
+if math.sqrt(n).is_integer():
+    print("PerfectSquare")
+else:
+    print("NotPerfectSquare")
