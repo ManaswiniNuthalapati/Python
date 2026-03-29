@@ -140,8 +140,8 @@ else:
 
 ## 2. Find all digits in a string
 import re
-text = "My number is 123 and 456"
-result = re.findall(r"\d+", text)
+text="My number is 123 and 456"
+result=re.findall(r"\d+", text)
 print(result)
 
 ##  3. Count number of vowels
