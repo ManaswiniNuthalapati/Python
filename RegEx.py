@@ -152,6 +152,6 @@ print(len(vowels))
 
 ##  4. Replace spaces with hyphen
 import re
-text = "Python is easy"
+text="Python is easy"
 print(re.sub(r"\s", "-", text))
 
