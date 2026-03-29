@@ -132,7 +132,7 @@ print(re.sub("World", "Python", txt))
 ## 
 # 1. Check if string starts with "Hello"
 import re
-text = "Hello world"
+text="Hello world"
 if re.search(r"^Hello", text):
     print("Yes")
 else:
