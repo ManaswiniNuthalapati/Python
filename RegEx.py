@@ -128,3 +128,30 @@ print(re.sub("World", "Python", txt))
 * Helps in search, validation, extraction
 ---
 '''
+
+## 
+# 1. Check if string starts with "Hello"
+import re
+text = "Hello world"
+if re.search(r"^Hello", text):
+    print("Yes")
+else:
+    print("No")
+
+## 2. Find all digits in a string
+import re
+text = "My number is 123 and 456"
+result = re.findall(r"\d+", text)
+print(result)
+
+##  3. Count number of vowels
+import re
+text = "education"
+vowels = re.findall(r"[aeiou]", text)
+print(len(vowels))
+
+##  4. Replace spaces with hyphen
+import re
+text = "Python is easy"
+print(re.sub(r"\s", "-", text))
+
