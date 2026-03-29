@@ -146,8 +146,8 @@ print(result)
 
 ##  3. Count number of vowels
 import re
-text = "education"
-vowels = re.findall(r"[aeiou]", text)
+text="education"
+vowels=re.findall(r"[aeiou]", text)
 print(len(vowels))
 
 ##  4. Replace spaces with hyphen
