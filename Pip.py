@@ -81,10 +81,10 @@ pip show requests
 pip uninstall requests
 
 ##  7. Install specific version
-pip install requests==2.28.1
+# pip install requests==2.28.1
 
 ##  8. Upgrade a package
-pip install --upgrade requests
+# pip install --upgrade requests
 
 ##  9. Install multiple packages
 # pip install numpy pandas matplotlib
