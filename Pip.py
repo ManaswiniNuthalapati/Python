@@ -59,3 +59,35 @@ pip uninstall camelcase
 | `pip --version` | Check version           |
 
 '''
+
+##  1. Check if PIP is installed
+pip --version
+
+## 2. Install a package
+pip install requests
+
+## 3. Use installed package
+import requests
+res = requests.get("https://api.github.com")
+print(res.status_code)
+
+##  4. List all installed packages
+pip list
+
+##  5. Show details of a package
+pip show requests
+
+##  6. Uninstall a package
+pip uninstall requests
+
+##  7. Install specific version
+pip install requests==2.28.1
+
+##  8. Upgrade a package
+pip install --upgrade requests
+
+##  9. Install multiple packages
+# pip install numpy pandas matplotlib
+
+##  10. Install from requirements file
+# pip install -r requirements.txt
