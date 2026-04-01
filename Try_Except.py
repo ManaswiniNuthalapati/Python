@@ -113,7 +113,7 @@ try:
 except ValueError:
     print("Invalid input")
 finally:
-    print("This block always runs")  # always executes
+    print("This block always runs")  
 
 #  6. Index Error Handling
 try:
