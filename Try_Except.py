@@ -70,3 +70,58 @@ if x < 0:
 * Prevents program crash
 
 '''
+#  1. Handle Division by Zero
+try:
+    a = int(input("Enter numerator: "))
+    b = int(input("Enter denominator: "))
+    result = a / b 
+    print("Result:", result)
+except ZeroDivisionError:
+    print("Error: Cannot divide by zero")
+
+#  2. Handle Invalid Input
+try:
+    num = int(input("Enter a number: "))  
+    print("You entered:", num)
+except ValueError:
+    print("Error: Please enter a valid integer")
+
+#  3. Multiple Exceptions
+try:
+    a = int(input("Enter number: "))
+    b = int(input("Enter divisor: "))  
+    print("Result:", a / b)
+except ValueError:
+    print("Error: Invalid input")
+except ZeroDivisionError:
+    print("Error: Division by zero")
+
+#  4. Using else Block
+try:
+    x = int(input("Enter number: "))
+    y = int(input("Enter divisor: "))  
+    result = x / y
+except Exception:
+    print("Error occurred")
+else:
+    print("Division successful:", result)  # runs if no error
+
+#  5. Using finally Block
+try:
+    num = int(input("Enter a number: "))
+    print("Number is:", num)
+except ValueError:
+    print("Invalid input")
+finally:
+    print("This block always runs")  # always executes
+
+#  6. Index Error Handling
+try:
+    my_list = [10, 20, 30]
+    index = int(input("Enter index: ")) 
+    print("Element:", my_list[index])  # may cause IndexError
+except IndexError:
+    print("Error: Index out of range")
+except ValueError:
+    print("Error: Enter valid index number")
+
