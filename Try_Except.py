@@ -104,7 +104,7 @@ try:
 except Exception:
     print("Error occurred")
 else:
-    print("Division successful:", result)  # runs if no error
+    print("Division successful:", result)  
 
 #  5. Using finally Block
 try:
