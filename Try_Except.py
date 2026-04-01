@@ -119,7 +119,7 @@ finally:
 try:
     my_list = [10, 20, 30]
     index = int(input("Enter index: ")) 
-    print("Element:", my_list[index])  # may cause IndexError
+    print("Element:", my_list[index])  
 except IndexError:
     print("Error: Index out of range")
 except ValueError:
