@@ -81,3 +81,52 @@ Common formats:
 * Can use **operations, functions, conditions**
 
 '''
+#  1. Print name and age using f-string
+name = "Sai"
+age = 20
+print(f"My name is {name} and I am {age} years old")
+
+#  2. Print price with 2 decimal places
+price = 123.4567
+print(f"Price: {price:.2f}")
+
+#  3. Print total cost (price + tax)
+price = 100
+tax = 0.18
+print(f"Total cost: {price + price * tax}")
+
+#  4. Convert name to uppercase
+name = "vinaya"
+print(f"Hello {name.upper()}")
+
+#  5. Print even or odd
+num = 7
+print(f"The number is {'Even' if num % 2 == 0 else 'Odd'}")
+
+#  6. Print name and marks
+name = "Sai"
+marks = 85
+print("Name: {}, Marks: {}".format(name, marks))
+
+#  7. Swap values
+name = "Sai"
+age = 20
+print("Age: {1}, Name: {0}".format(name, age))
+
+#  8. Use named placeholders
+print("Name: {n}, Age: {a}".format(n="Sai", a=20))
+
+#  9. Format number with commas
+num = 1000000
+print(f"Number: {num:,}")
+
+#  10. Align text
+name = "Sai"
+print(f"{name:<10}")
+print(f"{name:>10}")
+print(f"{name:^10}")
+
+#  11. Convert to percentage
+value = 0.85
+print(f"Success rate: {value:.2%}")
+
