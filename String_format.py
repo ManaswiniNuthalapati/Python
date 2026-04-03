@@ -130,3 +130,6 @@ print(f"{name:^10}")
 value = 0.85
 print(f"Success rate: {value:.2%}")
 
+# Print number with leading zeros (5 digits)
+num = 42
+print(f"Number: {num:05}")
