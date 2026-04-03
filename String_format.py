@@ -133,3 +133,7 @@ print(f"Success rate: {value:.2%}")
 # Print number with leading zeros (5 digits)
 num = 42
 print(f"Number: {num:05}")
+
+# Format price with commas and 2 decimals
+price = 1234567.5
+print(f"Price: ₹{price:,.2f}")
