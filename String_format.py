@@ -143,3 +143,9 @@ num = 10
 print(f"Binary: {num:b}")
 print(f"Octal: {num:o}")
 print(f"Hex: {num:x}")
+
+# Format date as DD-MM-YYYY
+day = 5
+month = 8
+year = 2026
+print(f"{day:02}-{month:02}-{year}")
