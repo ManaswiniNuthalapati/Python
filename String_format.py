@@ -137,3 +137,9 @@ print(f"Number: {num:05}")
 # Format price with commas and 2 decimals
 price = 1234567.5
 print(f"Price: ₹{price:,.2f}")
+
+# Convert number to different formats
+num = 10
+print(f"Binary: {num:b}")
+print(f"Octal: {num:o}")
+print(f"Hex: {num:x}")
