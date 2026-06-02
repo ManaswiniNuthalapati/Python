@@ -157,3 +157,12 @@ for i in a:
   else:
     freq[i]=1
 print(freq)
+
+d={"a": 1, "b": 2, "c": 1, "d": 3}
+res={}
+d_1=set()
+for keys,values in d.items():
+  if values not in d_1:
+    res[keys]=values
+    d_1.add(values)
+print(res)
