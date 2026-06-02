@@ -137,3 +137,13 @@ rev={}
 for key,value in a.items():
   rev[value]=key
 print(rev)
+
+# Word Frequency Count
+a="I love coding and I love Python"
+freq={}
+for i in a.split():
+  if i in freq:
+    freq[i]+=1
+  else:
+    freq[i]=1
+print(freq)
