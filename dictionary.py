@@ -158,7 +158,8 @@ for i in a:
     freq[i]=1
 print(freq)
 
-d={"a": 1, "b": 2, "c": 1, "d": 3}
+# Remove Duplicate Values in Dictionary
+d={"a":1,"b":2,"c":1,"d":3}
 res={}
 d_1=set()
 for keys,values in d.items():
